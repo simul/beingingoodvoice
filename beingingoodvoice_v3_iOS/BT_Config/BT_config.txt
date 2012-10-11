@@ -1,0 +1,75 @@
+{"BT_appConfig":
+	{
+	"BT_items":[
+		{"itemId":"JAD204D71B7DCD0428F38EB62",
+			"itemType":"BT_app",
+			"buzztouchAppId":"JAD204D71B7DCD0428F38EB62",
+			"buzztouchAPIKey":"22879FFFDD91682CA74996D", 
+			"dataURL":"http://www.buzztouch.com/api/app/?command=getAppData&appGuid=JAD204D71B7DCD0428F38EB62&apiKey=22879FFFDD91682CA74996D&apiSecret=76903B22AD39F86888E6904", 
+			"reportToCloudURL":"http://www.buzztouch.com/api/app/?command=reportToCloud&appGuid=JAD204D71B7DCD0428F38EB62&apiKey=22879FFFDD91682CA74996D&apiSecret=76903B22AD39F86888E6904&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]", 
+			"name":"Being in Good Voice", 
+			"version":"2.0", 
+			"startLocationUpdates":"0", 
+			"allowRotation":"allDevices", 
+
+			"BT_themes":[{"itemId":"3AB309980EF0750EB759818", "itemType":"BT_theme", "itemNickname":"Default Theme", "splashScreenItemId":"", "statusBarStyle":"default", "navBarStyle":"solid", "toolbarStyle":"solid", "backgroundColor":"#CFFAE6"}
+			],
+
+			"BT_tabs":[{"itemId":"E3111056546BA4867308F2C", "itemType":"BT_tab", "textLabel":"Welcome",  "iconName":"logomask.jpg", "homeScreenItemId":"1F26D4FF5B66B7C1A3F4F3B"},
+					{"itemId":"47518746C65EF34BE1F403F", "itemType":"BT_tab", "textLabel":"Mini Warmup",  "iconName":"Mini.jpg", "homeScreenItemId":"FF67EC27E0F0BB9E0FC1F14"},
+					{"itemId":"AB1AC3F0CC7E82E1DF135EE", "itemType":"BT_tab", "textLabel":"Vocal Maintenance",  "iconName":"Maintenance.jpg", "homeScreenItemId":"D70668248122E7281C782A9"}
+			],
+
+			"BT_screens":[{"itemId":"B9E73D881FAC08FDE18B603", "itemType":"BT_screen_customURL", "itemNickname":"Sighing Ah", "dataURL":"https://www.dropbox.com/s/4i0vgt5nwbyzf3d/SighAh.mp3", "navBarTitleText":"Sighing Ah", "forceRefresh":"1"},
+					{"itemId":"0EDA635C760055028CD3F23", "itemType":"BT_screen_customURL", "itemNickname":"Ascending Trill", "dataURL":"https://www.dropbox.com/s/m7tl8fjs1x7te0j/TrillUp.mp3", "navBarTitleText":"Ascending Trill", "forceRefresh":"1"},
+					{"itemId":"0685D2D6D2E63DFD350D2E5", "itemType":"BT_screen_customURL", "itemNickname":"Voiced Ah", "dataURL":"https://www.dropbox.com/s/t7211pzfj83trmq/VoicedAh.mp3", "navBarTitleText":"Voiced Ah", "forceRefresh":"1"},
+					{"itemId":"628C1F949EACD63B533163F", "itemType":"BT_screen_customURL", "itemNickname":"Descending Trill", "dataURL":"https://www.dropbox.com/s/jjv8n3vio96mue6/TrillDown.mp3", "navBarTitleText":"Descending Trill", "forceRefresh":"1"},
+					{"itemId":"C8B54576D2BCE2C618A20BD", "itemType":"BT_screen_pdfDoc", "itemNickname":"Posture", "localFileName":"Posture.pdf", "navBarTitleText":"Posture", "showBrowserBarBack":"1", "showBrowserBarRefresh":"1", "forceRefresh":"1", "preventAllScrolling":"0", "hideVerticalScrollBar":"0", "hideHorizontalScrollBar":"0"},
+					{"itemId":"B888B29249C1193D1ECB81E", "itemType":"BT_screen_pdfDoc", "itemNickname":"Introduction", "localFileName":"IntroMVW.doc", "navBarTitleText":"Introduction to Mini Vocal Warmup", "showBrowserBarBack":"1", "showBrowserBarRefresh":"1", "forceRefresh":"1", "preventAllScrolling":"0", "hideVerticalScrollBar":"0", "hideHorizontalScrollBar":"0", "preventScrollBounce":"1", "preventUserInteraction":"0"},
+					{"itemId":"AC43C4DEE84889BC6038444", "itemType":"BT_screen_pdfDoc", "itemNickname":"Flow Chart", "navBarTitleText":"Flow Chart"},
+					{"itemId":"C4DF9BDCAE4F55CA90EAB42", "itemType":"BT_screen_customURL", "itemNickname":"Roll Down (audio)", "dataURL":"https://www.dropbox.com/s/57njkrjxxo527kx/RollDown.mp3", "navBarTitleText":"Spinal Roll (audio)", "forceRefresh":"1"},
+					{"itemId":"91EB7D1C3A43BBC8A1D1119", "itemType":"BT_screen_pdfDoc", "itemNickname":"Breath in Voice (Text)", "localFileName":"BeinginBreath.pdf", "navBarTitleText":"Breath in Voice (Text)", "forceRefresh":"1"},
+					{"itemId":"2F2944F79F1EA1DC18EB871", "itemType":"BT_screen_menuButtons", "itemNickname":"Colour&Tone", "navBarTitleText":"Colour&Tone", "buttonLayoutStyle":"grid",
+"childItems":[]},
+					{"itemId":"FF67EC27E0F0BB9E0FC1F14", "itemType":"BT_screen_menuListSimple", "itemNickname":"Mini Vocal Warmup", "addMenuItemText":"Enter a row title...", "addScreenNickname":"Existing or new nickname...", "navBarTitleText":"Mini Vocal Warmup", "navBarBackgroundColor":"#00FFCC", "navBarStyle":"solid", "navBarRightButtonType":"play", "navBarRightButtonTapLoadScreenNickname":"Mini Vocal Warmup", "navBarRightButtonTapLoadScreenItemId":"FF67EC27E0F0BB9E0FC1F14", "toolbarStyle":"transparent", "hideBottomTabBarWhenScreenLoads":"1", "dataURL":"http://being-in-voice.com/wp-content/uploads/2012/10/Complete-Mini-Vocal-Warmup.mp3", "backgroundColor":"#FFCCCC",
+"childItems":[{"itemId":"781D9C07E07AE1FF46AA96C", "itemType":"BT_menuItem", "loadScreenWithItemId":"B888B29249C1193D1ECB81E","titleText":"Introduction"},
+{"itemId":"3752100C862E85466F4B28B", "itemType":"BT_menuItem", "loadScreenWithItemId":"16E62793BF59A6943C33A31","titleText":"The Sigh"},
+{"itemId":"D52C282C5B3BB275E635B2F", "itemType":"BT_menuItem", "loadScreenWithItemId":"B9E73D881FAC08FDE18B603","titleText":"Sighing Ah"},
+{"itemId":"02E897367E3402B9C394246", "itemType":"BT_menuItem", "loadScreenWithItemId":"C67C555473440359FB48831","titleText":"The Hum"},
+{"itemId":"A406C2B8AB7941FCA41FEA5", "itemType":"BT_menuItem", "loadScreenWithItemId":"0EDA635C760055028CD3F23","titleText":"Ascending Trill"},
+{"itemId":"0BE9384EAA73FE7E625363F", "itemType":"BT_menuItem", "loadScreenWithItemId":"628C1F949EACD63B533163F","titleText":"Descending Trill"},
+{"itemId":"AADA5B0C3FD9830FEB8462E", "itemType":"BT_menuItem", "loadScreenWithItemId":"0685D2D6D2E63DFD350D2E5","titleText":"Voiced Ah"},
+{"itemId":"AAD84ADC808B27147477B30", "itemType":"BT_menuItem", "loadScreenWithItemId":"B07AC8174395AB6B543F30F","titleText":"Complete Mini Warmup"}]},
+					{"itemId":"D70668248122E7281C782A9", "itemType":"BT_screen_menuButtons", "itemNickname":"Vocal Maintenance", "navBarTitleText":"Vocal Maintenance",
+"childItems":[]},
+					{"itemId":"16E62793BF59A6943C33A31", "itemType":"BT_screen_customURL", "itemNickname":"Sigh", "dataURL":"https://www.dropbox.com/s/pv2bhjlmz5fyk8u/Sigh.mp3", "navBarTitleText":"Sigh", "forceRefresh":"1"},
+					{"itemId":"FE88FEB45E273088CC03525", "itemType":"BT_screen_customURL", "itemNickname":"GrowYourVoice", "navBarTitleText":"GrowYourVoice", "dataURL":"http://www.google.com"},
+					{"itemId":"C67C555473440359FB48831", "itemType":"BT_screen_customURL", "itemNickname":"The Hum", "dataURL":"https://www.dropbox.com/s/j2ymtseggpbotnv/Hum.mp3", "navBarTitleText":"The Hum", "forceRefresh":"1"},
+					{"itemId":"1659507BED8BF41FBB7BAB0", "itemType":"BT_screen_menuListSimple", "itemNickname":"Posture", "navBarTitleText":"Posture",
+"childItems":[{"itemId":"AF9363A5008C231332F6B4E", "itemType":"BT_menuItem", "loadScreenWithItemId":"8A8B8916ACAEDE999B44AEE", "titleText":"Description of Posture Exercise"},
+{"itemId":"379B8654E64D4BD499F2337", "itemType":"BT_menuItem", "loadScreenWithItemId":"04D547E30E5D6003DC8AF09", "titleText":"Audio for Posture"},
+{"itemId":"3D856D67C8469470A823B52", "itemType":"BT_menuItem", "loadScreenWithItemId":"A2DF017A4AC478815AAA65D","titleText":"Spinal Roll Description"},
+{"itemId":"0BE6A9DC772AF73DBC0ECBF", "itemType":"BT_menuItem", "loadScreenWithItemId":"7B7488D926BB6EBF0199E08","titleText":"Audio for Spinal Roll"}]},
+					{"itemId":"1F26D4FF5B66B7C1A3F4F3B", "itemType":"BT_screen_menuButtons", "itemNickname":"Welcome", "navBarTitleText":"Welcome", "navBarStyle":"solid", "navBarRightButtonType":"next", "navBarRightButtonTapLoadScreenNickname":"Posture", "navBarRightButtonTapLoadScreenItemId":"C8B54576D2BCE2C618A20BD", "navBarRightButtonTapTransitionType":"flip", "toolbarStyle":"solid", "hideBottomTabBarWhenScreenLoads":"0", "dataURL":"https://www.dropbox.com/s/63ma4xyvc2t3un8/Your%20Posture.mp3", "buttonLayoutStyle":"horizontalBottom", "buttonLabelLayoutStyle":"middle", "preventAllScrolling":"0", "buttonBackgroundColor":"#006666", "buttonLabelFontColor":"#FFFFFF", "buttonSizeSmallDevice":"87", "buttonLabelFontSizeSmallDevice":"15", "buttonSizeLargeDevice":"80", "buttonLabelFontSizeLargeDevice":"15", "backgroundColor":"#CFFAE6", "backgroundImageScale":"top",
+"childItems":[{"itemId":"CAEE1511FF62EFFCF06D8B6", "itemType":"BT_buttonItem", "loadScreenWithItemId":"D650E0970F14044042B2E5B", "titleText":"1st Principles"},
+{"itemId":"57D7A580FB1FF9ABBD7EF77", "itemType":"BT_buttonItem", "loadScreenWithItemId":"1659507BED8BF41FBB7BAB0","titleText":"Posture"},
+{"itemId":"3BD3BD481BE1C6D63B819C6", "itemType":"BT_buttonItem", "loadScreenWithItemId":"68AED4930973127D96F4AA0","titleText":"Breath"}]},
+					{"itemId":"8A8B8916ACAEDE999B44AEE", "itemType":"BT_screen_pdfDoc", "itemNickname":"Description of Posture (2)", "localFileName":"Posture.pdf", "navBarTitleText":"Description of Posture (2)", "forceRefresh":"1"},
+					{"itemId":"68AED4930973127D96F4AA0", "itemType":"BT_screen_menuListSimple", "itemNickname":"Breath", "navBarTitleText":"Breath",
+"childItems":[{"itemId":"427F4CA00CABD9668EC5BD2", "itemType":"BT_menuItem", "loadScreenWithItemId":"91EB7D1C3A43BBC8A1D1119","titleText":"Breath in Voice (Text)"},
+{"itemId":"8CF6A39D160C0806EAAE28A", "itemType":"BT_menuItem", "loadScreenWithItemId":"BE34D41623F269492C0C549","titleText":"Breath in Voice (Audio)"}]},
+					{"itemId":"B07AC8174395AB6B543F30F", "itemType":"BT_screen_customURL", "itemNickname":"Complete Mini Warmup", "dataURL":"https://www.dropbox.com/s/d6dmvl0ggbewvdg/MVW.mp3", "navBarTitleText":"Complete Mini Warmup", "forceRefresh":"1"},
+					{"itemId":"04D547E30E5D6003DC8AF09", "itemType":"BT_screen_customURL", "itemNickname":"Posture (Audio)", "dataURL":"https://www.dropbox.com/s/yg1rfbw6ghwt997/Posture.mp3", "navBarTitleText":"Posture (Audio)", "forceRefresh":"1"},
+					{"itemId":"A2DF017A4AC478815AAA65D", "itemType":"BT_screen_pdfDoc", "itemNickname":"Description of Spinal Roll", "localFileName":"SpinalRoll.doc", "navBarTitleText":"Description of Spinal Roll", "forceRefresh":"1"},
+					{"itemId":"7B7488D926BB6EBF0199E08", "itemType":"BT_screen_customURL", "itemNickname":"Audio for Spinal Roll", "dataURL":"https://www.dropbox.com/s/57njkrjxxo527kx/RollDown.mp3", "navBarTitleText":"Audio for Spinal Roll", "forceRefresh":"1"},
+					{"itemId":"D650E0970F14044042B2E5B", "itemType":"BT_screen_wordDoc", "itemNickname":"First", "localFileName":"FlowChart.pdf", "navBarTitleText":"First", "forceRefresh":"1"},
+					{"itemId":"BE34D41623F269492C0C549", "itemType":"BT_screen_customURL", "itemNickname":"Breath in Voice (Audio)", "dataURL":"http://being-in-voice.com/wp-content/uploads/2012/10/Being-in-Breath.mp3", "navBarTitleText":"Breath in Voice (Audio)", "forceRefresh":"1"}
+
+			]
+		}
+
+		] 
+
+	}
+
+}
