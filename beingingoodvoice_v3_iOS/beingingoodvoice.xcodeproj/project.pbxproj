@@ -54,6 +54,11 @@
 		47220DC11625881700F7E7F8 /* TrillDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DB51625881700F7E7F8 /* TrillDown.mp3 */; };
 		47220DC21625881700F7E7F8 /* TrillUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DB61625881700F7E7F8 /* TrillUp.mp3 */; };
 		47220DC31625881700F7E7F8 /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DB71625881700F7E7F8 /* VoicedAh.mp3 */; };
+		47D8B25916293E2C00EDCC0F /* WelcomePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25816293E2C00EDCC0F /* WelcomePage.png */; };
+		47D8B25F16293E4F00EDCC0F /* beinginbreathbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25B16293E4F00EDCC0F /* beinginbreathbutton.png */; };
+		47D8B26016293E4F00EDCC0F /* firstprinciplesbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25C16293E4F00EDCC0F /* firstprinciplesbutton.png */; };
+		47D8B26116293E4F00EDCC0F /* introbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25D16293E4F00EDCC0F /* introbutton.png */; };
+		47D8B26216293E4F00EDCC0F /* posturebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25E16293E4F00EDCC0F /* posturebutton.png */; };
 		980A61D3146F161900D3746C /* equalizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CD146F161900D3746C /* equalizer.png */; };
 		980A61D4146F161900D3746C /* map_hybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CE146F161900D3746C /* map_hybrid.png */; };
 		980A61D5146F161900D3746C /* map_standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CF146F161900D3746C /* map_standard.png */; };
@@ -211,6 +216,11 @@
 		47220DB51625881700F7E7F8 /* TrillDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillDown.mp3; sourceTree = "<group>"; };
 		47220DB61625881700F7E7F8 /* TrillUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillUp.mp3; sourceTree = "<group>"; };
 		47220DB71625881700F7E7F8 /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
+		47D8B25816293E2C00EDCC0F /* WelcomePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomePage.png; sourceTree = "<group>"; };
+		47D8B25B16293E4F00EDCC0F /* beinginbreathbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beinginbreathbutton.png; sourceTree = "<group>"; };
+		47D8B25C16293E4F00EDCC0F /* firstprinciplesbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstprinciplesbutton.png; sourceTree = "<group>"; };
+		47D8B25D16293E4F00EDCC0F /* introbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introbutton.png; sourceTree = "<group>"; };
+		47D8B25E16293E4F00EDCC0F /* posturebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posturebutton.png; sourceTree = "<group>"; };
 		980A61CD146F161900D3746C /* equalizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equalizer.png; sourceTree = "<group>"; };
 		980A61CE146F161900D3746C /* map_hybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_hybrid.png; sourceTree = "<group>"; };
 		980A61CF146F161900D3746C /* map_standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_standard.png; sourceTree = "<group>"; };
@@ -590,6 +600,11 @@
 		47220D9C1625880900F7E7F8 /* BT_Images */ = {
 			isa = PBXGroup;
 			children = (
+				47D8B25B16293E4F00EDCC0F /* beinginbreathbutton.png */,
+				47D8B25C16293E4F00EDCC0F /* firstprinciplesbutton.png */,
+				47D8B25D16293E4F00EDCC0F /* introbutton.png */,
+				47D8B25E16293E4F00EDCC0F /* posturebutton.png */,
+				47D8B25816293E2C00EDCC0F /* WelcomePage.png */,
 				47220D9D1625880900F7E7F8 /* Articulators.jpg */,
 				47220D9E1625880900F7E7F8 /* logomask.jpg */,
 				47220D9F1625880900F7E7F8 /* logowithtitle.jpg */,
@@ -896,6 +911,11 @@
 				47220DC21625881700F7E7F8 /* TrillUp.mp3 in Resources */,
 				47220DC31625881700F7E7F8 /* VoicedAh.mp3 in Resources */,
 				4707D4D71625A12E007FA290 /* Vocal Maintenance.mp3 in Resources */,
+				47D8B25916293E2C00EDCC0F /* WelcomePage.png in Resources */,
+				47D8B25F16293E4F00EDCC0F /* beinginbreathbutton.png in Resources */,
+				47D8B26016293E4F00EDCC0F /* firstprinciplesbutton.png in Resources */,
+				47D8B26116293E4F00EDCC0F /* introbutton.png in Resources */,
+				47D8B26216293E4F00EDCC0F /* posturebutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
