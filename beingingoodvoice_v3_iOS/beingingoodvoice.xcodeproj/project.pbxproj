@@ -31,17 +31,13 @@
 		47220D8D162586A500F7E7F8 /* BT_screen_wordDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 47220D78162586A500F7E7F8 /* BT_screen_wordDoc.m */; };
 		47220D96162587FA00F7E7F8 /* BeinginBreath.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47220D90162587FA00F7E7F8 /* BeinginBreath.pdf */; };
 		47220D97162587FA00F7E7F8 /* FlowChart.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47220D91162587FA00F7E7F8 /* FlowChart.pdf */; };
-		47220D98162587FA00F7E7F8 /* IntroMVW.doc in Resources */ = {isa = PBXBuildFile; fileRef = 47220D92162587FA00F7E7F8 /* IntroMVW.doc */; };
 		47220D99162587FA00F7E7F8 /* Posture.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47220D93162587FA00F7E7F8 /* Posture.pdf */; };
-		47220D9A162587FA00F7E7F8 /* Spinal Roll.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47220D94162587FA00F7E7F8 /* Spinal Roll.pdf */; };
-		47220D9B162587FA00F7E7F8 /* SpinalRoll.doc in Resources */ = {isa = PBXBuildFile; fileRef = 47220D95162587FA00F7E7F8 /* SpinalRoll.doc */; };
 		47220DA41625880900F7E7F8 /* Articulators.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220D9D1625880900F7E7F8 /* Articulators.jpg */; };
 		47220DA51625880900F7E7F8 /* logomask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220D9E1625880900F7E7F8 /* logomask.jpg */; };
 		47220DA61625880900F7E7F8 /* logowithtitle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220D9F1625880900F7E7F8 /* logowithtitle.jpg */; };
 		47220DA71625880900F7E7F8 /* Maintenance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220DA01625880900F7E7F8 /* Maintenance.jpg */; };
 		47220DA81625880900F7E7F8 /* Mini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220DA11625880900F7E7F8 /* Mini.jpg */; };
 		47220DA91625880900F7E7F8 /* Resonance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220DA21625880900F7E7F8 /* Resonance.jpg */; };
-		47220DAA1625880900F7E7F8 /* ScreenLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47220DA31625880900F7E7F8 /* ScreenLogo.jpg */; };
 		47220DB81625881700F7E7F8 /* Breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DAC1625881700F7E7F8 /* Breath.mp3 */; };
 		47220DB91625881700F7E7F8 /* CompleteMVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DAD1625881700F7E7F8 /* CompleteMVW.mp3 */; };
 		47220DBA1625881700F7E7F8 /* Hum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DAE1625881700F7E7F8 /* Hum.mp3 */; };
@@ -54,7 +50,13 @@
 		47220DC11625881700F7E7F8 /* TrillDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DB51625881700F7E7F8 /* TrillDown.mp3 */; };
 		47220DC21625881700F7E7F8 /* TrillUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DB61625881700F7E7F8 /* TrillUp.mp3 */; };
 		47220DC31625881700F7E7F8 /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47220DB71625881700F7E7F8 /* VoicedAh.mp3 */; };
-		47D8B25916293E2C00EDCC0F /* WelcomePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25816293E2C00EDCC0F /* WelcomePage.png */; };
+		475AE402162A551C00CAAD98 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 475AE401162A551C00CAAD98 /* splashscreen.png */; };
+		47CA6364162A935F0089E581 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CA6363162A935F0089E581 /* splashscreen.png */; };
+		47CA636C162A94100089E581 /* myapp_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47CA6367162A94100089E581 /* myapp_bg.jpg */; };
+		47CA636D162A94100089E581 /* myapp_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CA6368162A94100089E581 /* myapp_header.png */; };
+		47CA636E162A94100089E581 /* myappbg_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CA6369162A94100089E581 /* myappbg_green.png */; };
+		47CA636F162A94100089E581 /* myappbg_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CA636A162A94100089E581 /* myappbg_purple.png */; };
+		47CA6370162A94100089E581 /* myappbg_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CA636B162A94100089E581 /* myappbg_yellow.png */; };
 		47D8B25F16293E4F00EDCC0F /* beinginbreathbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25B16293E4F00EDCC0F /* beinginbreathbutton.png */; };
 		47D8B26016293E4F00EDCC0F /* firstprinciplesbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25C16293E4F00EDCC0F /* firstprinciplesbutton.png */; };
 		47D8B26116293E4F00EDCC0F /* introbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B25D16293E4F00EDCC0F /* introbutton.png */; };
@@ -193,17 +195,13 @@
 		47220D78162586A500F7E7F8 /* BT_screen_wordDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_wordDoc.m; sourceTree = "<group>"; };
 		47220D90162587FA00F7E7F8 /* BeinginBreath.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BeinginBreath.pdf; sourceTree = "<group>"; };
 		47220D91162587FA00F7E7F8 /* FlowChart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FlowChart.pdf; sourceTree = "<group>"; };
-		47220D92162587FA00F7E7F8 /* IntroMVW.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroMVW.doc; sourceTree = "<group>"; };
 		47220D93162587FA00F7E7F8 /* Posture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Posture.pdf; sourceTree = "<group>"; };
-		47220D94162587FA00F7E7F8 /* Spinal Roll.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Spinal Roll.pdf"; sourceTree = "<group>"; };
-		47220D95162587FA00F7E7F8 /* SpinalRoll.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpinalRoll.doc; sourceTree = "<group>"; };
 		47220D9D1625880900F7E7F8 /* Articulators.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Articulators.jpg; sourceTree = "<group>"; };
 		47220D9E1625880900F7E7F8 /* logomask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logomask.jpg; sourceTree = "<group>"; };
 		47220D9F1625880900F7E7F8 /* logowithtitle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logowithtitle.jpg; sourceTree = "<group>"; };
 		47220DA01625880900F7E7F8 /* Maintenance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maintenance.jpg; sourceTree = "<group>"; };
 		47220DA11625880900F7E7F8 /* Mini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mini.jpg; sourceTree = "<group>"; };
 		47220DA21625880900F7E7F8 /* Resonance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Resonance.jpg; sourceTree = "<group>"; };
-		47220DA31625880900F7E7F8 /* ScreenLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScreenLogo.jpg; sourceTree = "<group>"; };
 		47220DAC1625881700F7E7F8 /* Breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Breath.mp3; sourceTree = "<group>"; };
 		47220DAD1625881700F7E7F8 /* CompleteMVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CompleteMVW.mp3; sourceTree = "<group>"; };
 		47220DAE1625881700F7E7F8 /* Hum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hum.mp3; sourceTree = "<group>"; };
@@ -216,7 +214,13 @@
 		47220DB51625881700F7E7F8 /* TrillDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillDown.mp3; sourceTree = "<group>"; };
 		47220DB61625881700F7E7F8 /* TrillUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillUp.mp3; sourceTree = "<group>"; };
 		47220DB71625881700F7E7F8 /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
-		47D8B25816293E2C00EDCC0F /* WelcomePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomePage.png; sourceTree = "<group>"; };
+		475AE401162A551C00CAAD98 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		47CA6363162A935F0089E581 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		47CA6367162A94100089E581 /* myapp_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myapp_bg.jpg; sourceTree = "<group>"; };
+		47CA6368162A94100089E581 /* myapp_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myapp_header.png; sourceTree = "<group>"; };
+		47CA6369162A94100089E581 /* myappbg_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_green.png; sourceTree = "<group>"; };
+		47CA636A162A94100089E581 /* myappbg_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_purple.png; sourceTree = "<group>"; };
+		47CA636B162A94100089E581 /* myappbg_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_yellow.png; sourceTree = "<group>"; };
 		47D8B25B16293E4F00EDCC0F /* beinginbreathbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beinginbreathbutton.png; sourceTree = "<group>"; };
 		47D8B25C16293E4F00EDCC0F /* firstprinciplesbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstprinciplesbutton.png; sourceTree = "<group>"; };
 		47D8B25D16293E4F00EDCC0F /* introbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introbutton.png; sourceTree = "<group>"; };
@@ -589,10 +593,7 @@
 			children = (
 				47220D90162587FA00F7E7F8 /* BeinginBreath.pdf */,
 				47220D91162587FA00F7E7F8 /* FlowChart.pdf */,
-				47220D92162587FA00F7E7F8 /* IntroMVW.doc */,
 				47220D93162587FA00F7E7F8 /* Posture.pdf */,
-				47220D94162587FA00F7E7F8 /* Spinal Roll.pdf */,
-				47220D95162587FA00F7E7F8 /* SpinalRoll.doc */,
 			);
 			path = BT_Docs;
 			sourceTree = "<group>";
@@ -600,18 +601,19 @@
 		47220D9C1625880900F7E7F8 /* BT_Images */ = {
 			isa = PBXGroup;
 			children = (
+				47CA6366162A94100089E581 /* dm_files_myapp */,
 				47D8B25B16293E4F00EDCC0F /* beinginbreathbutton.png */,
 				47D8B25C16293E4F00EDCC0F /* firstprinciplesbutton.png */,
 				47D8B25D16293E4F00EDCC0F /* introbutton.png */,
 				47D8B25E16293E4F00EDCC0F /* posturebutton.png */,
-				47D8B25816293E2C00EDCC0F /* WelcomePage.png */,
 				47220D9D1625880900F7E7F8 /* Articulators.jpg */,
+				475AE401162A551C00CAAD98 /* splashscreen.png */,
+				47CA6363162A935F0089E581 /* splashscreen.png */,
 				47220D9E1625880900F7E7F8 /* logomask.jpg */,
 				47220D9F1625880900F7E7F8 /* logowithtitle.jpg */,
 				47220DA01625880900F7E7F8 /* Maintenance.jpg */,
 				47220DA11625880900F7E7F8 /* Mini.jpg */,
 				47220DA21625880900F7E7F8 /* Resonance.jpg */,
-				47220DA31625880900F7E7F8 /* ScreenLogo.jpg */,
 			);
 			path = BT_Images;
 			sourceTree = "<group>";
@@ -634,6 +636,19 @@
 				47220DB71625881700F7E7F8 /* VoicedAh.mp3 */,
 			);
 			path = BT_Sound;
+			sourceTree = "<group>";
+		};
+		47CA6366162A94100089E581 /* dm_files_myapp */ = {
+			isa = PBXGroup;
+			children = (
+				47CA6367162A94100089E581 /* myapp_bg.jpg */,
+				47CA6368162A94100089E581 /* myapp_header.png */,
+				47CA6369162A94100089E581 /* myappbg_green.png */,
+				47CA636A162A94100089E581 /* myappbg_purple.png */,
+				47CA636B162A94100089E581 /* myappbg_yellow.png */,
+			);
+			name = dm_files_myapp;
+			path = ../BT_Sound/dm_files_myapp;
 			sourceTree = "<group>";
 		};
 		9865676E12FB4E2400AE956D /* BT_Layout */ = {
@@ -887,17 +902,13 @@
 				47220D8B162586A500F7E7F8 /* dot_red.png in Resources */,
 				47220D96162587FA00F7E7F8 /* BeinginBreath.pdf in Resources */,
 				47220D97162587FA00F7E7F8 /* FlowChart.pdf in Resources */,
-				47220D98162587FA00F7E7F8 /* IntroMVW.doc in Resources */,
 				47220D99162587FA00F7E7F8 /* Posture.pdf in Resources */,
-				47220D9A162587FA00F7E7F8 /* Spinal Roll.pdf in Resources */,
-				47220D9B162587FA00F7E7F8 /* SpinalRoll.doc in Resources */,
 				47220DA41625880900F7E7F8 /* Articulators.jpg in Resources */,
 				47220DA51625880900F7E7F8 /* logomask.jpg in Resources */,
 				47220DA61625880900F7E7F8 /* logowithtitle.jpg in Resources */,
 				47220DA71625880900F7E7F8 /* Maintenance.jpg in Resources */,
 				47220DA81625880900F7E7F8 /* Mini.jpg in Resources */,
 				47220DA91625880900F7E7F8 /* Resonance.jpg in Resources */,
-				47220DAA1625880900F7E7F8 /* ScreenLogo.jpg in Resources */,
 				47220DB81625881700F7E7F8 /* Breath.mp3 in Resources */,
 				47220DB91625881700F7E7F8 /* CompleteMVW.mp3 in Resources */,
 				47220DBA1625881700F7E7F8 /* Hum.mp3 in Resources */,
@@ -911,11 +922,17 @@
 				47220DC21625881700F7E7F8 /* TrillUp.mp3 in Resources */,
 				47220DC31625881700F7E7F8 /* VoicedAh.mp3 in Resources */,
 				4707D4D71625A12E007FA290 /* Vocal Maintenance.mp3 in Resources */,
-				47D8B25916293E2C00EDCC0F /* WelcomePage.png in Resources */,
 				47D8B25F16293E4F00EDCC0F /* beinginbreathbutton.png in Resources */,
 				47D8B26016293E4F00EDCC0F /* firstprinciplesbutton.png in Resources */,
 				47D8B26116293E4F00EDCC0F /* introbutton.png in Resources */,
 				47D8B26216293E4F00EDCC0F /* posturebutton.png in Resources */,
+				475AE402162A551C00CAAD98 /* splashscreen.png in Resources */,
+				47CA6364162A935F0089E581 /* splashscreen.png in Resources */,
+				47CA636C162A94100089E581 /* myapp_bg.jpg in Resources */,
+				47CA636D162A94100089E581 /* myapp_header.png in Resources */,
+				47CA636E162A94100089E581 /* myappbg_green.png in Resources */,
+				47CA636F162A94100089E581 /* myappbg_purple.png in Resources */,
+				47CA6370162A94100089E581 /* myappbg_yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
