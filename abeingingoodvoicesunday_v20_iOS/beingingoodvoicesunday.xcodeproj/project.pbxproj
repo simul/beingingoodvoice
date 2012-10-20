@@ -7,6 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473F1D9E1632BBD40080C354 /* Articulators.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D8D1632BBD40080C354 /* Articulators.jpg */; };
+		473F1D9F1632BBD40080C354 /* beinginbreathbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D8E1632BBD40080C354 /* beinginbreathbutton.png */; };
+		473F1DA01632BBD40080C354 /* firstprinciplesbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D8F1632BBD40080C354 /* firstprinciplesbutton.png */; };
+		473F1DA11632BBD40080C354 /* introbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D901632BBD40080C354 /* introbutton.png */; };
+		473F1DA21632BBD40080C354 /* logomask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D911632BBD40080C354 /* logomask.jpg */; };
+		473F1DA31632BBD40080C354 /* logomask02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D921632BBD40080C354 /* logomask02.jpg */; };
+		473F1DA41632BBD40080C354 /* logowithtitle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D931632BBD40080C354 /* logowithtitle.jpg */; };
+		473F1DA51632BBD40080C354 /* Maintenance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D941632BBD40080C354 /* Maintenance.jpg */; };
+		473F1DA61632BBD40080C354 /* Mini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D951632BBD40080C354 /* Mini.jpg */; };
+		473F1DA71632BBD40080C354 /* mvwscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D961632BBD40080C354 /* mvwscreen.jpg */; };
+		473F1DA81632BBD40080C354 /* posturebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D971632BBD40080C354 /* posturebutton.png */; };
+		473F1DA91632BBD40080C354 /* Resonance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D981632BBD40080C354 /* Resonance.jpg */; };
+		473F1DAA1632BBD40080C354 /* smallbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D991632BBD40080C354 /* smallbutton.png */; };
+		473F1DAB1632BBD40080C354 /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D9A1632BBD40080C354 /* splashscreen.jpg */; };
+		473F1DAC1632BBD40080C354 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D9B1632BBD40080C354 /* splashscreen.png */; };
+		473F1DAD1632BBD40080C354 /* WelcomePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D9C1632BBD40080C354 /* WelcomePage.png */; };
+		473F1DAE1632BBD40080C354 /* welcomepageresized.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1D9D1632BBD40080C354 /* welcomepageresized.png */; };
+		473F1DB41632BBED0080C354 /* alignment.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB01632BBED0080C354 /* alignment.pdf */; };
+		473F1DB51632BBED0080C354 /* beinginbreath.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB11632BBED0080C354 /* beinginbreath.pdf */; };
+		473F1DB61632BBED0080C354 /* intromvw.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB21632BBED0080C354 /* intromvw.pdf */; };
+		473F1DB71632BBED0080C354 /* spinalroll.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB31632BBED0080C354 /* spinalroll.pdf */; };
+		473F1DCB1632BC170080C354 /* alignment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB81632BC170080C354 /* alignment.mp3 */; };
+		473F1DCC1632BC170080C354 /* Breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB91632BC170080C354 /* Breath.mp3 */; };
+		473F1DCD1632BC170080C354 /* CompleteMVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBA1632BC170080C354 /* CompleteMVW.mp3 */; };
+		473F1DCE1632BC170080C354 /* myapp_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBC1632BC170080C354 /* myapp_bg.jpg */; };
+		473F1DCF1632BC170080C354 /* myapp_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBD1632BC170080C354 /* myapp_header.png */; };
+		473F1DD01632BC170080C354 /* myappbg_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBE1632BC170080C354 /* myappbg_green.png */; };
+		473F1DD11632BC170080C354 /* myappbg_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBF1632BC170080C354 /* myappbg_purple.png */; };
+		473F1DD21632BC170080C354 /* myappbg_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC01632BC170080C354 /* myappbg_yellow.png */; };
+		473F1DD31632BC170080C354 /* Hum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC11632BC170080C354 /* Hum.mp3 */; };
+		473F1DD41632BC170080C354 /* IntroMVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC21632BC170080C354 /* IntroMVW.mp3 */; };
+		473F1DD51632BC170080C354 /* MVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC31632BC170080C354 /* MVW.mp3 */; };
+		473F1DD61632BC170080C354 /* RollDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC41632BC170080C354 /* RollDown.mp3 */; };
+		473F1DD71632BC170080C354 /* Sigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC51632BC170080C354 /* Sigh.mp3 */; };
+		473F1DD81632BC170080C354 /* SighAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC61632BC170080C354 /* SighAh.mp3 */; };
+		473F1DD91632BC170080C354 /* TrillDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC71632BC170080C354 /* TrillDown.mp3 */; };
+		473F1DDA1632BC170080C354 /* TrillUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC81632BC170080C354 /* TrillUp.mp3 */; };
+		473F1DDB1632BC170080C354 /* Vocal Maintenance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC91632BC170080C354 /* Vocal Maintenance.mp3 */; };
+		473F1DDC1632BC170080C354 /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DCA1632BC170080C354 /* VoicedAh.mp3 */; };
 		479FEDF5163048EC008D10EF /* BT_screen_blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDB4163048EC008D10EF /* BT_screen_blank.m */; };
 		479FEDF6163048EC008D10EF /* BT_screen_customHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDB7163048EC008D10EF /* BT_screen_customHTML.m */; };
 		479FEDF7163048EC008D10EF /* BT_screen_customURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDBA163048EC008D10EF /* BT_screen_customURL.m */; };
@@ -132,6 +171,45 @@
 
 /* Begin PBXFileReference section */
 		1D6058910D05DD3D006BFB54 /* beingingoodvoicesunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beingingoodvoicesunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		473F1D8D1632BBD40080C354 /* Articulators.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Articulators.jpg; sourceTree = "<group>"; };
+		473F1D8E1632BBD40080C354 /* beinginbreathbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beinginbreathbutton.png; sourceTree = "<group>"; };
+		473F1D8F1632BBD40080C354 /* firstprinciplesbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstprinciplesbutton.png; sourceTree = "<group>"; };
+		473F1D901632BBD40080C354 /* introbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introbutton.png; sourceTree = "<group>"; };
+		473F1D911632BBD40080C354 /* logomask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logomask.jpg; sourceTree = "<group>"; };
+		473F1D921632BBD40080C354 /* logomask02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logomask02.jpg; sourceTree = "<group>"; };
+		473F1D931632BBD40080C354 /* logowithtitle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logowithtitle.jpg; sourceTree = "<group>"; };
+		473F1D941632BBD40080C354 /* Maintenance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maintenance.jpg; sourceTree = "<group>"; };
+		473F1D951632BBD40080C354 /* Mini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mini.jpg; sourceTree = "<group>"; };
+		473F1D961632BBD40080C354 /* mvwscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mvwscreen.jpg; sourceTree = "<group>"; };
+		473F1D971632BBD40080C354 /* posturebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posturebutton.png; sourceTree = "<group>"; };
+		473F1D981632BBD40080C354 /* Resonance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Resonance.jpg; sourceTree = "<group>"; };
+		473F1D991632BBD40080C354 /* smallbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallbutton.png; sourceTree = "<group>"; };
+		473F1D9A1632BBD40080C354 /* splashscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashscreen.jpg; sourceTree = "<group>"; };
+		473F1D9B1632BBD40080C354 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		473F1D9C1632BBD40080C354 /* WelcomePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomePage.png; sourceTree = "<group>"; };
+		473F1D9D1632BBD40080C354 /* welcomepageresized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcomepageresized.png; sourceTree = "<group>"; };
+		473F1DB01632BBED0080C354 /* alignment.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = alignment.pdf; sourceTree = "<group>"; };
+		473F1DB11632BBED0080C354 /* beinginbreath.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginbreath.pdf; sourceTree = "<group>"; };
+		473F1DB21632BBED0080C354 /* intromvw.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = intromvw.pdf; sourceTree = "<group>"; };
+		473F1DB31632BBED0080C354 /* spinalroll.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = spinalroll.pdf; sourceTree = "<group>"; };
+		473F1DB81632BC170080C354 /* alignment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alignment.mp3; sourceTree = "<group>"; };
+		473F1DB91632BC170080C354 /* Breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Breath.mp3; sourceTree = "<group>"; };
+		473F1DBA1632BC170080C354 /* CompleteMVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CompleteMVW.mp3; sourceTree = "<group>"; };
+		473F1DBC1632BC170080C354 /* myapp_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myapp_bg.jpg; sourceTree = "<group>"; };
+		473F1DBD1632BC170080C354 /* myapp_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myapp_header.png; sourceTree = "<group>"; };
+		473F1DBE1632BC170080C354 /* myappbg_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_green.png; sourceTree = "<group>"; };
+		473F1DBF1632BC170080C354 /* myappbg_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_purple.png; sourceTree = "<group>"; };
+		473F1DC01632BC170080C354 /* myappbg_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_yellow.png; sourceTree = "<group>"; };
+		473F1DC11632BC170080C354 /* Hum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hum.mp3; sourceTree = "<group>"; };
+		473F1DC21632BC170080C354 /* IntroMVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IntroMVW.mp3; sourceTree = "<group>"; };
+		473F1DC31632BC170080C354 /* MVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MVW.mp3; sourceTree = "<group>"; };
+		473F1DC41632BC170080C354 /* RollDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RollDown.mp3; sourceTree = "<group>"; };
+		473F1DC51632BC170080C354 /* Sigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sigh.mp3; sourceTree = "<group>"; };
+		473F1DC61632BC170080C354 /* SighAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SighAh.mp3; sourceTree = "<group>"; };
+		473F1DC71632BC170080C354 /* TrillDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillDown.mp3; sourceTree = "<group>"; };
+		473F1DC81632BC170080C354 /* TrillUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillUp.mp3; sourceTree = "<group>"; };
+		473F1DC91632BC170080C354 /* Vocal Maintenance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vocal Maintenance.mp3"; sourceTree = "<group>"; };
+		473F1DCA1632BC170080C354 /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
 		479FEDB3163048EC008D10EF /* BT_screen_blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_blank.h; sourceTree = "<group>"; };
 		479FEDB4163048EC008D10EF /* BT_screen_blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_blank.m; sourceTree = "<group>"; };
 		479FEDB6163048EC008D10EF /* BT_screen_customHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_customHTML.h; sourceTree = "<group>"; };
@@ -386,9 +464,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		473F1DBB1632BC170080C354 /* dm_files_myapp */ = {
+			isa = PBXGroup;
+			children = (
+				473F1DBC1632BC170080C354 /* myapp_bg.jpg */,
+				473F1DBD1632BC170080C354 /* myapp_header.png */,
+				473F1DBE1632BC170080C354 /* myappbg_green.png */,
+				473F1DBF1632BC170080C354 /* myappbg_purple.png */,
+				473F1DC01632BC170080C354 /* myappbg_yellow.png */,
+			);
+			name = dm_files_myapp;
+			path = ../BT_Sound/dm_files_myapp;
+			sourceTree = "<group>";
+		};
 		479FEDAF163048EC008D10EF /* BT_Docs */ = {
 			isa = PBXGroup;
 			children = (
+				473F1DB01632BBED0080C354 /* alignment.pdf */,
+				473F1DB11632BBED0080C354 /* beinginbreath.pdf */,
+				473F1DB21632BBED0080C354 /* intromvw.pdf */,
+				473F1DB31632BBED0080C354 /* spinalroll.pdf */,
 			);
 			path = BT_Docs;
 			sourceTree = "<group>";
@@ -396,6 +491,24 @@
 		479FEDB0163048EC008D10EF /* BT_Images */ = {
 			isa = PBXGroup;
 			children = (
+				473F1D8D1632BBD40080C354 /* Articulators.jpg */,
+				473F1D8E1632BBD40080C354 /* beinginbreathbutton.png */,
+				473F1D8F1632BBD40080C354 /* firstprinciplesbutton.png */,
+				473F1D901632BBD40080C354 /* introbutton.png */,
+				473F1D911632BBD40080C354 /* logomask.jpg */,
+				473F1D921632BBD40080C354 /* logomask02.jpg */,
+				473F1D931632BBD40080C354 /* logowithtitle.jpg */,
+				473F1D941632BBD40080C354 /* Maintenance.jpg */,
+				473F1D951632BBD40080C354 /* Mini.jpg */,
+				473F1D961632BBD40080C354 /* mvwscreen.jpg */,
+				473F1D971632BBD40080C354 /* posturebutton.png */,
+				473F1D981632BBD40080C354 /* Resonance.jpg */,
+				473F1D991632BBD40080C354 /* smallbutton.png */,
+				473F1D9A1632BBD40080C354 /* splashscreen.jpg */,
+				473F1DBB1632BC170080C354 /* dm_files_myapp */,
+				473F1D9B1632BBD40080C354 /* splashscreen.png */,
+				473F1D9C1632BBD40080C354 /* WelcomePage.png */,
+				473F1D9D1632BBD40080C354 /* welcomepageresized.png */,
 				479FEE1016304A02008D10EF /* dm_files_blue */,
 			);
 			path = BT_Images;
@@ -588,6 +701,19 @@
 		479FEDF3163048EC008D10EF /* BT_Sound */ = {
 			isa = PBXGroup;
 			children = (
+				473F1DB81632BC170080C354 /* alignment.mp3 */,
+				473F1DB91632BC170080C354 /* Breath.mp3 */,
+				473F1DBA1632BC170080C354 /* CompleteMVW.mp3 */,
+				473F1DC11632BC170080C354 /* Hum.mp3 */,
+				473F1DC21632BC170080C354 /* IntroMVW.mp3 */,
+				473F1DC31632BC170080C354 /* MVW.mp3 */,
+				473F1DC41632BC170080C354 /* RollDown.mp3 */,
+				473F1DC51632BC170080C354 /* Sigh.mp3 */,
+				473F1DC61632BC170080C354 /* SighAh.mp3 */,
+				473F1DC71632BC170080C354 /* TrillDown.mp3 */,
+				473F1DC81632BC170080C354 /* TrillUp.mp3 */,
+				473F1DC91632BC170080C354 /* Vocal Maintenance.mp3 */,
+				473F1DCA1632BC170080C354 /* VoicedAh.mp3 */,
 			);
 			path = BT_Sound;
 			sourceTree = "<group>";
@@ -880,6 +1006,45 @@
 				479FEE1F16304A02008D10EF /* dmgear_blue.png in Resources */,
 				479FEE2016304A02008D10EF /* dmstar_blue.png in Resources */,
 				479FEE2116304A02008D10EF /* dmtoolbox_blue.png in Resources */,
+				473F1D9E1632BBD40080C354 /* Articulators.jpg in Resources */,
+				473F1D9F1632BBD40080C354 /* beinginbreathbutton.png in Resources */,
+				473F1DA01632BBD40080C354 /* firstprinciplesbutton.png in Resources */,
+				473F1DA11632BBD40080C354 /* introbutton.png in Resources */,
+				473F1DA21632BBD40080C354 /* logomask.jpg in Resources */,
+				473F1DA31632BBD40080C354 /* logomask02.jpg in Resources */,
+				473F1DA41632BBD40080C354 /* logowithtitle.jpg in Resources */,
+				473F1DA51632BBD40080C354 /* Maintenance.jpg in Resources */,
+				473F1DA61632BBD40080C354 /* Mini.jpg in Resources */,
+				473F1DA71632BBD40080C354 /* mvwscreen.jpg in Resources */,
+				473F1DA81632BBD40080C354 /* posturebutton.png in Resources */,
+				473F1DA91632BBD40080C354 /* Resonance.jpg in Resources */,
+				473F1DAA1632BBD40080C354 /* smallbutton.png in Resources */,
+				473F1DAB1632BBD40080C354 /* splashscreen.jpg in Resources */,
+				473F1DAC1632BBD40080C354 /* splashscreen.png in Resources */,
+				473F1DAD1632BBD40080C354 /* WelcomePage.png in Resources */,
+				473F1DAE1632BBD40080C354 /* welcomepageresized.png in Resources */,
+				473F1DB41632BBED0080C354 /* alignment.pdf in Resources */,
+				473F1DB51632BBED0080C354 /* beinginbreath.pdf in Resources */,
+				473F1DB61632BBED0080C354 /* intromvw.pdf in Resources */,
+				473F1DB71632BBED0080C354 /* spinalroll.pdf in Resources */,
+				473F1DCB1632BC170080C354 /* alignment.mp3 in Resources */,
+				473F1DCC1632BC170080C354 /* Breath.mp3 in Resources */,
+				473F1DCD1632BC170080C354 /* CompleteMVW.mp3 in Resources */,
+				473F1DCE1632BC170080C354 /* myapp_bg.jpg in Resources */,
+				473F1DCF1632BC170080C354 /* myapp_header.png in Resources */,
+				473F1DD01632BC170080C354 /* myappbg_green.png in Resources */,
+				473F1DD11632BC170080C354 /* myappbg_purple.png in Resources */,
+				473F1DD21632BC170080C354 /* myappbg_yellow.png in Resources */,
+				473F1DD31632BC170080C354 /* Hum.mp3 in Resources */,
+				473F1DD41632BC170080C354 /* IntroMVW.mp3 in Resources */,
+				473F1DD51632BC170080C354 /* MVW.mp3 in Resources */,
+				473F1DD61632BC170080C354 /* RollDown.mp3 in Resources */,
+				473F1DD71632BC170080C354 /* Sigh.mp3 in Resources */,
+				473F1DD81632BC170080C354 /* SighAh.mp3 in Resources */,
+				473F1DD91632BC170080C354 /* TrillDown.mp3 in Resources */,
+				473F1DDA1632BC170080C354 /* TrillUp.mp3 in Resources */,
+				473F1DDB1632BC170080C354 /* Vocal Maintenance.mp3 in Resources */,
+				473F1DDC1632BC170080C354 /* VoicedAh.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
