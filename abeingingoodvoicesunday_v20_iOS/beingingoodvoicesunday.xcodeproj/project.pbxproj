@@ -42,6 +42,8 @@
 		473F1DDB1632BC170080C354 /* Vocal Maintenance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC91632BC170080C354 /* Vocal Maintenance.mp3 */; };
 		473F1DDC1632BC170080C354 /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DCA1632BC170080C354 /* VoicedAh.mp3 */; };
 		4760360F16410C84001C75DD /* howvoiceworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760360E16410C84001C75DD /* howvoiceworks.pdf */; };
+		4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361816411CC1001C75DD /* voicetospeech.pdf */; };
+		4760361B16411CCC001C75DD /* welcome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361A16411CCC001C75DD /* welcome.pdf */; };
 		478352281637C6860095465D /* BeingBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 478352271637C6860095465D /* BeingBlue.jpg */; };
 		479FEDF5163048EC008D10EF /* BT_screen_blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDB4163048EC008D10EF /* BT_screen_blank.m */; };
 		479FEDF6163048EC008D10EF /* BT_screen_customHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDB7163048EC008D10EF /* BT_screen_customHTML.m */; };
@@ -204,8 +206,6 @@
 		473F1DC81632BC170080C354 /* TrillUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillUp.mp3; sourceTree = "<group>"; };
 		473F1DC91632BC170080C354 /* Vocal Maintenance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vocal Maintenance.mp3"; sourceTree = "<group>"; };
 		473F1DCA1632BC170080C354 /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
-		4760360A164109D8001C75DD /* how it all Works.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "how it all Works.doc"; sourceTree = "<group>"; };
-		4760360B16410B10001C75DD /* How Speech Works.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Speech Works.doc"; sourceTree = "<group>"; };
 		4760360D16410C01001C75DD /* howvoiceworks.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = howvoiceworks.doc; sourceTree = "<group>"; };
 		4760360E16410C84001C75DD /* howvoiceworks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = howvoiceworks.pdf; sourceTree = "<group>"; };
 		47603610164115C9001C75DD /* prep.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = prep.doc; sourceTree = "<group>"; };
@@ -214,6 +214,12 @@
 		47603613164115DB001C75DD /* voicetospeech.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = voicetospeech.pdf; sourceTree = "<group>"; };
 		47603614164115E4001C75DD /* speechworks.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = speechworks.doc; sourceTree = "<group>"; };
 		47603615164115E4001C75DD /* speechworks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = speechworks.pdf; sourceTree = "<group>"; };
+		4760361616411C9F001C75DD /* beinginvoice.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginvoice.doc; sourceTree = "<group>"; };
+		4760361716411C9F001C75DD /* beinginvoice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginvoice.pdf; sourceTree = "<group>"; };
+		4760361816411CC1001C75DD /* voicetospeech.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = voicetospeech.pdf; sourceTree = "<group>"; };
+		4760361A16411CCC001C75DD /* welcome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = welcome.pdf; sourceTree = "<group>"; };
+		4760361C16411CF5001C75DD /* yourposture.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = yourposture.doc; sourceTree = "<group>"; };
+		4760361D16411CF5001C75DD /* yourposture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = yourposture.pdf; sourceTree = "<group>"; };
 		478352271637C6860095465D /* BeingBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeingBlue.jpg; sourceTree = "<group>"; };
 		479FEDB3163048EC008D10EF /* BT_screen_blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_blank.h; sourceTree = "<group>"; };
 		479FEDB4163048EC008D10EF /* BT_screen_blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_blank.m; sourceTree = "<group>"; };
@@ -497,18 +503,22 @@
 				47B60E3D163D15EE0008EBD3 /* mybody.doc */,
 				47B60E3E163D15EE0008EBD3 /* mybody.htm */,
 				473F1DB01632BBED0080C354 /* alignment.pdf */,
+				4760361616411C9F001C75DD /* beinginvoice.doc */,
+				4760361716411C9F001C75DD /* beinginvoice.pdf */,
 				4760360D16410C01001C75DD /* howvoiceworks.doc */,
 				4760360E16410C84001C75DD /* howvoiceworks.pdf */,
 				47BA5AF7163DFC81006CD814 /* welcome.pdf */,
+				4760361816411CC1001C75DD /* voicetospeech.pdf */,
 				47603610164115C9001C75DD /* prep.doc */,
 				47603611164115C9001C75DD /* prep.pdf */,
-				4760360B16410B10001C75DD /* How Speech Works.doc */,
 				47603612164115DB001C75DD /* voicetospeech.doc */,
+				4760361C16411CF5001C75DD /* yourposture.doc */,
+				4760361D16411CF5001C75DD /* yourposture.pdf */,
 				47603614164115E4001C75DD /* speechworks.doc */,
 				47603615164115E4001C75DD /* speechworks.pdf */,
+				4760361A16411CCC001C75DD /* welcome.pdf */,
 				47603613164115DB001C75DD /* voicetospeech.pdf */,
 				47B60E45163D21470008EBD3 /* welcome.doc */,
-				4760360A164109D8001C75DD /* how it all Works.doc */,
 				473F1DB11632BBED0080C354 /* beinginbreath.pdf */,
 				473F1DB21632BBED0080C354 /* intromvw.pdf */,
 				473F1DB31632BBED0080C354 /* spinalroll.pdf */,
@@ -1079,6 +1089,8 @@
 				47AC9BC41639290000D8D120 /* myvoicewarmup.jpg in Resources */,
 				47BA5AF8163DFC81006CD814 /* welcome.pdf in Resources */,
 				4760360F16410C84001C75DD /* howvoiceworks.pdf in Resources */,
+				4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */,
+				4760361B16411CCC001C75DD /* welcome.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
