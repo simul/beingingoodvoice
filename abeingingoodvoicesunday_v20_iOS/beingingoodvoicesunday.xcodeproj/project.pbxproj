@@ -45,6 +45,28 @@
 		4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361816411CC1001C75DD /* voicetospeech.pdf */; };
 		4760361B16411CCC001C75DD /* welcome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361A16411CCC001C75DD /* welcome.pdf */; };
 		478352281637C6860095465D /* BeingBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 478352271637C6860095465D /* BeingBlue.jpg */; };
+		4798FC55164545E900010BED /* beinginbody.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC43164545E900010BED /* beinginbody.doc */; };
+		4798FC56164545E900010BED /* beinginbody.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC44164545E900010BED /* beinginbody.pdf */; };
+		4798FC57164545E900010BED /* beinginbreath.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC45164545E900010BED /* beinginbreath.doc */; };
+		4798FC58164545E900010BED /* beinginbreath.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC46164545E900010BED /* beinginbreath.pdf */; };
+		4798FC59164545E900010BED /* howspeechworks.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC47164545E900010BED /* howspeechworks.doc */; };
+		4798FC5A164545E900010BED /* howspeechworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC48164545E900010BED /* howspeechworks.pdf */; };
+		4798FC5B164545E900010BED /* howvoiceworks.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC49164545E900010BED /* howvoiceworks.doc */; };
+		4798FC5C164545E900010BED /* howvoiceworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4A164545E900010BED /* howvoiceworks.pdf */; };
+		4798FC5D164545E900010BED /* introduction.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4B164545E900010BED /* introduction.doc */; };
+		4798FC5E164545E900010BED /* introduction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4C164545E900010BED /* introduction.pdf */; };
+		4798FC5F164545E900010BED /* prepare.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4D164545E900010BED /* prepare.doc */; };
+		4798FC60164545E900010BED /* prepare.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4E164545E900010BED /* prepare.pdf */; };
+		4798FC61164545E900010BED /* soundingbreath.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4F164545E900010BED /* soundingbreath.doc */; };
+		4798FC62164545E900010BED /* soundingbreath.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC50164545E900010BED /* soundingbreath.pdf */; };
+		4798FC63164545E900010BED /* voicetospeech.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC51164545E900010BED /* voicetospeech.doc */; };
+		4798FC64164545E900010BED /* voicetospeech.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC52164545E900010BED /* voicetospeech.pdf */; };
+		4798FC65164545E900010BED /* whatisvoice.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC53164545E900010BED /* whatisvoice.doc */; };
+		4798FC66164545E900010BED /* whatisvoice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC54164545E900010BED /* whatisvoice.pdf */; };
+		4798FC6E1645551900010BED /* Record_n_play.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798FC6A1645551900010BED /* Record_n_play.m */; };
+		4798FC6F1645551900010BED /* Record_n_play.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC6B1645551900010BED /* Record_n_play.xib */; };
+		4798FC701645551900010BED /* Record_n_play~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC6C1645551900010BED /* Record_n_play~ipad.xib */; };
+		4798FC711645551900010BED /* rnp_recording.png in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC6D1645551900010BED /* rnp_recording.png */; };
 		479FEDF5163048EC008D10EF /* BT_screen_blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDB4163048EC008D10EF /* BT_screen_blank.m */; };
 		479FEDF6163048EC008D10EF /* BT_screen_customHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDB7163048EC008D10EF /* BT_screen_customHTML.m */; };
 		479FEDF7163048EC008D10EF /* BT_screen_customURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDBA163048EC008D10EF /* BT_screen_customURL.m */; };
@@ -221,6 +243,29 @@
 		4760361C16411CF5001C75DD /* yourposture.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = yourposture.doc; sourceTree = "<group>"; };
 		4760361D16411CF5001C75DD /* yourposture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = yourposture.pdf; sourceTree = "<group>"; };
 		478352271637C6860095465D /* BeingBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeingBlue.jpg; sourceTree = "<group>"; };
+		4798FC43164545E900010BED /* beinginbody.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginbody.doc; sourceTree = "<group>"; };
+		4798FC44164545E900010BED /* beinginbody.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginbody.pdf; sourceTree = "<group>"; };
+		4798FC45164545E900010BED /* beinginbreath.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginbreath.doc; sourceTree = "<group>"; };
+		4798FC46164545E900010BED /* beinginbreath.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginbreath.pdf; sourceTree = "<group>"; };
+		4798FC47164545E900010BED /* howspeechworks.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = howspeechworks.doc; sourceTree = "<group>"; };
+		4798FC48164545E900010BED /* howspeechworks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = howspeechworks.pdf; sourceTree = "<group>"; };
+		4798FC49164545E900010BED /* howvoiceworks.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = howvoiceworks.doc; sourceTree = "<group>"; };
+		4798FC4A164545E900010BED /* howvoiceworks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = howvoiceworks.pdf; sourceTree = "<group>"; };
+		4798FC4B164545E900010BED /* introduction.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = introduction.doc; sourceTree = "<group>"; };
+		4798FC4C164545E900010BED /* introduction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = introduction.pdf; sourceTree = "<group>"; };
+		4798FC4D164545E900010BED /* prepare.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = prepare.doc; sourceTree = "<group>"; };
+		4798FC4E164545E900010BED /* prepare.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = prepare.pdf; sourceTree = "<group>"; };
+		4798FC4F164545E900010BED /* soundingbreath.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundingbreath.doc; sourceTree = "<group>"; };
+		4798FC50164545E900010BED /* soundingbreath.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = soundingbreath.pdf; sourceTree = "<group>"; };
+		4798FC51164545E900010BED /* voicetospeech.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = voicetospeech.doc; sourceTree = "<group>"; };
+		4798FC52164545E900010BED /* voicetospeech.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = voicetospeech.pdf; sourceTree = "<group>"; };
+		4798FC53164545E900010BED /* whatisvoice.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = whatisvoice.doc; sourceTree = "<group>"; };
+		4798FC54164545E900010BED /* whatisvoice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = whatisvoice.pdf; sourceTree = "<group>"; };
+		4798FC691645551900010BED /* Record_n_play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record_n_play.h; sourceTree = "<group>"; };
+		4798FC6A1645551900010BED /* Record_n_play.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record_n_play.m; sourceTree = "<group>"; };
+		4798FC6B1645551900010BED /* Record_n_play.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Record_n_play.xib; sourceTree = "<group>"; };
+		4798FC6C1645551900010BED /* Record_n_play~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Record_n_play~ipad.xib"; sourceTree = "<group>"; };
+		4798FC6D1645551900010BED /* rnp_recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rnp_recording.png; sourceTree = "<group>"; };
 		479FEDB3163048EC008D10EF /* BT_screen_blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_blank.h; sourceTree = "<group>"; };
 		479FEDB4163048EC008D10EF /* BT_screen_blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_blank.m; sourceTree = "<group>"; };
 		479FEDB6163048EC008D10EF /* BT_screen_customHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_customHTML.h; sourceTree = "<group>"; };
@@ -496,9 +541,47 @@
 			path = ../BT_Sound/dm_files_myapp;
 			sourceTree = "<group>";
 		};
+		4798FC42164545E900010BED /* nov3docs */ = {
+			isa = PBXGroup;
+			children = (
+				4798FC43164545E900010BED /* beinginbody.doc */,
+				4798FC44164545E900010BED /* beinginbody.pdf */,
+				4798FC45164545E900010BED /* beinginbreath.doc */,
+				4798FC46164545E900010BED /* beinginbreath.pdf */,
+				4798FC47164545E900010BED /* howspeechworks.doc */,
+				4798FC48164545E900010BED /* howspeechworks.pdf */,
+				4798FC49164545E900010BED /* howvoiceworks.doc */,
+				4798FC4A164545E900010BED /* howvoiceworks.pdf */,
+				4798FC4B164545E900010BED /* introduction.doc */,
+				4798FC4C164545E900010BED /* introduction.pdf */,
+				4798FC4D164545E900010BED /* prepare.doc */,
+				4798FC4E164545E900010BED /* prepare.pdf */,
+				4798FC4F164545E900010BED /* soundingbreath.doc */,
+				4798FC50164545E900010BED /* soundingbreath.pdf */,
+				4798FC51164545E900010BED /* voicetospeech.doc */,
+				4798FC52164545E900010BED /* voicetospeech.pdf */,
+				4798FC53164545E900010BED /* whatisvoice.doc */,
+				4798FC54164545E900010BED /* whatisvoice.pdf */,
+			);
+			path = nov3docs;
+			sourceTree = "<group>";
+		};
+		4798FC681645551900010BED /* record_n_play */ = {
+			isa = PBXGroup;
+			children = (
+				4798FC691645551900010BED /* Record_n_play.h */,
+				4798FC6A1645551900010BED /* Record_n_play.m */,
+				4798FC6B1645551900010BED /* Record_n_play.xib */,
+				4798FC6C1645551900010BED /* Record_n_play~ipad.xib */,
+				4798FC6D1645551900010BED /* rnp_recording.png */,
+			);
+			path = record_n_play;
+			sourceTree = "<group>";
+		};
 		479FEDAF163048EC008D10EF /* BT_Docs */ = {
 			isa = PBXGroup;
 			children = (
+				4798FC42164545E900010BED /* nov3docs */,
 				47B60E39163D15EE0008EBD3 /* mybody_files */,
 				47B60E3D163D15EE0008EBD3 /* mybody.doc */,
 				47B60E3E163D15EE0008EBD3 /* mybody.htm */,
@@ -551,6 +634,7 @@
 		479FEDB1163048EC008D10EF /* BT_Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				4798FC681645551900010BED /* record_n_play */,
 				479FEDB2163048EC008D10EF /* bt_screen_blank */,
 				479FEDB5163048EC008D10EF /* bt_screen_customHTML */,
 				479FEDB8163048EC008D10EF /* bt_screen_customURL */,
@@ -1091,6 +1175,27 @@
 				4760360F16410C84001C75DD /* howvoiceworks.pdf in Resources */,
 				4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */,
 				4760361B16411CCC001C75DD /* welcome.pdf in Resources */,
+				4798FC55164545E900010BED /* beinginbody.doc in Resources */,
+				4798FC56164545E900010BED /* beinginbody.pdf in Resources */,
+				4798FC57164545E900010BED /* beinginbreath.doc in Resources */,
+				4798FC58164545E900010BED /* beinginbreath.pdf in Resources */,
+				4798FC59164545E900010BED /* howspeechworks.doc in Resources */,
+				4798FC5A164545E900010BED /* howspeechworks.pdf in Resources */,
+				4798FC5B164545E900010BED /* howvoiceworks.doc in Resources */,
+				4798FC5C164545E900010BED /* howvoiceworks.pdf in Resources */,
+				4798FC5D164545E900010BED /* introduction.doc in Resources */,
+				4798FC5E164545E900010BED /* introduction.pdf in Resources */,
+				4798FC5F164545E900010BED /* prepare.doc in Resources */,
+				4798FC60164545E900010BED /* prepare.pdf in Resources */,
+				4798FC61164545E900010BED /* soundingbreath.doc in Resources */,
+				4798FC62164545E900010BED /* soundingbreath.pdf in Resources */,
+				4798FC63164545E900010BED /* voicetospeech.doc in Resources */,
+				4798FC64164545E900010BED /* voicetospeech.pdf in Resources */,
+				4798FC65164545E900010BED /* whatisvoice.doc in Resources */,
+				4798FC66164545E900010BED /* whatisvoice.pdf in Resources */,
+				4798FC6F1645551900010BED /* Record_n_play.xib in Resources */,
+				4798FC701645551900010BED /* Record_n_play~ipad.xib in Resources */,
+				4798FC711645551900010BED /* rnp_recording.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1161,6 +1266,7 @@
 				479FEE0B163048EC008D10EF /* BTA_design_menu.m in Sources */,
 				479FEE0C163048EC008D10EF /* BTA_designMenuCustomLabel.m in Sources */,
 				479FEE0D163048EC008D10EF /* BTA_headerImage_designMenu.m in Sources */,
+				4798FC6E1645551900010BED /* Record_n_play.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
