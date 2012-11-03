@@ -44,6 +44,7 @@
 		4760360F16410C84001C75DD /* howvoiceworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760360E16410C84001C75DD /* howvoiceworks.pdf */; };
 		4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361816411CC1001C75DD /* voicetospeech.pdf */; };
 		4760361B16411CCC001C75DD /* welcome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361A16411CCC001C75DD /* welcome.pdf */; };
+		478150EF1645E13B002E548F /* getstarted.htm in Resources */ = {isa = PBXBuildFile; fileRef = 478150EE1645E13B002E548F /* getstarted.htm */; };
 		478352281637C6860095465D /* BeingBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 478352271637C6860095465D /* BeingBlue.jpg */; };
 		4798FC55164545E900010BED /* beinginbody.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC43164545E900010BED /* beinginbody.doc */; };
 		4798FC56164545E900010BED /* beinginbody.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC44164545E900010BED /* beinginbody.pdf */; };
@@ -242,6 +243,7 @@
 		4760361A16411CCC001C75DD /* welcome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = welcome.pdf; sourceTree = "<group>"; };
 		4760361C16411CF5001C75DD /* yourposture.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = yourposture.doc; sourceTree = "<group>"; };
 		4760361D16411CF5001C75DD /* yourposture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = yourposture.pdf; sourceTree = "<group>"; };
+		478150EE1645E13B002E548F /* getstarted.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = getstarted.htm; sourceTree = "<group>"; };
 		478352271637C6860095465D /* BeingBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeingBlue.jpg; sourceTree = "<group>"; };
 		4798FC43164545E900010BED /* beinginbody.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginbody.doc; sourceTree = "<group>"; };
 		4798FC44164545E900010BED /* beinginbody.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginbody.pdf; sourceTree = "<group>"; };
@@ -581,6 +583,7 @@
 		479FEDAF163048EC008D10EF /* BT_Docs */ = {
 			isa = PBXGroup;
 			children = (
+				478150EE1645E13B002E548F /* getstarted.htm */,
 				4798FC42164545E900010BED /* nov3docs */,
 				47B60E39163D15EE0008EBD3 /* mybody_files */,
 				47B60E3D163D15EE0008EBD3 /* mybody.doc */,
@@ -1196,6 +1199,7 @@
 				4798FC6F1645551900010BED /* Record_n_play.xib in Resources */,
 				4798FC701645551900010BED /* Record_n_play~ipad.xib in Resources */,
 				4798FC711645551900010BED /* rnp_recording.png in Resources */,
+				478150EF1645E13B002E548F /* getstarted.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
