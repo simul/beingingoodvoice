@@ -58,7 +58,6 @@
 		47847B1B164752DD009E4D32 /* mybody.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47847B16164752DD009E4D32 /* mybody.htm */; };
 		47847B1C164752DD009E4D32 /* template.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47847B17164752DD009E4D32 /* template.htm */; };
 		47847B1D164752DD009E4D32 /* whywarmup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47847B18164752DD009E4D32 /* whywarmup.htm */; };
-		47863F241648B53400E94570 /* whatisvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47863F231648B53400E94570 /* whatisvoice.htm */; };
 		47863F281648BE6A00E94570 /* voicetospeech.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47863F251648BE6A00E94570 /* voicetospeech.htm */; };
 		47863F291648BE6A00E94570 /* whatisspeech.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47863F261648BE6A00E94570 /* whatisspeech.htm */; };
 		47863F2A1648BE6A00E94570 /* whatisvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47863F271648BE6A00E94570 /* whatisvoice.htm */; };
@@ -271,7 +270,6 @@
 		47847B16164752DD009E4D32 /* mybody.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mybody.htm; sourceTree = "<group>"; };
 		47847B17164752DD009E4D32 /* template.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.htm; sourceTree = "<group>"; };
 		47847B18164752DD009E4D32 /* whywarmup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = whywarmup.htm; sourceTree = "<group>"; };
-		47863F231648B53400E94570 /* whatisvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = whatisvoice.htm; sourceTree = "<group>"; };
 		47863F251648BE6A00E94570 /* voicetospeech.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = voicetospeech.htm; sourceTree = "<group>"; };
 		47863F261648BE6A00E94570 /* whatisspeech.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = whatisspeech.htm; sourceTree = "<group>"; };
 		47863F271648BE6A00E94570 /* whatisvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = whatisvoice.htm; sourceTree = "<group>"; };
@@ -571,7 +569,6 @@
 				47190176164A1B8D004AEAE5 /* trillup.htm */,
 				47847B14164752DD009E4D32 /* beforeyoumakeasound.htm */,
 				47190174164A0D59004AEAE5 /* TheHum.htm */,
-				47863F231648B53400E94570 /* whatisvoice.htm */,
 				47565D4716488B3100717613 /* rolldown.htm */,
 				47847B16164752DD009E4D32 /* mybody.htm */,
 				47847B17164752DD009E4D32 /* template.htm */,
@@ -1218,7 +1215,6 @@
 				47847B1D164752DD009E4D32 /* whywarmup.htm in Resources */,
 				47565D4516487B9600717613 /* introducingmvw.mp3 in Resources */,
 				47565D4916488B3100717613 /* rolldown.htm in Resources */,
-				47863F241648B53400E94570 /* whatisvoice.htm in Resources */,
 				47863F281648BE6A00E94570 /* voicetospeech.htm in Resources */,
 				47863F291648BE6A00E94570 /* whatisspeech.htm in Resources */,
 				47863F2A1648BE6A00E94570 /* whatisvoice.htm in Resources */,
