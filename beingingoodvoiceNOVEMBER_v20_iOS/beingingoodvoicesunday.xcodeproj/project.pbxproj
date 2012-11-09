@@ -104,10 +104,9 @@
 		4727045C164CBD40006EC9A9 /* Vocal Maintenance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4727044C164CBD40006EC9A9 /* Vocal Maintenance.mp3 */; };
 		4727045D164CBD40006EC9A9 /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4727044D164CBD40006EC9A9 /* VoicedAh.mp3 */; };
 		4727045E164CBD40006EC9A9 /* whatismvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4727044E164CBD40006EC9A9 /* whatismvw.mp3 */; };
-		47270460164CC0EA006EC9A9 /* warmupnow2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4727045F164CC0EA006EC9A9 /* warmupnow2.htm */; };
 		47270462164CC0FD006EC9A9 /* trilldown2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47270461164CC0FD006EC9A9 /* trilldown2.htm */; };
 		47270464164CC401006EC9A9 /* voicedah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47270463164CC401006EC9A9 /* voicedah.htm */; };
-		47270466164CC415006EC9A9 /* warmupnow2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47270465164CC415006EC9A9 /* warmupnow2.htm */; };
+		4798A3FC164D2D7800CAA53F /* warmupnow2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4798A3FB164D2D7800CAA53F /* warmupnow2.htm */; };
 		980A61D3146F161900D3746C /* equalizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CD146F161900D3746C /* equalizer.png */; };
 		980A61D4146F161900D3746C /* map_hybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CE146F161900D3746C /* map_hybrid.png */; };
 		980A61D5146F161900D3746C /* map_standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CF146F161900D3746C /* map_standard.png */; };
@@ -320,10 +319,9 @@
 		4727044C164CBD40006EC9A9 /* Vocal Maintenance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vocal Maintenance.mp3"; sourceTree = "<group>"; };
 		4727044D164CBD40006EC9A9 /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
 		4727044E164CBD40006EC9A9 /* whatismvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatismvw.mp3; sourceTree = "<group>"; };
-		4727045F164CC0EA006EC9A9 /* warmupnow2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = warmupnow2.htm; sourceTree = "<group>"; };
 		47270461164CC0FD006EC9A9 /* trilldown2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trilldown2.htm; sourceTree = "<group>"; };
 		47270463164CC401006EC9A9 /* voicedah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = voicedah.htm; sourceTree = "<group>"; };
-		47270465164CC415006EC9A9 /* warmupnow2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = warmupnow2.htm; sourceTree = "<group>"; };
+		4798A3FB164D2D7800CAA53F /* warmupnow2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = warmupnow2.htm; sourceTree = "<group>"; };
 		980A61CD146F161900D3746C /* equalizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equalizer.png; sourceTree = "<group>"; };
 		980A61CE146F161900D3746C /* map_hybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_hybrid.png; sourceTree = "<group>"; };
 		980A61CF146F161900D3746C /* map_standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_standard.png; sourceTree = "<group>"; };
@@ -537,12 +535,10 @@
 				47270463164CC401006EC9A9 /* voicedah.htm */,
 				4727036C164CBCF8006EC9A9 /* howtousemvw.htm */,
 				4727036D164CBCF8006EC9A9 /* mybody.htm */,
-				47270465164CC415006EC9A9 /* warmupnow2.htm */,
 				4727036F164CBCF8006EC9A9 /* posture.htm */,
 				47270461164CC0FD006EC9A9 /* trilldown2.htm */,
 				47270370164CBCF8006EC9A9 /* rolldown.htm */,
 				47270371164CBCF8006EC9A9 /* rollingspine.htm */,
-				4727045F164CC0EA006EC9A9 /* warmupnow2.htm */,
 				47270372164CBCF8006EC9A9 /* Sigh.htm */,
 				47270373164CBCF8006EC9A9 /* sighingah.htm */,
 				47270375164CBCF8006EC9A9 /* template.htm */,
@@ -550,6 +546,7 @@
 				47270377164CBCF8006EC9A9 /* TheHum.htm */,
 				47270378164CBCF8006EC9A9 /* trillup.htm */,
 				47270379164CBCF8006EC9A9 /* voicetospeech.htm */,
+				4798A3FB164D2D7800CAA53F /* warmupnow2.htm */,
 				4727037A164CBCF8006EC9A9 /* whatisspeech.htm */,
 				4727037B164CBCF8006EC9A9 /* whatisvoice.htm */,
 				4727037C164CBCF8006EC9A9 /* whywarmup.htm */,
@@ -1161,10 +1158,9 @@
 				4727045C164CBD40006EC9A9 /* Vocal Maintenance.mp3 in Resources */,
 				4727045D164CBD40006EC9A9 /* VoicedAh.mp3 in Resources */,
 				4727045E164CBD40006EC9A9 /* whatismvw.mp3 in Resources */,
-				47270460164CC0EA006EC9A9 /* warmupnow2.htm in Resources */,
 				47270462164CC0FD006EC9A9 /* trilldown2.htm in Resources */,
 				47270464164CC401006EC9A9 /* voicedah.htm in Resources */,
-				47270466164CC415006EC9A9 /* warmupnow2.htm in Resources */,
+				4798A3FC164D2D7800CAA53F /* warmupnow2.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1267,7 +1263,7 @@
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = BT_Config/BT_info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = beingingoodvoicesunday;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1284,7 +1280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = BT_Config/BT_info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = beingingoodvoicesunday;
 				TARGETED_DEVICE_FAMILY = "1,2";
