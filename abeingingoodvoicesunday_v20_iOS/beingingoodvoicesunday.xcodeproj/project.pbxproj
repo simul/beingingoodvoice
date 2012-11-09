@@ -17,7 +17,6 @@
 		47190173164A0788004AEAE5 /* sighingah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47190172164A0788004AEAE5 /* sighingah.htm */; };
 		47190175164A0D59004AEAE5 /* TheHum.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47190174164A0D59004AEAE5 /* TheHum.htm */; };
 		47190177164A1B8D004AEAE5 /* trillup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47190176164A1B8D004AEAE5 /* trillup.htm */; };
-		47190179164A4F09004AEAE5 /* whatismvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47190178164A4F09004AEAE5 /* whatismvw.mp3 */; };
 		4719017B164A4F22004AEAE5 /* whatismvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4719017A164A4F22004AEAE5 /* whatismvw.mp3 */; };
 		4719017D164A4FD4004AEAE5 /* howtousemvw.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4719017C164A4FD4004AEAE5 /* howtousemvw.htm */; };
 		4719017F164A5743004AEAE5 /* breathex.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4719017E164A5743004AEAE5 /* breathex.htm */; };
@@ -40,11 +39,6 @@
 		473F1DCB1632BC170080C354 /* alignment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB81632BC170080C354 /* alignment.mp3 */; };
 		473F1DCC1632BC170080C354 /* Breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DB91632BC170080C354 /* Breath.mp3 */; };
 		473F1DCD1632BC170080C354 /* CompleteMVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBA1632BC170080C354 /* CompleteMVW.mp3 */; };
-		473F1DCE1632BC170080C354 /* myapp_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBC1632BC170080C354 /* myapp_bg.jpg */; };
-		473F1DCF1632BC170080C354 /* myapp_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBD1632BC170080C354 /* myapp_header.png */; };
-		473F1DD01632BC170080C354 /* myappbg_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBE1632BC170080C354 /* myappbg_green.png */; };
-		473F1DD11632BC170080C354 /* myappbg_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DBF1632BC170080C354 /* myappbg_purple.png */; };
-		473F1DD21632BC170080C354 /* myappbg_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC01632BC170080C354 /* myappbg_yellow.png */; };
 		473F1DD31632BC170080C354 /* Hum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC11632BC170080C354 /* Hum.mp3 */; };
 		473F1DD51632BC170080C354 /* MVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC31632BC170080C354 /* MVW.mp3 */; };
 		473F1DD61632BC170080C354 /* RollDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DC41632BC170080C354 /* RollDown.mp3 */; };
@@ -58,7 +52,6 @@
 		47565D4916488B3100717613 /* rolldown.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47565D4716488B3100717613 /* rolldown.htm */; };
 		4760360F16410C84001C75DD /* howvoiceworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760360E16410C84001C75DD /* howvoiceworks.pdf */; };
 		4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361816411CC1001C75DD /* voicetospeech.pdf */; };
-		4760361B16411CCC001C75DD /* welcome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4760361A16411CCC001C75DD /* welcome.pdf */; };
 		478150EF1645E13B002E548F /* getstarted.htm in Resources */ = {isa = PBXBuildFile; fileRef = 478150EE1645E13B002E548F /* getstarted.htm */; };
 		478352281637C6860095465D /* BeingBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 478352271637C6860095465D /* BeingBlue.jpg */; };
 		47847B19164752DD009E4D32 /* beforeyoumakeasound.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47847B14164752DD009E4D32 /* beforeyoumakeasound.htm */; };
@@ -72,11 +65,9 @@
 		4798FC55164545E900010BED /* beinginbody.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC43164545E900010BED /* beinginbody.doc */; };
 		4798FC56164545E900010BED /* beinginbody.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC44164545E900010BED /* beinginbody.pdf */; };
 		4798FC57164545E900010BED /* beinginbreath.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC45164545E900010BED /* beinginbreath.doc */; };
-		4798FC58164545E900010BED /* beinginbreath.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC46164545E900010BED /* beinginbreath.pdf */; };
 		4798FC59164545E900010BED /* howspeechworks.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC47164545E900010BED /* howspeechworks.doc */; };
 		4798FC5A164545E900010BED /* howspeechworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC48164545E900010BED /* howspeechworks.pdf */; };
 		4798FC5B164545E900010BED /* howvoiceworks.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC49164545E900010BED /* howvoiceworks.doc */; };
-		4798FC5C164545E900010BED /* howvoiceworks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4A164545E900010BED /* howvoiceworks.pdf */; };
 		4798FC5D164545E900010BED /* introduction.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4B164545E900010BED /* introduction.doc */; };
 		4798FC5E164545E900010BED /* introduction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4C164545E900010BED /* introduction.pdf */; };
 		4798FC5F164545E900010BED /* prepare.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4D164545E900010BED /* prepare.doc */; };
@@ -84,7 +75,6 @@
 		4798FC61164545E900010BED /* soundingbreath.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC4F164545E900010BED /* soundingbreath.doc */; };
 		4798FC62164545E900010BED /* soundingbreath.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC50164545E900010BED /* soundingbreath.pdf */; };
 		4798FC63164545E900010BED /* voicetospeech.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC51164545E900010BED /* voicetospeech.doc */; };
-		4798FC64164545E900010BED /* voicetospeech.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC52164545E900010BED /* voicetospeech.pdf */; };
 		4798FC65164545E900010BED /* whatisvoice.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC53164545E900010BED /* whatisvoice.doc */; };
 		4798FC66164545E900010BED /* whatisvoice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4798FC54164545E900010BED /* whatisvoice.pdf */; };
 		4798FC6E1645551900010BED /* Record_n_play.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798FC6A1645551900010BED /* Record_n_play.m */; };
@@ -126,7 +116,8 @@
 		479FEE2016304A02008D10EF /* dmstar_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 479FEE1816304A02008D10EF /* dmstar_blue.png */; };
 		479FEE2116304A02008D10EF /* dmtoolbox_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 479FEE1916304A02008D10EF /* dmtoolbox_blue.png */; };
 		47AC9BC41639290000D8D120 /* myvoicewarmup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC9BC31639290000D8D120 /* myvoicewarmup.jpg */; };
-		47BA5AF8163DFC81006CD814 /* welcome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 47BA5AF7163DFC81006CD814 /* welcome.pdf */; };
+		47D42B60164D2528002FE9AE /* trilldown2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D42B5F164D2528002FE9AE /* trilldown2.htm */; };
+		47D42B62164D2544002FE9AE /* warmupnow2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D42B61164D2544002FE9AE /* warmupnow2.htm */; };
 		980A61D3146F161900D3746C /* equalizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CD146F161900D3746C /* equalizer.png */; };
 		980A61D4146F161900D3746C /* map_hybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CE146F161900D3746C /* map_hybrid.png */; };
 		980A61D5146F161900D3746C /* map_standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CF146F161900D3746C /* map_standard.png */; };
@@ -228,7 +219,6 @@
 		47190172164A0788004AEAE5 /* sighingah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sighingah.htm; sourceTree = "<group>"; };
 		47190174164A0D59004AEAE5 /* TheHum.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TheHum.htm; sourceTree = "<group>"; };
 		47190176164A1B8D004AEAE5 /* trillup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trillup.htm; sourceTree = "<group>"; };
-		47190178164A4F09004AEAE5 /* whatismvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatismvw.mp3; sourceTree = "<group>"; };
 		4719017A164A4F22004AEAE5 /* whatismvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatismvw.mp3; sourceTree = "<group>"; };
 		4719017C164A4FD4004AEAE5 /* howtousemvw.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = howtousemvw.htm; sourceTree = "<group>"; };
 		4719017E164A5743004AEAE5 /* breathex.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = breathex.htm; sourceTree = "<group>"; };
@@ -251,11 +241,6 @@
 		473F1DB81632BC170080C354 /* alignment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alignment.mp3; sourceTree = "<group>"; };
 		473F1DB91632BC170080C354 /* Breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Breath.mp3; sourceTree = "<group>"; };
 		473F1DBA1632BC170080C354 /* CompleteMVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CompleteMVW.mp3; sourceTree = "<group>"; };
-		473F1DBC1632BC170080C354 /* myapp_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myapp_bg.jpg; sourceTree = "<group>"; };
-		473F1DBD1632BC170080C354 /* myapp_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myapp_header.png; sourceTree = "<group>"; };
-		473F1DBE1632BC170080C354 /* myappbg_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_green.png; sourceTree = "<group>"; };
-		473F1DBF1632BC170080C354 /* myappbg_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_purple.png; sourceTree = "<group>"; };
-		473F1DC01632BC170080C354 /* myappbg_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myappbg_yellow.png; sourceTree = "<group>"; };
 		473F1DC11632BC170080C354 /* Hum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hum.mp3; sourceTree = "<group>"; };
 		473F1DC31632BC170080C354 /* MVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MVW.mp3; sourceTree = "<group>"; };
 		473F1DC41632BC170080C354 /* RollDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RollDown.mp3; sourceTree = "<group>"; };
@@ -278,7 +263,6 @@
 		4760361616411C9F001C75DD /* beinginvoice.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginvoice.doc; sourceTree = "<group>"; };
 		4760361716411C9F001C75DD /* beinginvoice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginvoice.pdf; sourceTree = "<group>"; };
 		4760361816411CC1001C75DD /* voicetospeech.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = voicetospeech.pdf; sourceTree = "<group>"; };
-		4760361A16411CCC001C75DD /* welcome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = welcome.pdf; sourceTree = "<group>"; };
 		4760361C16411CF5001C75DD /* yourposture.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = yourposture.doc; sourceTree = "<group>"; };
 		4760361D16411CF5001C75DD /* yourposture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = yourposture.pdf; sourceTree = "<group>"; };
 		478150EE1645E13B002E548F /* getstarted.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = getstarted.htm; sourceTree = "<group>"; };
@@ -294,11 +278,9 @@
 		4798FC43164545E900010BED /* beinginbody.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginbody.doc; sourceTree = "<group>"; };
 		4798FC44164545E900010BED /* beinginbody.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginbody.pdf; sourceTree = "<group>"; };
 		4798FC45164545E900010BED /* beinginbreath.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = beinginbreath.doc; sourceTree = "<group>"; };
-		4798FC46164545E900010BED /* beinginbreath.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beinginbreath.pdf; sourceTree = "<group>"; };
 		4798FC47164545E900010BED /* howspeechworks.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = howspeechworks.doc; sourceTree = "<group>"; };
 		4798FC48164545E900010BED /* howspeechworks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = howspeechworks.pdf; sourceTree = "<group>"; };
 		4798FC49164545E900010BED /* howvoiceworks.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = howvoiceworks.doc; sourceTree = "<group>"; };
-		4798FC4A164545E900010BED /* howvoiceworks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = howvoiceworks.pdf; sourceTree = "<group>"; };
 		4798FC4B164545E900010BED /* introduction.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = introduction.doc; sourceTree = "<group>"; };
 		4798FC4C164545E900010BED /* introduction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = introduction.pdf; sourceTree = "<group>"; };
 		4798FC4D164545E900010BED /* prepare.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = prepare.doc; sourceTree = "<group>"; };
@@ -306,7 +288,6 @@
 		4798FC4F164545E900010BED /* soundingbreath.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundingbreath.doc; sourceTree = "<group>"; };
 		4798FC50164545E900010BED /* soundingbreath.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = soundingbreath.pdf; sourceTree = "<group>"; };
 		4798FC51164545E900010BED /* voicetospeech.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = voicetospeech.doc; sourceTree = "<group>"; };
-		4798FC52164545E900010BED /* voicetospeech.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = voicetospeech.pdf; sourceTree = "<group>"; };
 		4798FC53164545E900010BED /* whatisvoice.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = whatisvoice.doc; sourceTree = "<group>"; };
 		4798FC54164545E900010BED /* whatisvoice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = whatisvoice.pdf; sourceTree = "<group>"; };
 		4798FC691645551900010BED /* Record_n_play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record_n_play.h; sourceTree = "<group>"; };
@@ -373,7 +354,8 @@
 		479FEE1916304A02008D10EF /* dmtoolbox_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dmtoolbox_blue.png; sourceTree = "<group>"; };
 		47AC9BC31639290000D8D120 /* myvoicewarmup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myvoicewarmup.jpg; path = ../BT_Images/myvoicewarmup.jpg; sourceTree = "<group>"; };
 		47B60E45163D21470008EBD3 /* welcome.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome.doc; sourceTree = "<group>"; };
-		47BA5AF7163DFC81006CD814 /* welcome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = welcome.pdf; sourceTree = "<group>"; };
+		47D42B5F164D2528002FE9AE /* trilldown2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trilldown2.htm; sourceTree = "<group>"; };
+		47D42B61164D2544002FE9AE /* warmupnow2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = warmupnow2.htm; sourceTree = "<group>"; };
 		980A61CD146F161900D3746C /* equalizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equalizer.png; sourceTree = "<group>"; };
 		980A61CE146F161900D3746C /* map_hybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_hybrid.png; sourceTree = "<group>"; };
 		980A61CF146F161900D3746C /* map_standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_standard.png; sourceTree = "<group>"; };
@@ -571,34 +553,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		473F1DBB1632BC170080C354 /* dm_files_myapp */ = {
-			isa = PBXGroup;
-			children = (
-				473F1DBC1632BC170080C354 /* myapp_bg.jpg */,
-				473F1DBD1632BC170080C354 /* myapp_header.png */,
-				473F1DBE1632BC170080C354 /* myappbg_green.png */,
-				473F1DBF1632BC170080C354 /* myappbg_purple.png */,
-				473F1DC01632BC170080C354 /* myappbg_yellow.png */,
-			);
-			name = dm_files_myapp;
-			path = ../BT_Sound/dm_files_myapp;
-			sourceTree = "<group>";
-		};
 		47847B13164752DD009E4D32 /* htm files */ = {
 			isa = PBXGroup;
 			children = (
 				4719017C164A4FD4004AEAE5 /* howtousemvw.htm */,
+				47D42B5F164D2528002FE9AE /* trilldown2.htm */,
 				4719017E164A5743004AEAE5 /* breathex.htm */,
 				47172D4C164C650300358DAB /* beinginbreathintro.htm */,
 				47863F251648BE6A00E94570 /* voicetospeech.htm */,
 				471901701649FD03004AEAE5 /* Sigh.htm */,
+				47D42B61164D2544002FE9AE /* warmupnow2.htm */,
 				47863F261648BE6A00E94570 /* whatisspeech.htm */,
 				471901661649C64C004AEAE5 /* posture.htm */,
 				471901681649E238004AEAE5 /* rollingspine.htm */,
 				47190172164A0788004AEAE5 /* sighingah.htm */,
 				47863F271648BE6A00E94570 /* whatisvoice.htm */,
 				47190176164A1B8D004AEAE5 /* trillup.htm */,
-				47190178164A4F09004AEAE5 /* whatismvw.mp3 */,
 				47847B14164752DD009E4D32 /* beforeyoumakeasound.htm */,
 				47190174164A0D59004AEAE5 /* TheHum.htm */,
 				47863F231648B53400E94570 /* whatisvoice.htm */,
@@ -616,11 +586,9 @@
 				4798FC43164545E900010BED /* beinginbody.doc */,
 				4798FC44164545E900010BED /* beinginbody.pdf */,
 				4798FC45164545E900010BED /* beinginbreath.doc */,
-				4798FC46164545E900010BED /* beinginbreath.pdf */,
 				4798FC47164545E900010BED /* howspeechworks.doc */,
 				4798FC48164545E900010BED /* howspeechworks.pdf */,
 				4798FC49164545E900010BED /* howvoiceworks.doc */,
-				4798FC4A164545E900010BED /* howvoiceworks.pdf */,
 				4798FC4B164545E900010BED /* introduction.doc */,
 				4798FC4C164545E900010BED /* introduction.pdf */,
 				4798FC4D164545E900010BED /* prepare.doc */,
@@ -628,7 +596,6 @@
 				4798FC4F164545E900010BED /* soundingbreath.doc */,
 				4798FC50164545E900010BED /* soundingbreath.pdf */,
 				4798FC51164545E900010BED /* voicetospeech.doc */,
-				4798FC52164545E900010BED /* voicetospeech.pdf */,
 				4798FC53164545E900010BED /* whatisvoice.doc */,
 				4798FC54164545E900010BED /* whatisvoice.pdf */,
 			);
@@ -658,7 +625,6 @@
 				47847B13164752DD009E4D32 /* htm files */,
 				4760360D16410C01001C75DD /* howvoiceworks.doc */,
 				4760360E16410C84001C75DD /* howvoiceworks.pdf */,
-				47BA5AF7163DFC81006CD814 /* welcome.pdf */,
 				4760361816411CC1001C75DD /* voicetospeech.pdf */,
 				47603610164115C9001C75DD /* prep.doc */,
 				47603611164115C9001C75DD /* prep.pdf */,
@@ -667,7 +633,6 @@
 				4760361D16411CF5001C75DD /* yourposture.pdf */,
 				47603614164115E4001C75DD /* speechworks.doc */,
 				47603615164115E4001C75DD /* speechworks.pdf */,
-				4760361A16411CCC001C75DD /* welcome.pdf */,
 				47603613164115DB001C75DD /* voicetospeech.pdf */,
 				47B60E45163D21470008EBD3 /* welcome.doc */,
 				473F1DB11632BBED0080C354 /* beinginbreath.pdf */,
@@ -695,7 +660,6 @@
 				473F1D971632BBD40080C354 /* posturebutton.png */,
 				473F1D981632BBD40080C354 /* Resonance.jpg */,
 				473F1D991632BBD40080C354 /* smallbutton.png */,
-				473F1DBB1632BC170080C354 /* dm_files_myapp */,
 				479FEE1016304A02008D10EF /* dm_files_blue */,
 			);
 			path = BT_Images;
@@ -1216,11 +1180,6 @@
 				473F1DCB1632BC170080C354 /* alignment.mp3 in Resources */,
 				473F1DCC1632BC170080C354 /* Breath.mp3 in Resources */,
 				473F1DCD1632BC170080C354 /* CompleteMVW.mp3 in Resources */,
-				473F1DCE1632BC170080C354 /* myapp_bg.jpg in Resources */,
-				473F1DCF1632BC170080C354 /* myapp_header.png in Resources */,
-				473F1DD01632BC170080C354 /* myappbg_green.png in Resources */,
-				473F1DD11632BC170080C354 /* myappbg_purple.png in Resources */,
-				473F1DD21632BC170080C354 /* myappbg_yellow.png in Resources */,
 				473F1DD31632BC170080C354 /* Hum.mp3 in Resources */,
 				473F1DD51632BC170080C354 /* MVW.mp3 in Resources */,
 				473F1DD61632BC170080C354 /* RollDown.mp3 in Resources */,
@@ -1232,18 +1191,14 @@
 				473F1DDC1632BC170080C354 /* VoicedAh.mp3 in Resources */,
 				478352281637C6860095465D /* BeingBlue.jpg in Resources */,
 				47AC9BC41639290000D8D120 /* myvoicewarmup.jpg in Resources */,
-				47BA5AF8163DFC81006CD814 /* welcome.pdf in Resources */,
 				4760360F16410C84001C75DD /* howvoiceworks.pdf in Resources */,
 				4760361916411CC1001C75DD /* voicetospeech.pdf in Resources */,
-				4760361B16411CCC001C75DD /* welcome.pdf in Resources */,
 				4798FC55164545E900010BED /* beinginbody.doc in Resources */,
 				4798FC56164545E900010BED /* beinginbody.pdf in Resources */,
 				4798FC57164545E900010BED /* beinginbreath.doc in Resources */,
-				4798FC58164545E900010BED /* beinginbreath.pdf in Resources */,
 				4798FC59164545E900010BED /* howspeechworks.doc in Resources */,
 				4798FC5A164545E900010BED /* howspeechworks.pdf in Resources */,
 				4798FC5B164545E900010BED /* howvoiceworks.doc in Resources */,
-				4798FC5C164545E900010BED /* howvoiceworks.pdf in Resources */,
 				4798FC5D164545E900010BED /* introduction.doc in Resources */,
 				4798FC5E164545E900010BED /* introduction.pdf in Resources */,
 				4798FC5F164545E900010BED /* prepare.doc in Resources */,
@@ -1251,7 +1206,6 @@
 				4798FC61164545E900010BED /* soundingbreath.doc in Resources */,
 				4798FC62164545E900010BED /* soundingbreath.pdf in Resources */,
 				4798FC63164545E900010BED /* voicetospeech.doc in Resources */,
-				4798FC64164545E900010BED /* voicetospeech.pdf in Resources */,
 				4798FC65164545E900010BED /* whatisvoice.doc in Resources */,
 				4798FC66164545E900010BED /* whatisvoice.pdf in Resources */,
 				4798FC6F1645551900010BED /* Record_n_play.xib in Resources */,
@@ -1277,11 +1231,12 @@
 				47190173164A0788004AEAE5 /* sighingah.htm in Resources */,
 				47190175164A0D59004AEAE5 /* TheHum.htm in Resources */,
 				47190177164A1B8D004AEAE5 /* trillup.htm in Resources */,
-				47190179164A4F09004AEAE5 /* whatismvw.mp3 in Resources */,
 				4719017B164A4F22004AEAE5 /* whatismvw.mp3 in Resources */,
 				4719017D164A4FD4004AEAE5 /* howtousemvw.htm in Resources */,
 				4719017F164A5743004AEAE5 /* breathex.htm in Resources */,
 				47172D4D164C650300358DAB /* beinginbreathintro.htm in Resources */,
+				47D42B60164D2528002FE9AE /* trilldown2.htm in Resources */,
+				47D42B62164D2544002FE9AE /* warmupnow2.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
