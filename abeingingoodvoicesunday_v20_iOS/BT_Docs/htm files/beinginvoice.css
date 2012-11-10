@@ -1,12 +1,13 @@
 body
 {
     background-color: white;
+    font-size: 40px;
 }
 
 p
 {
     color:black;
-    font-size: 16px;
+    font-size: 40px;
 }
 
 h1
@@ -25,5 +26,6 @@ h1
 audio
 {
     width: 200px;
+    height:200px;
     display: block;
 }
