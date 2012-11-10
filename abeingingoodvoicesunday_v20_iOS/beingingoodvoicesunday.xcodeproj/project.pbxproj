@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF54656164DD7E300EFC680 /* beinginvoice.css in Resources */ = {isa = PBXBuildFile; fileRef = 0FF54655164DD7E300EFC680 /* beinginvoice.css */; };
 		47172D4D164C650300358DAB /* beinginbreathintro.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47172D4C164C650300358DAB /* beinginbreathintro.htm */; };
 		471901671649C64C004AEAE5 /* posture.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471901661649C64C004AEAE5 /* posture.htm */; };
 		471901691649E238004AEAE5 /* rollingspine.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471901681649E238004AEAE5 /* rollingspine.htm */; };
@@ -185,6 +186,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FF54655164DD7E300EFC680 /* beinginvoice.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = beinginvoice.css; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* beingingoodvoicesunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beingingoodvoicesunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47172D4C164C650300358DAB /* beinginbreathintro.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beinginbreathintro.htm; sourceTree = "<group>"; };
 		471901661649C64C004AEAE5 /* posture.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = posture.htm; sourceTree = "<group>"; };
@@ -517,6 +519,7 @@
 				47847B16164752DD009E4D32 /* mybody.htm */,
 				47847B17164752DD009E4D32 /* template.htm */,
 				47847B18164752DD009E4D32 /* whywarmup.htm */,
+				0FF54655164DD7E300EFC680 /* beinginvoice.css */,
 			);
 			path = "htm files";
 			sourceTree = "<group>";
@@ -1113,6 +1116,7 @@
 				47172D4D164C650300358DAB /* beinginbreathintro.htm in Resources */,
 				47D42B60164D2528002FE9AE /* trilldown2.htm in Resources */,
 				47D42B62164D2544002FE9AE /* warmupnow2.htm in Resources */,
+				0FF54656164DD7E300EFC680 /* beinginvoice.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
