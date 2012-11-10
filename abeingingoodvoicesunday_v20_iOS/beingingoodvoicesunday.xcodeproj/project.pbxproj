@@ -47,6 +47,7 @@
 		473F1DDC1632BC170080C354 /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 473F1DCA1632BC170080C354 /* VoicedAh.mp3 */; };
 		47565D4516487B9600717613 /* introducingmvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47565D4416487B9600717613 /* introducingmvw.mp3 */; };
 		47565D4916488B3100717613 /* rolldown.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47565D4716488B3100717613 /* rolldown.htm */; };
+		4759376C164DEDD300DA3B72 /* fksplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4759376B164DEDD300DA3B72 /* fksplash.png */; };
 		478352281637C6860095465D /* BeingBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 478352271637C6860095465D /* BeingBlue.jpg */; };
 		47847B19164752DD009E4D32 /* beforeyoumakeasound.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47847B14164752DD009E4D32 /* beforeyoumakeasound.htm */; };
 		47847B1B164752DD009E4D32 /* mybody.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47847B16164752DD009E4D32 /* mybody.htm */; };
@@ -227,6 +228,7 @@
 		473F1DCA1632BC170080C354 /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
 		47565D4416487B9600717613 /* introducingmvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = introducingmvw.mp3; sourceTree = "<group>"; };
 		47565D4716488B3100717613 /* rolldown.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rolldown.htm; sourceTree = "<group>"; };
+		4759376B164DEDD300DA3B72 /* fksplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fksplash.png; sourceTree = "<group>"; };
 		478352271637C6860095465D /* BeingBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeingBlue.jpg; sourceTree = "<group>"; };
 		47847B14164752DD009E4D32 /* beforeyoumakeasound.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beforeyoumakeasound.htm; sourceTree = "<group>"; };
 		47847B16164752DD009E4D32 /* mybody.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mybody.htm; sourceTree = "<group>"; };
@@ -548,6 +550,7 @@
 			isa = PBXGroup;
 			children = (
 				473F1D8D1632BBD40080C354 /* Articulators.jpg */,
+				4759376B164DEDD300DA3B72 /* fksplash.png */,
 				4719016A1649ECEC004AEAE5 /* gradienttext.png */,
 				473F1D8E1632BBD40080C354 /* beinginbreathbutton.png */,
 				4719016C1649EFA2004AEAE5 /* gradient.png */,
@@ -1117,6 +1120,7 @@
 				47D42B60164D2528002FE9AE /* trilldown2.htm in Resources */,
 				47D42B62164D2544002FE9AE /* warmupnow2.htm in Resources */,
 				0FF54656164DD7E300EFC680 /* beinginvoice.css in Resources */,
+				4759376C164DEDD300DA3B72 /* fksplash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
