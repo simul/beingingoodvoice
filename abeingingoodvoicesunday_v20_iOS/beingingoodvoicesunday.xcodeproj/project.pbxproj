@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0FF54656164DD7E300EFC680 /* beinginvoice.css in Resources */ = {isa = PBXBuildFile; fileRef = 0FF54655164DD7E300EFC680 /* beinginvoice.css */; };
+		471412011650B867004A222B /* welcometext.html in Resources */ = {isa = PBXBuildFile; fileRef = 471412001650B867004A222B /* welcometext.html */; };
+		471412041650D851004A222B /* FlloydKennedy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 471412031650D851004A222B /* FlloydKennedy.JPG */; };
+		471412061650DAA1004A222B /* mugshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 471412051650DAA1004A222B /* mugshot.png */; };
+		471412081650DC80004A222B /* aboutus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471412071650DC80004A222B /* aboutus.htm */; };
 		47172D4D164C650300358DAB /* beinginbreathintro.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47172D4C164C650300358DAB /* beinginbreathintro.htm */; };
 		471901671649C64C004AEAE5 /* posture.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471901661649C64C004AEAE5 /* posture.htm */; };
 		471901691649E238004AEAE5 /* rollingspine.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471901681649E238004AEAE5 /* rollingspine.htm */; };
@@ -189,6 +193,10 @@
 /* Begin PBXFileReference section */
 		0FF54655164DD7E300EFC680 /* beinginvoice.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = beinginvoice.css; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* beingingoodvoicesunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beingingoodvoicesunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471412001650B867004A222B /* welcometext.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = welcometext.html; sourceTree = "<group>"; };
+		471412031650D851004A222B /* FlloydKennedy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlloydKennedy.JPG; sourceTree = "<group>"; };
+		471412051650DAA1004A222B /* mugshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mugshot.png; sourceTree = "<group>"; };
+		471412071650DC80004A222B /* aboutus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutus.htm; sourceTree = "<group>"; };
 		47172D4C164C650300358DAB /* beinginbreathintro.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beinginbreathintro.htm; sourceTree = "<group>"; };
 		471901661649C64C004AEAE5 /* posture.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = posture.htm; sourceTree = "<group>"; };
 		471901681649E238004AEAE5 /* rollingspine.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rollingspine.htm; sourceTree = "<group>"; };
@@ -502,11 +510,13 @@
 		47847B13164752DD009E4D32 /* htm files */ = {
 			isa = PBXGroup;
 			children = (
+				471412071650DC80004A222B /* aboutus.htm */,
 				4719017C164A4FD4004AEAE5 /* howtousemvw.htm */,
 				47D42B5F164D2528002FE9AE /* trilldown2.htm */,
 				4719017E164A5743004AEAE5 /* breathex.htm */,
 				47172D4C164C650300358DAB /* beinginbreathintro.htm */,
 				47863F251648BE6A00E94570 /* voicetospeech.htm */,
+				471412001650B867004A222B /* welcometext.html */,
 				471901701649FD03004AEAE5 /* Sigh.htm */,
 				47D42B61164D2544002FE9AE /* warmupnow2.htm */,
 				47863F261648BE6A00E94570 /* whatisspeech.htm */,
@@ -553,9 +563,11 @@
 				4759376B164DEDD300DA3B72 /* fksplash.png */,
 				4719016A1649ECEC004AEAE5 /* gradienttext.png */,
 				473F1D8E1632BBD40080C354 /* beinginbreathbutton.png */,
+				471412031650D851004A222B /* FlloydKennedy.JPG */,
 				4719016C1649EFA2004AEAE5 /* gradient.png */,
 				4719016E1649F49B004AEAE5 /* invoiceicon.png */,
 				473F1D8F1632BBD40080C354 /* firstprinciplesbutton.png */,
+				471412051650DAA1004A222B /* mugshot.png */,
 				473F1D901632BBD40080C354 /* introbutton.png */,
 				473F1D911632BBD40080C354 /* logomask.jpg */,
 				473F1D921632BBD40080C354 /* logomask02.jpg */,
@@ -1121,6 +1133,10 @@
 				0FF54656164DD7E300EFC680 /* beinginvoice.css in Resources */,
 				4759376C164DEDD300DA3B72 /* fksplash.png in Resources */,
 				47EC7821164E44F200CBC4D8 /* voicedah.htm in Resources */,
+				471412011650B867004A222B /* welcometext.html in Resources */,
+				471412041650D851004A222B /* FlloydKennedy.JPG in Resources */,
+				471412061650DAA1004A222B /* mugshot.png in Resources */,
+				471412081650DC80004A222B /* aboutus.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
