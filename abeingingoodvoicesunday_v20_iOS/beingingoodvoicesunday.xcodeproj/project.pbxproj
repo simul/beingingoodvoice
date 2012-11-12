@@ -12,6 +12,7 @@
 		471412041650D851004A222B /* FlloydKennedy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 471412031650D851004A222B /* FlloydKennedy.JPG */; };
 		471412061650DAA1004A222B /* mugshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 471412051650DAA1004A222B /* mugshot.png */; };
 		471412081650DC80004A222B /* aboutus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471412071650DC80004A222B /* aboutus.htm */; };
+		4714120A1650E4ED004A222B /* aboutthisapp.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471412091650E4ED004A222B /* aboutthisapp.htm */; };
 		47172D4D164C650300358DAB /* beinginbreathintro.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47172D4C164C650300358DAB /* beinginbreathintro.htm */; };
 		471901671649C64C004AEAE5 /* posture.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471901661649C64C004AEAE5 /* posture.htm */; };
 		471901691649E238004AEAE5 /* rollingspine.htm in Resources */ = {isa = PBXBuildFile; fileRef = 471901681649E238004AEAE5 /* rollingspine.htm */; };
@@ -197,6 +198,7 @@
 		471412031650D851004A222B /* FlloydKennedy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlloydKennedy.JPG; sourceTree = "<group>"; };
 		471412051650DAA1004A222B /* mugshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mugshot.png; sourceTree = "<group>"; };
 		471412071650DC80004A222B /* aboutus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutus.htm; sourceTree = "<group>"; };
+		471412091650E4ED004A222B /* aboutthisapp.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutthisapp.htm; sourceTree = "<group>"; };
 		47172D4C164C650300358DAB /* beinginbreathintro.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beinginbreathintro.htm; sourceTree = "<group>"; };
 		471901661649C64C004AEAE5 /* posture.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = posture.htm; sourceTree = "<group>"; };
 		471901681649E238004AEAE5 /* rollingspine.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rollingspine.htm; sourceTree = "<group>"; };
@@ -512,6 +514,7 @@
 			children = (
 				471412071650DC80004A222B /* aboutus.htm */,
 				4719017C164A4FD4004AEAE5 /* howtousemvw.htm */,
+				471412091650E4ED004A222B /* aboutthisapp.htm */,
 				47D42B5F164D2528002FE9AE /* trilldown2.htm */,
 				4719017E164A5743004AEAE5 /* breathex.htm */,
 				47172D4C164C650300358DAB /* beinginbreathintro.htm */,
@@ -1137,6 +1140,7 @@
 				471412041650D851004A222B /* FlloydKennedy.JPG in Resources */,
 				471412061650DAA1004A222B /* mugshot.png in Resources */,
 				471412081650DC80004A222B /* aboutus.htm in Resources */,
+				4714120A1650E4ED004A222B /* aboutthisapp.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
