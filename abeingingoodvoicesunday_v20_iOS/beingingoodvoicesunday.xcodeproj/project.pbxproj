@@ -69,10 +69,6 @@
 		479FEDF7163048EC008D10EF /* BT_screen_customURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDBA163048EC008D10EF /* BT_screen_customURL.m */; };
 		479FEDF8163048EC008D10EF /* BT_screen_excelDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDBD163048EC008D10EF /* BT_screen_excelDoc.m */; };
 		479FEDF9163048EC008D10EF /* BT_screen_htmlDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDC0163048EC008D10EF /* BT_screen_htmlDoc.m */; };
-		479FEDFA163048EC008D10EF /* BT_mapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDC3163048EC008D10EF /* BT_mapAnnotation.m */; };
-		479FEDFB163048EC008D10EF /* BT_mapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDC5163048EC008D10EF /* BT_mapAnnotationView.m */; };
-		479FEDFC163048EC008D10EF /* BT_mapZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDC7163048EC008D10EF /* BT_mapZoomLevel.m */; };
-		479FEDFD163048EC008D10EF /* BT_screen_map.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDC9163048EC008D10EF /* BT_screen_map.m */; };
 		479FEDFE163048EC008D10EF /* BT_button_view.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDCC163048EC008D10EF /* BT_button_view.m */; };
 		479FEDFF163048EC008D10EF /* BT_screen_menuButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDCE163048EC008D10EF /* BT_screen_menuButtons.m */; };
 		479FEE00163048EC008D10EF /* BT_screen_menuListSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 479FEDD1163048EC008D10EF /* BT_screen_menuListSimple.m */; };
@@ -261,14 +257,6 @@
 		479FEDBD163048EC008D10EF /* BT_screen_excelDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_excelDoc.m; sourceTree = "<group>"; };
 		479FEDBF163048EC008D10EF /* BT_screen_htmlDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_htmlDoc.h; sourceTree = "<group>"; };
 		479FEDC0163048EC008D10EF /* BT_screen_htmlDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_htmlDoc.m; sourceTree = "<group>"; };
-		479FEDC2163048EC008D10EF /* BT_mapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_mapAnnotation.h; sourceTree = "<group>"; };
-		479FEDC3163048EC008D10EF /* BT_mapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_mapAnnotation.m; sourceTree = "<group>"; };
-		479FEDC4163048EC008D10EF /* BT_mapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_mapAnnotationView.h; sourceTree = "<group>"; };
-		479FEDC5163048EC008D10EF /* BT_mapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_mapAnnotationView.m; sourceTree = "<group>"; };
-		479FEDC6163048EC008D10EF /* BT_mapZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_mapZoomLevel.h; sourceTree = "<group>"; };
-		479FEDC7163048EC008D10EF /* BT_mapZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_mapZoomLevel.m; sourceTree = "<group>"; };
-		479FEDC8163048EC008D10EF /* BT_screen_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_map.h; sourceTree = "<group>"; };
-		479FEDC9163048EC008D10EF /* BT_screen_map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_screen_map.m; sourceTree = "<group>"; };
 		479FEDCB163048EC008D10EF /* BT_button_view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_button_view.h; sourceTree = "<group>"; };
 		479FEDCC163048EC008D10EF /* BT_button_view.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_button_view.m; sourceTree = "<group>"; };
 		479FEDCD163048EC008D10EF /* BT_screen_menuButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_screen_menuButtons.h; sourceTree = "<group>"; };
@@ -594,7 +582,6 @@
 				479FEDB8163048EC008D10EF /* bt_screen_customURL */,
 				479FEDBB163048EC008D10EF /* bt_screen_excelDoc */,
 				479FEDBE163048EC008D10EF /* bt_screen_htmlDoc */,
-				479FEDC1163048EC008D10EF /* bt_screen_map */,
 				479FEDCA163048EC008D10EF /* bt_screen_menuButtons */,
 				479FEDCF163048EC008D10EF /* bt_screen_menuSimple */,
 				479FEDD2163048EC008D10EF /* bt_screen_pdfDoc */,
@@ -652,21 +639,6 @@
 				479FEDC0163048EC008D10EF /* BT_screen_htmlDoc.m */,
 			);
 			path = bt_screen_htmlDoc;
-			sourceTree = "<group>";
-		};
-		479FEDC1163048EC008D10EF /* bt_screen_map */ = {
-			isa = PBXGroup;
-			children = (
-				479FEDC2163048EC008D10EF /* BT_mapAnnotation.h */,
-				479FEDC3163048EC008D10EF /* BT_mapAnnotation.m */,
-				479FEDC4163048EC008D10EF /* BT_mapAnnotationView.h */,
-				479FEDC5163048EC008D10EF /* BT_mapAnnotationView.m */,
-				479FEDC6163048EC008D10EF /* BT_mapZoomLevel.h */,
-				479FEDC7163048EC008D10EF /* BT_mapZoomLevel.m */,
-				479FEDC8163048EC008D10EF /* BT_screen_map.h */,
-				479FEDC9163048EC008D10EF /* BT_screen_map.m */,
-			);
-			path = bt_screen_map;
 			sourceTree = "<group>";
 		};
 		479FEDCA163048EC008D10EF /* bt_screen_menuButtons */ = {
@@ -1193,10 +1165,6 @@
 				479FEDF7163048EC008D10EF /* BT_screen_customURL.m in Sources */,
 				479FEDF8163048EC008D10EF /* BT_screen_excelDoc.m in Sources */,
 				479FEDF9163048EC008D10EF /* BT_screen_htmlDoc.m in Sources */,
-				479FEDFA163048EC008D10EF /* BT_mapAnnotation.m in Sources */,
-				479FEDFB163048EC008D10EF /* BT_mapAnnotationView.m in Sources */,
-				479FEDFC163048EC008D10EF /* BT_mapZoomLevel.m in Sources */,
-				479FEDFD163048EC008D10EF /* BT_screen_map.m in Sources */,
 				479FEDFE163048EC008D10EF /* BT_button_view.m in Sources */,
 				479FEDFF163048EC008D10EF /* BT_screen_menuButtons.m in Sources */,
 				479FEE00163048EC008D10EF /* BT_screen_menuListSimple.m in Sources */,
