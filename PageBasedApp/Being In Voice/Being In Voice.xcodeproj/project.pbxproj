@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		479A39CF1689110A00D7070E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479A39CE1689110A00D7070E /* UIKit.framework */; };
+		479A39D11689110A00D7070E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479A39D01689110A00D7070E /* Foundation.framework */; };
+		479A39D31689110A00D7070E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479A39D21689110A00D7070E /* CoreGraphics.framework */; };
+		479A39D91689110A00D7070E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 479A39D71689110A00D7070E /* InfoPlist.strings */; };
+		479A39DB1689110A00D7070E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A39DA1689110A00D7070E /* main.m */; };
+		479A39DF1689110A00D7070E /* beinginvoiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A39DE1689110A00D7070E /* beinginvoiceAppDelegate.m */; };
+		479A39E11689110A00D7070E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 479A39E01689110A00D7070E /* Default.png */; };
+		479A39E31689110A00D7070E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 479A39E21689110A00D7070E /* Default@2x.png */; };
+		479A39E51689110A00D7070E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 479A39E41689110A00D7070E /* Default-568h@2x.png */; };
+		479A39E81689110A00D7070E /* beinginvoiceRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A39E71689110A00D7070E /* beinginvoiceRootViewController.m */; };
+		479A39EB1689110A00D7070E /* beinginvoiceDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A39EA1689110A00D7070E /* beinginvoiceDataViewController.m */; };
+		479A39EE1689110A00D7070E /* beinginvoiceModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A39ED1689110A00D7070E /* beinginvoiceModelController.m */; };
+		479A39F11689110A00D7070E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479A39EF1689110A00D7070E /* MainStoryboard_iPhone.storyboard */; };
+		479A39F41689110A00D7070E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479A39F21689110A00D7070E /* MainStoryboard_iPad.storyboard */; };
+		479A39FC1689110A00D7070E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479A39FB1689110A00D7070E /* SenTestingKit.framework */; };
+		479A39FD1689110A00D7070E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479A39CE1689110A00D7070E /* UIKit.framework */; };
+		479A39FE1689110A00D7070E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479A39D01689110A00D7070E /* Foundation.framework */; };
+		479A3A061689110A00D7070E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 479A3A041689110A00D7070E /* InfoPlist.strings */; };
+		479A3A091689110A00D7070E /* Being_In_VoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A3A081689110A00D7070E /* Being_In_VoiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		479A39FF1689110A00D7070E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479A39C11689110A00D7070E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479A39C91689110A00D7070E;
+			remoteInfo = "Being In Voice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		479A39CA1689110A00D7070E /* Being In Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Being In Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479A39CE1689110A00D7070E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		479A39D01689110A00D7070E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		479A39D21689110A00D7070E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		479A39D61689110A00D7070E /* Being In Voice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Being In Voice-Info.plist"; sourceTree = "<group>"; };
+		479A39D81689110A00D7070E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		479A39DA1689110A00D7070E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		479A39DC1689110A00D7070E /* Being In Voice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Being In Voice-Prefix.pch"; sourceTree = "<group>"; };
+		479A39DD1689110A00D7070E /* beinginvoiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceAppDelegate.h; sourceTree = "<group>"; };
+		479A39DE1689110A00D7070E /* beinginvoiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceAppDelegate.m; sourceTree = "<group>"; };
+		479A39E01689110A00D7070E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		479A39E21689110A00D7070E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		479A39E41689110A00D7070E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		479A39E61689110A00D7070E /* beinginvoiceRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceRootViewController.h; sourceTree = "<group>"; };
+		479A39E71689110A00D7070E /* beinginvoiceRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceRootViewController.m; sourceTree = "<group>"; };
+		479A39E91689110A00D7070E /* beinginvoiceDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceDataViewController.h; sourceTree = "<group>"; };
+		479A39EA1689110A00D7070E /* beinginvoiceDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceDataViewController.m; sourceTree = "<group>"; };
+		479A39EC1689110A00D7070E /* beinginvoiceModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceModelController.h; sourceTree = "<group>"; };
+		479A39ED1689110A00D7070E /* beinginvoiceModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceModelController.m; sourceTree = "<group>"; };
+		479A39F01689110A00D7070E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		479A39F31689110A00D7070E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		479A39FA1689110A00D7070E /* Being In VoiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Being In VoiceTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479A39FB1689110A00D7070E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		479A3A031689110A00D7070E /* Being In VoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Being In VoiceTests-Info.plist"; sourceTree = "<group>"; };
+		479A3A051689110A00D7070E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		479A3A071689110A00D7070E /* Being_In_VoiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Being_In_VoiceTests.h; sourceTree = "<group>"; };
+		479A3A081689110A00D7070E /* Being_In_VoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Being_In_VoiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479A39C71689110A00D7070E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A39CF1689110A00D7070E /* UIKit.framework in Frameworks */,
+				479A39D11689110A00D7070E /* Foundation.framework in Frameworks */,
+				479A39D31689110A00D7070E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479A39F61689110A00D7070E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A39FC1689110A00D7070E /* SenTestingKit.framework in Frameworks */,
+				479A39FD1689110A00D7070E /* UIKit.framework in Frameworks */,
+				479A39FE1689110A00D7070E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479A39BF1689110A00D7070E = {
+			isa = PBXGroup;
+			children = (
+				479A39D41689110A00D7070E /* Being In Voice */,
+				479A3A011689110A00D7070E /* Being In VoiceTests */,
+				479A39CD1689110A00D7070E /* Frameworks */,
+				479A39CB1689110A00D7070E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		479A39CB1689110A00D7070E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479A39CA1689110A00D7070E /* Being In Voice.app */,
+				479A39FA1689110A00D7070E /* Being In VoiceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479A39CD1689110A00D7070E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				479A39CE1689110A00D7070E /* UIKit.framework */,
+				479A39D01689110A00D7070E /* Foundation.framework */,
+				479A39D21689110A00D7070E /* CoreGraphics.framework */,
+				479A39FB1689110A00D7070E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		479A39D41689110A00D7070E /* Being In Voice */ = {
+			isa = PBXGroup;
+			children = (
+				479A39DD1689110A00D7070E /* beinginvoiceAppDelegate.h */,
+				479A39DE1689110A00D7070E /* beinginvoiceAppDelegate.m */,
+				479A39E61689110A00D7070E /* beinginvoiceRootViewController.h */,
+				479A39E71689110A00D7070E /* beinginvoiceRootViewController.m */,
+				479A39E91689110A00D7070E /* beinginvoiceDataViewController.h */,
+				479A39EA1689110A00D7070E /* beinginvoiceDataViewController.m */,
+				479A39EC1689110A00D7070E /* beinginvoiceModelController.h */,
+				479A39ED1689110A00D7070E /* beinginvoiceModelController.m */,
+				479A39EF1689110A00D7070E /* MainStoryboard_iPhone.storyboard */,
+				479A39F21689110A00D7070E /* MainStoryboard_iPad.storyboard */,
+				479A39D51689110A00D7070E /* Supporting Files */,
+			);
+			path = "Being In Voice";
+			sourceTree = "<group>";
+		};
+		479A39D51689110A00D7070E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479A39D61689110A00D7070E /* Being In Voice-Info.plist */,
+				479A39D71689110A00D7070E /* InfoPlist.strings */,
+				479A39DA1689110A00D7070E /* main.m */,
+				479A39DC1689110A00D7070E /* Being In Voice-Prefix.pch */,
+				479A39E01689110A00D7070E /* Default.png */,
+				479A39E21689110A00D7070E /* Default@2x.png */,
+				479A39E41689110A00D7070E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		479A3A011689110A00D7070E /* Being In VoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				479A3A071689110A00D7070E /* Being_In_VoiceTests.h */,
+				479A3A081689110A00D7070E /* Being_In_VoiceTests.m */,
+				479A3A021689110A00D7070E /* Supporting Files */,
+			);
+			path = "Being In VoiceTests";
+			sourceTree = "<group>";
+		};
+		479A3A021689110A00D7070E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479A3A031689110A00D7070E /* Being In VoiceTests-Info.plist */,
+				479A3A041689110A00D7070E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479A39C91689110A00D7070E /* Being In Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479A3A0C1689110A00D7070E /* Build configuration list for PBXNativeTarget "Being In Voice" */;
+			buildPhases = (
+				479A39C61689110A00D7070E /* Sources */,
+				479A39C71689110A00D7070E /* Frameworks */,
+				479A39C81689110A00D7070E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Being In Voice";
+			productName = "Being In Voice";
+			productReference = 479A39CA1689110A00D7070E /* Being In Voice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		479A39F91689110A00D7070E /* Being In VoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479A3A0F1689110A00D7070E /* Build configuration list for PBXNativeTarget "Being In VoiceTests" */;
+			buildPhases = (
+				479A39F51689110A00D7070E /* Sources */,
+				479A39F61689110A00D7070E /* Frameworks */,
+				479A39F71689110A00D7070E /* Resources */,
+				479A39F81689110A00D7070E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479A3A001689110A00D7070E /* PBXTargetDependency */,
+			);
+			name = "Being In VoiceTests";
+			productName = "Being In VoiceTests";
+			productReference = 479A39FA1689110A00D7070E /* Being In VoiceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479A39C11689110A00D7070E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = beinginvoice;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Flloyd Pauline Kennedy";
+			};
+			buildConfigurationList = 479A39C41689110A00D7070E /* Build configuration list for PBXProject "Being In Voice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 479A39BF1689110A00D7070E;
+			productRefGroup = 479A39CB1689110A00D7070E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479A39C91689110A00D7070E /* Being In Voice */,
+				479A39F91689110A00D7070E /* Being In VoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479A39C81689110A00D7070E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A39D91689110A00D7070E /* InfoPlist.strings in Resources */,
+				479A39E11689110A00D7070E /* Default.png in Resources */,
+				479A39E31689110A00D7070E /* Default@2x.png in Resources */,
+				479A39E51689110A00D7070E /* Default-568h@2x.png in Resources */,
+				479A39F11689110A00D7070E /* MainStoryboard_iPhone.storyboard in Resources */,
+				479A39F41689110A00D7070E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479A39F71689110A00D7070E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A3A061689110A00D7070E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479A39F81689110A00D7070E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479A39C61689110A00D7070E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A39DB1689110A00D7070E /* main.m in Sources */,
+				479A39DF1689110A00D7070E /* beinginvoiceAppDelegate.m in Sources */,
+				479A39E81689110A00D7070E /* beinginvoiceRootViewController.m in Sources */,
+				479A39EB1689110A00D7070E /* beinginvoiceDataViewController.m in Sources */,
+				479A39EE1689110A00D7070E /* beinginvoiceModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479A39F51689110A00D7070E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A3A091689110A00D7070E /* Being_In_VoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		479A3A001689110A00D7070E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479A39C91689110A00D7070E /* Being In Voice */;
+			targetProxy = 479A39FF1689110A00D7070E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		479A39D71689110A00D7070E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479A39D81689110A00D7070E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		479A39EF1689110A00D7070E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479A39F01689110A00D7070E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		479A39F21689110A00D7070E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479A39F31689110A00D7070E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		479A3A041689110A00D7070E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479A3A051689110A00D7070E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		479A3A0A1689110A00D7070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479A3A0B1689110A00D7070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479A3A0D1689110A00D7070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In Voice/Being In Voice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		479A3A0E1689110A00D7070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In Voice/Being In Voice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		479A3A101689110A00D7070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Being In Voice.app/Being In Voice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In VoiceTests/Being In VoiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		479A3A111689110A00D7070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Being In Voice.app/Being In Voice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In VoiceTests/Being In VoiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479A39C41689110A00D7070E /* Build configuration list for PBXProject "Being In Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479A3A0A1689110A00D7070E /* Debug */,
+				479A3A0B1689110A00D7070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479A3A0C1689110A00D7070E /* Build configuration list for PBXNativeTarget "Being In Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479A3A0D1689110A00D7070E /* Debug */,
+				479A3A0E1689110A00D7070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		479A3A0F1689110A00D7070E /* Build configuration list for PBXNativeTarget "Being In VoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479A3A101689110A00D7070E /* Debug */,
+				479A3A111689110A00D7070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479A39C11689110A00D7070E /* Project object */;
+}

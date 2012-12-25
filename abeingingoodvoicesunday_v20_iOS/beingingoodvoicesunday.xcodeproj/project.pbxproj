@@ -97,6 +97,7 @@
 		47AC9BC41639290000D8D120 /* myvoicewarmup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC9BC31639290000D8D120 /* myvoicewarmup.jpg */; };
 		47D42B60164D2528002FE9AE /* trilldown2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D42B5F164D2528002FE9AE /* trilldown2.htm */; };
 		47D42B62164D2544002FE9AE /* warmupnow2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D42B61164D2544002FE9AE /* warmupnow2.htm */; };
+		47DD86D81662019400A32407 /* privacypolicy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD86D71662019400A32407 /* privacypolicy.htm */; };
 		47EC7821164E44F200CBC4D8 /* voicedah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47EC7820164E44F200CBC4D8 /* voicedah.htm */; };
 		980A61D3146F161900D3746C /* equalizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CD146F161900D3746C /* equalizer.png */; };
 		980A61D4146F161900D3746C /* map_hybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 980A61CE146F161900D3746C /* map_hybrid.png */; };
@@ -299,6 +300,7 @@
 		47AC9BC31639290000D8D120 /* myvoicewarmup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myvoicewarmup.jpg; path = ../BT_Images/myvoicewarmup.jpg; sourceTree = "<group>"; };
 		47D42B5F164D2528002FE9AE /* trilldown2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trilldown2.htm; sourceTree = "<group>"; };
 		47D42B61164D2544002FE9AE /* warmupnow2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = warmupnow2.htm; sourceTree = "<group>"; };
+		47DD86D71662019400A32407 /* privacypolicy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacypolicy.htm; sourceTree = "<group>"; };
 		47EC7820164E44F200CBC4D8 /* voicedah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = voicedah.htm; sourceTree = "<group>"; };
 		980A61CD146F161900D3746C /* equalizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equalizer.png; sourceTree = "<group>"; };
 		980A61CE146F161900D3746C /* map_hybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_hybrid.png; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 				471412071650DC80004A222B /* aboutus.htm */,
 				4719017C164A4FD4004AEAE5 /* howtousemvw.htm */,
 				471412091650E4ED004A222B /* aboutthisapp.htm */,
+				47DD86D71662019400A32407 /* privacypolicy.htm */,
 				47D42B5F164D2528002FE9AE /* trilldown2.htm */,
 				4719017E164A5743004AEAE5 /* breathex.htm */,
 				47172D4C164C650300358DAB /* beinginbreathintro.htm */,
@@ -1113,6 +1116,7 @@
 				471412061650DAA1004A222B /* mugshot.png in Resources */,
 				471412081650DC80004A222B /* aboutus.htm in Resources */,
 				4714120A1650E4ED004A222B /* aboutthisapp.htm in Resources */,
+				47DD86D81662019400A32407 /* privacypolicy.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1212,7 +1216,7 @@
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = BT_Config/BT_info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = beingingoodvoicesunday;
 				PROVISIONING_PROFILE = "07A570A3-97CB-4D70-829A-10CA5C3EBA60";
@@ -1233,7 +1237,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = BT_Config/BT_info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = beingingoodvoicesunday;
 				PROVISIONING_PROFILE = "0C8C85B6-0B82-4EDE-978C-FC544CF1BD92";
