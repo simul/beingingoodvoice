@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47DFC6841692D5F7002856B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFC6831692D5F7002856B8 /* UIKit.framework */; };
+		47DFC6861692D5F7002856B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFC6851692D5F7002856B8 /* Foundation.framework */; };
+		47DFC6881692D5F7002856B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFC6871692D5F7002856B8 /* CoreGraphics.framework */; };
+		47DFC68E1692D5F7002856B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC68C1692D5F7002856B8 /* InfoPlist.strings */; };
+		47DFC6901692D5F7002856B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC68F1692D5F7002856B8 /* main.m */; };
+		47DFC6941692D5F7002856B8 /* voiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6931692D5F7002856B8 /* voiceAppDelegate.m */; };
+		47DFC6961692D5F7002856B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6951692D5F7002856B8 /* Default.png */; };
+		47DFC6981692D5F7002856B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6971692D5F7002856B8 /* Default@2x.png */; };
+		47DFC69A1692D5F7002856B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6991692D5F7002856B8 /* Default-568h@2x.png */; };
+		47DFC69D1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC69B1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard */; };
+		47DFC6A01692D5F7002856B8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC69E1692D5F7002856B8 /* MainStoryboard_iPad.storyboard */; };
+		47DFC6A31692D5F7002856B8 /* voiceMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6A21692D5F7002856B8 /* voiceMasterViewController.m */; };
+		47DFC6A61692D5F7002856B8 /* voiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6A51692D5F7002856B8 /* voiceDetailViewController.m */; };
+		47DFC6AE1692E246002856B8 /* HtmlArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6AD1692E246002856B8 /* HtmlArticle.m */; };
+		47DFC6B41692E4BF002856B8 /* voiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6B31692E4BF002856B8 /* voiceDataController.m */; };
+		47DFC6B81692F18C002856B8 /* ExampleArticle.html in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6B71692F18C002856B8 /* ExampleArticle.html */; };
+		47DFC6D61692F717002856B8 /* aboutthisapp.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6BA1692F716002856B8 /* aboutthisapp.htm */; };
+		47DFC6D71692F717002856B8 /* aboutus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6BB1692F716002856B8 /* aboutus.htm */; };
+		47DFC6D81692F717002856B8 /* beforeyoumakeasound.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6BC1692F716002856B8 /* beforeyoumakeasound.htm */; };
+		47DFC6D91692F717002856B8 /* beinginbreathintro.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6BD1692F716002856B8 /* beinginbreathintro.htm */; };
+		47DFC6DA1692F717002856B8 /* beinginvoice.css in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6BE1692F716002856B8 /* beinginvoice.css */; };
+		47DFC6DB1692F717002856B8 /* breathex.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6BF1692F716002856B8 /* breathex.htm */; };
+		47DFC6DC1692F717002856B8 /* howtousemvw.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C01692F717002856B8 /* howtousemvw.htm */; };
+		47DFC6DD1692F717002856B8 /* jawrelease.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C11692F717002856B8 /* jawrelease.htm */; };
+		47DFC6DE1692F717002856B8 /* mugshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C21692F717002856B8 /* mugshot.png */; };
+		47DFC6DF1692F718002856B8 /* posture.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C31692F717002856B8 /* posture.htm */; };
+		47DFC6E01692F718002856B8 /* privacypolicy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C41692F717002856B8 /* privacypolicy.htm */; };
+		47DFC6E11692F718002856B8 /* rolldown.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C51692F717002856B8 /* rolldown.htm */; };
+		47DFC6E21692F718002856B8 /* rollingspine.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C61692F717002856B8 /* rollingspine.htm */; };
+		47DFC6E31692F718002856B8 /* Sigh.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C71692F717002856B8 /* Sigh.htm */; };
+		47DFC6E41692F718002856B8 /* sighingah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C81692F717002856B8 /* sighingah.htm */; };
+		47DFC6E51692F718002856B8 /* tabletemplate.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6C91692F717002856B8 /* tabletemplate.htm */; };
+		47DFC6E61692F718002856B8 /* template.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6CA1692F717002856B8 /* template.htm */; };
+		47DFC6E71692F718002856B8 /* template2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6CB1692F717002856B8 /* template2.htm */; };
+		47DFC6E81692F718002856B8 /* TheHum.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6CC1692F717002856B8 /* TheHum.htm */; };
+		47DFC6E91692F718002856B8 /* trilldown2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6CD1692F717002856B8 /* trilldown2.htm */; };
+		47DFC6EA1692F718002856B8 /* trillup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6CE1692F717002856B8 /* trillup.htm */; };
+		47DFC6EB1692F718002856B8 /* voicedah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6CF1692F717002856B8 /* voicedah.htm */; };
+		47DFC6EC1692F718002856B8 /* voicetospeech.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6D01692F717002856B8 /* voicetospeech.htm */; };
+		47DFC6ED1692F718002856B8 /* warmupnow2.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6D11692F717002856B8 /* warmupnow2.htm */; };
+		47DFC6EE1692F718002856B8 /* welcometext.html in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6D21692F717002856B8 /* welcometext.html */; };
+		47DFC6EF1692F718002856B8 /* whatisspeech.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6D31692F717002856B8 /* whatisspeech.htm */; };
+		47DFC6F01692F718002856B8 /* whatisvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6D41692F717002856B8 /* whatisvoice.htm */; };
+		47DFC6F11692F718002856B8 /* whywarmup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6D51692F717002856B8 /* whywarmup.htm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47DFC67F1692D5F7002856B8 /* VoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DFC6831692D5F7002856B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47DFC6851692D5F7002856B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47DFC6871692D5F7002856B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47DFC68B1692D5F7002856B8 /* VoiceApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceApp-Info.plist"; sourceTree = "<group>"; };
+		47DFC68D1692D5F7002856B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47DFC68F1692D5F7002856B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47DFC6911692D5F7002856B8 /* VoiceApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceApp-Prefix.pch"; sourceTree = "<group>"; };
+		47DFC6921692D5F7002856B8 /* voiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voiceAppDelegate.h; sourceTree = "<group>"; };
+		47DFC6931692D5F7002856B8 /* voiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceAppDelegate.m; sourceTree = "<group>"; };
+		47DFC6951692D5F7002856B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		47DFC6971692D5F7002856B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		47DFC6991692D5F7002856B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		47DFC69C1692D5F7002856B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		47DFC69F1692D5F7002856B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		47DFC6A11692D5F7002856B8 /* voiceMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voiceMasterViewController.h; sourceTree = "<group>"; };
+		47DFC6A21692D5F7002856B8 /* voiceMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceMasterViewController.m; sourceTree = "<group>"; };
+		47DFC6A41692D5F7002856B8 /* voiceDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voiceDetailViewController.h; sourceTree = "<group>"; };
+		47DFC6A51692D5F7002856B8 /* voiceDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceDetailViewController.m; sourceTree = "<group>"; };
+		47DFC6AC1692E246002856B8 /* HtmlArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlArticle.h; sourceTree = "<group>"; };
+		47DFC6AD1692E246002856B8 /* HtmlArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlArticle.m; sourceTree = "<group>"; };
+		47DFC6B21692E4BF002856B8 /* voiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voiceDataController.h; sourceTree = "<group>"; };
+		47DFC6B31692E4BF002856B8 /* voiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voiceDataController.m; sourceTree = "<group>"; };
+		47DFC6B71692F18C002856B8 /* ExampleArticle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ExampleArticle.html; path = VoiceApp/HTML/ExampleArticle.html; sourceTree = SOURCE_ROOT; };
+		47DFC6BA1692F716002856B8 /* aboutthisapp.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = aboutthisapp.htm; path = VoiceApp/html/aboutthisapp.htm; sourceTree = "<group>"; };
+		47DFC6BB1692F716002856B8 /* aboutus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = aboutus.htm; path = VoiceApp/html/aboutus.htm; sourceTree = "<group>"; };
+		47DFC6BC1692F716002856B8 /* beforeyoumakeasound.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = beforeyoumakeasound.htm; path = VoiceApp/html/beforeyoumakeasound.htm; sourceTree = "<group>"; };
+		47DFC6BD1692F716002856B8 /* beinginbreathintro.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = beinginbreathintro.htm; path = VoiceApp/html/beinginbreathintro.htm; sourceTree = "<group>"; };
+		47DFC6BE1692F716002856B8 /* beinginvoice.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = beinginvoice.css; path = VoiceApp/html/beinginvoice.css; sourceTree = "<group>"; };
+		47DFC6BF1692F716002856B8 /* breathex.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = breathex.htm; path = VoiceApp/html/breathex.htm; sourceTree = "<group>"; };
+		47DFC6C01692F717002856B8 /* howtousemvw.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = howtousemvw.htm; path = VoiceApp/html/howtousemvw.htm; sourceTree = "<group>"; };
+		47DFC6C11692F717002856B8 /* jawrelease.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = jawrelease.htm; path = VoiceApp/html/jawrelease.htm; sourceTree = "<group>"; };
+		47DFC6C21692F717002856B8 /* mugshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mugshot.png; path = VoiceApp/html/mugshot.png; sourceTree = "<group>"; };
+		47DFC6C31692F717002856B8 /* posture.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = posture.htm; path = VoiceApp/html/posture.htm; sourceTree = "<group>"; };
+		47DFC6C41692F717002856B8 /* privacypolicy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = privacypolicy.htm; path = VoiceApp/html/privacypolicy.htm; sourceTree = "<group>"; };
+		47DFC6C51692F717002856B8 /* rolldown.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = rolldown.htm; path = VoiceApp/html/rolldown.htm; sourceTree = "<group>"; };
+		47DFC6C61692F717002856B8 /* rollingspine.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = rollingspine.htm; path = VoiceApp/html/rollingspine.htm; sourceTree = "<group>"; };
+		47DFC6C71692F717002856B8 /* Sigh.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Sigh.htm; path = VoiceApp/html/Sigh.htm; sourceTree = "<group>"; };
+		47DFC6C81692F717002856B8 /* sighingah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = sighingah.htm; path = VoiceApp/html/sighingah.htm; sourceTree = "<group>"; };
+		47DFC6C91692F717002856B8 /* tabletemplate.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = tabletemplate.htm; path = VoiceApp/html/tabletemplate.htm; sourceTree = "<group>"; };
+		47DFC6CA1692F717002856B8 /* template.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = template.htm; path = VoiceApp/html/template.htm; sourceTree = "<group>"; };
+		47DFC6CB1692F717002856B8 /* template2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = template2.htm; path = VoiceApp/html/template2.htm; sourceTree = "<group>"; };
+		47DFC6CC1692F717002856B8 /* TheHum.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = TheHum.htm; path = VoiceApp/html/TheHum.htm; sourceTree = "<group>"; };
+		47DFC6CD1692F717002856B8 /* trilldown2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = trilldown2.htm; path = VoiceApp/html/trilldown2.htm; sourceTree = "<group>"; };
+		47DFC6CE1692F717002856B8 /* trillup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = trillup.htm; path = VoiceApp/html/trillup.htm; sourceTree = "<group>"; };
+		47DFC6CF1692F717002856B8 /* voicedah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = voicedah.htm; path = VoiceApp/html/voicedah.htm; sourceTree = "<group>"; };
+		47DFC6D01692F717002856B8 /* voicetospeech.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = voicetospeech.htm; path = VoiceApp/html/voicetospeech.htm; sourceTree = "<group>"; };
+		47DFC6D11692F717002856B8 /* warmupnow2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = warmupnow2.htm; path = VoiceApp/html/warmupnow2.htm; sourceTree = "<group>"; };
+		47DFC6D21692F717002856B8 /* welcometext.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = welcometext.html; path = VoiceApp/html/welcometext.html; sourceTree = "<group>"; };
+		47DFC6D31692F717002856B8 /* whatisspeech.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = whatisspeech.htm; path = VoiceApp/html/whatisspeech.htm; sourceTree = "<group>"; };
+		47DFC6D41692F717002856B8 /* whatisvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = whatisvoice.htm; path = VoiceApp/html/whatisvoice.htm; sourceTree = "<group>"; };
+		47DFC6D51692F717002856B8 /* whywarmup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = whywarmup.htm; path = VoiceApp/html/whywarmup.htm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47DFC67C1692D5F7002856B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DFC6841692D5F7002856B8 /* UIKit.framework in Frameworks */,
+				47DFC6861692D5F7002856B8 /* Foundation.framework in Frameworks */,
+				47DFC6881692D5F7002856B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47DFC6741692D5F7002856B8 = {
+			isa = PBXGroup;
+			children = (
+				47DFC6F21692F720002856B8 /* html */,
+				47DFC6B71692F18C002856B8 /* ExampleArticle.html */,
+				47DFC6891692D5F7002856B8 /* VoiceApp */,
+				47DFC6821692D5F7002856B8 /* Frameworks */,
+				47DFC6801692D5F7002856B8 /* Products */,
+				47DFC69E1692D5F7002856B8 /* MainStoryboard_iPad.storyboard */,
+			);
+			sourceTree = "<group>";
+		};
+		47DFC6801692D5F7002856B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47DFC67F1692D5F7002856B8 /* VoiceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47DFC6821692D5F7002856B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47DFC6831692D5F7002856B8 /* UIKit.framework */,
+				47DFC6851692D5F7002856B8 /* Foundation.framework */,
+				47DFC6871692D5F7002856B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47DFC6891692D5F7002856B8 /* VoiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				47DFC6921692D5F7002856B8 /* voiceAppDelegate.h */,
+				47DFC6931692D5F7002856B8 /* voiceAppDelegate.m */,
+				47DFC69B1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard */,
+				47DFC6A11692D5F7002856B8 /* voiceMasterViewController.h */,
+				47DFC6A21692D5F7002856B8 /* voiceMasterViewController.m */,
+				47DFC6A41692D5F7002856B8 /* voiceDetailViewController.h */,
+				47DFC6A51692D5F7002856B8 /* voiceDetailViewController.m */,
+				47DFC68A1692D5F7002856B8 /* Supporting Files */,
+				47DFC6AC1692E246002856B8 /* HtmlArticle.h */,
+				47DFC6AD1692E246002856B8 /* HtmlArticle.m */,
+				47DFC6B21692E4BF002856B8 /* voiceDataController.h */,
+				47DFC6B31692E4BF002856B8 /* voiceDataController.m */,
+			);
+			path = VoiceApp;
+			sourceTree = "<group>";
+		};
+		47DFC68A1692D5F7002856B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47DFC68B1692D5F7002856B8 /* VoiceApp-Info.plist */,
+				47DFC68C1692D5F7002856B8 /* InfoPlist.strings */,
+				47DFC68F1692D5F7002856B8 /* main.m */,
+				47DFC6911692D5F7002856B8 /* VoiceApp-Prefix.pch */,
+				47DFC6951692D5F7002856B8 /* Default.png */,
+				47DFC6971692D5F7002856B8 /* Default@2x.png */,
+				47DFC6991692D5F7002856B8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47DFC6F21692F720002856B8 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				47DFC6BA1692F716002856B8 /* aboutthisapp.htm */,
+				47DFC6BB1692F716002856B8 /* aboutus.htm */,
+				47DFC6BC1692F716002856B8 /* beforeyoumakeasound.htm */,
+				47DFC6BD1692F716002856B8 /* beinginbreathintro.htm */,
+				47DFC6BE1692F716002856B8 /* beinginvoice.css */,
+				47DFC6BF1692F716002856B8 /* breathex.htm */,
+				47DFC6C01692F717002856B8 /* howtousemvw.htm */,
+				47DFC6C11692F717002856B8 /* jawrelease.htm */,
+				47DFC6C21692F717002856B8 /* mugshot.png */,
+				47DFC6C31692F717002856B8 /* posture.htm */,
+				47DFC6C41692F717002856B8 /* privacypolicy.htm */,
+				47DFC6C51692F717002856B8 /* rolldown.htm */,
+				47DFC6C61692F717002856B8 /* rollingspine.htm */,
+				47DFC6C71692F717002856B8 /* Sigh.htm */,
+				47DFC6C81692F717002856B8 /* sighingah.htm */,
+				47DFC6C91692F717002856B8 /* tabletemplate.htm */,
+				47DFC6CA1692F717002856B8 /* template.htm */,
+				47DFC6CB1692F717002856B8 /* template2.htm */,
+				47DFC6CC1692F717002856B8 /* TheHum.htm */,
+				47DFC6CD1692F717002856B8 /* trilldown2.htm */,
+				47DFC6CE1692F717002856B8 /* trillup.htm */,
+				47DFC6CF1692F717002856B8 /* voicedah.htm */,
+				47DFC6D01692F717002856B8 /* voicetospeech.htm */,
+				47DFC6D11692F717002856B8 /* warmupnow2.htm */,
+				47DFC6D21692F717002856B8 /* welcometext.html */,
+				47DFC6D31692F717002856B8 /* whatisspeech.htm */,
+				47DFC6D41692F717002856B8 /* whatisvoice.htm */,
+				47DFC6D51692F717002856B8 /* whywarmup.htm */,
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47DFC67E1692D5F7002856B8 /* VoiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DFC6A91692D5F7002856B8 /* Build configuration list for PBXNativeTarget "VoiceApp" */;
+			buildPhases = (
+				47DFC67B1692D5F7002856B8 /* Sources */,
+				47DFC67C1692D5F7002856B8 /* Frameworks */,
+				47DFC67D1692D5F7002856B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceApp;
+			productName = VoiceApp;
+			productReference = 47DFC67F1692D5F7002856B8 /* VoiceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47DFC6761692D5F7002856B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = voice;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Flloyd Pauline Kennedy";
+			};
+			buildConfigurationList = 47DFC6791692D5F7002856B8 /* Build configuration list for PBXProject "VoiceApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47DFC6741692D5F7002856B8;
+			productRefGroup = 47DFC6801692D5F7002856B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47DFC67E1692D5F7002856B8 /* VoiceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47DFC67D1692D5F7002856B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DFC68E1692D5F7002856B8 /* InfoPlist.strings in Resources */,
+				47DFC6961692D5F7002856B8 /* Default.png in Resources */,
+				47DFC6981692D5F7002856B8 /* Default@2x.png in Resources */,
+				47DFC69A1692D5F7002856B8 /* Default-568h@2x.png in Resources */,
+				47DFC69D1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				47DFC6A01692D5F7002856B8 /* MainStoryboard_iPad.storyboard in Resources */,
+				47DFC6B81692F18C002856B8 /* ExampleArticle.html in Resources */,
+				47DFC6D61692F717002856B8 /* aboutthisapp.htm in Resources */,
+				47DFC6D71692F717002856B8 /* aboutus.htm in Resources */,
+				47DFC6D81692F717002856B8 /* beforeyoumakeasound.htm in Resources */,
+				47DFC6D91692F717002856B8 /* beinginbreathintro.htm in Resources */,
+				47DFC6DA1692F717002856B8 /* beinginvoice.css in Resources */,
+				47DFC6DB1692F717002856B8 /* breathex.htm in Resources */,
+				47DFC6DC1692F717002856B8 /* howtousemvw.htm in Resources */,
+				47DFC6DD1692F717002856B8 /* jawrelease.htm in Resources */,
+				47DFC6DE1692F717002856B8 /* mugshot.png in Resources */,
+				47DFC6DF1692F718002856B8 /* posture.htm in Resources */,
+				47DFC6E01692F718002856B8 /* privacypolicy.htm in Resources */,
+				47DFC6E11692F718002856B8 /* rolldown.htm in Resources */,
+				47DFC6E21692F718002856B8 /* rollingspine.htm in Resources */,
+				47DFC6E31692F718002856B8 /* Sigh.htm in Resources */,
+				47DFC6E41692F718002856B8 /* sighingah.htm in Resources */,
+				47DFC6E51692F718002856B8 /* tabletemplate.htm in Resources */,
+				47DFC6E61692F718002856B8 /* template.htm in Resources */,
+				47DFC6E71692F718002856B8 /* template2.htm in Resources */,
+				47DFC6E81692F718002856B8 /* TheHum.htm in Resources */,
+				47DFC6E91692F718002856B8 /* trilldown2.htm in Resources */,
+				47DFC6EA1692F718002856B8 /* trillup.htm in Resources */,
+				47DFC6EB1692F718002856B8 /* voicedah.htm in Resources */,
+				47DFC6EC1692F718002856B8 /* voicetospeech.htm in Resources */,
+				47DFC6ED1692F718002856B8 /* warmupnow2.htm in Resources */,
+				47DFC6EE1692F718002856B8 /* welcometext.html in Resources */,
+				47DFC6EF1692F718002856B8 /* whatisspeech.htm in Resources */,
+				47DFC6F01692F718002856B8 /* whatisvoice.htm in Resources */,
+				47DFC6F11692F718002856B8 /* whywarmup.htm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47DFC67B1692D5F7002856B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DFC6901692D5F7002856B8 /* main.m in Sources */,
+				47DFC6941692D5F7002856B8 /* voiceAppDelegate.m in Sources */,
+				47DFC6A31692D5F7002856B8 /* voiceMasterViewController.m in Sources */,
+				47DFC6A61692D5F7002856B8 /* voiceDetailViewController.m in Sources */,
+				47DFC6AE1692E246002856B8 /* HtmlArticle.m in Sources */,
+				47DFC6B41692E4BF002856B8 /* voiceDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47DFC68C1692D5F7002856B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DFC68D1692D5F7002856B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47DFC69B1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DFC69C1692D5F7002856B8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		47DFC69E1692D5F7002856B8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DFC69F1692D5F7002856B8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = VoiceApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47DFC6A71692D5F7002856B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47DFC6A81692D5F7002856B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47DFC6AA1692D5F7002856B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceApp/VoiceApp-Prefix.pch";
+				INFOPLIST_FILE = "VoiceApp/VoiceApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47DFC6AB1692D5F7002856B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceApp/VoiceApp-Prefix.pch";
+				INFOPLIST_FILE = "VoiceApp/VoiceApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47DFC6791692D5F7002856B8 /* Build configuration list for PBXProject "VoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DFC6A71692D5F7002856B8 /* Debug */,
+				47DFC6A81692D5F7002856B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DFC6A91692D5F7002856B8 /* Build configuration list for PBXNativeTarget "VoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DFC6AA1692D5F7002856B8 /* Debug */,
+				47DFC6AB1692D5F7002856B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47DFC6761692D5F7002856B8 /* Project object */;
+}

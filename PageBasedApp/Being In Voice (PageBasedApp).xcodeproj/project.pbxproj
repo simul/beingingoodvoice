@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47873108168BF54E00A43209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		47873109168BF54E00A43209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		479A39CA1689110A00D7070E /* Being In Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Being In Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		479A39CE1689110A00D7070E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		479A39D01689110A00D7070E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,8 +60,6 @@
 		479A39EA1689110A00D7070E /* beinginvoiceDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceDataViewController.m; sourceTree = "<group>"; };
 		479A39EC1689110A00D7070E /* beinginvoiceModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceModelController.h; sourceTree = "<group>"; };
 		479A39ED1689110A00D7070E /* beinginvoiceModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceModelController.m; sourceTree = "<group>"; };
-		479A39F01689110A00D7070E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		479A39F31689110A00D7070E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		479A39FA1689110A00D7070E /* Being In VoiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Being In VoiceTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		479A39FB1689110A00D7070E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		479A3A031689110A00D7070E /* Being In VoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Being In VoiceTests-Info.plist"; sourceTree = "<group>"; };
@@ -228,6 +228,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 479A39BF1689110A00D7070E;
 			productRefGroup = 479A39CB1689110A00D7070E /* Products */;
@@ -323,7 +324,7 @@
 		479A39EF1689110A00D7070E /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				479A39F01689110A00D7070E /* en */,
+				47873108168BF54E00A43209 /* Base */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +332,7 @@
 		479A39F21689110A00D7070E /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				479A39F31689110A00D7070E /* en */,
+				47873109168BF54E00A43209 /* Base */,
 			);
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
