@@ -130,7 +130,6 @@
 				47DFC6891692D5F7002856B8 /* VoiceApp */,
 				47DFC6821692D5F7002856B8 /* Frameworks */,
 				47DFC6801692D5F7002856B8 /* Products */,
-				47DFC69E1692D5F7002856B8 /* MainStoryboard_iPad.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +157,7 @@
 				47DFC6921692D5F7002856B8 /* voiceAppDelegate.h */,
 				47DFC6931692D5F7002856B8 /* voiceAppDelegate.m */,
 				47DFC69B1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard */,
+				47DFC69E1692D5F7002856B8 /* MainStoryboard_iPad.storyboard */,
 				47DFC6A11692D5F7002856B8 /* voiceMasterViewController.h */,
 				47DFC6A21692D5F7002856B8 /* voiceMasterViewController.m */,
 				47DFC6A41692D5F7002856B8 /* voiceDetailViewController.h */,
@@ -351,7 +351,6 @@
 				47DFC69F1692D5F7002856B8 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			path = VoiceApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,6 +449,7 @@
 				47DFC6AB1692D5F7002856B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

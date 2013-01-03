@@ -10,6 +10,24 @@
 
 #import "voiceDetailViewController.h"
 
+
+UIColor* convertWebColour(uint i)
+{
+	uint R=(i&0xFF0000)>>16;
+	uint G=(i&0x00FF00)>>8;
+	uint B=i&0x0000FF;
+	UIColor *c = [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1];
+	return c;
+}
+
+@implementation UINavigationBar (BackgroundImage)
+//This overridden implementation will patch up the NavBar with a custom Image instead of the title
+- (void)drawRect:(CGRect)rect {
+	//UIImage *image = [UIImage imageNamed: @"NavigationBar.png"];
+	//[image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+}
+@end
+
 @interface voiceMasterViewController () {
     NSMutableArray *_objects;
 }
@@ -26,17 +44,18 @@
     [super awakeFromNib];
 }
 
-/*
+
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
 	// create the parent view that will hold header Label
 	UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 44.0)];
 	
+    NSString *title = [self tableView:tableView titleForHeaderInSection:section];
 	// create the button object
 	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 	headerLabel.backgroundColor = [UIColor clearColor];
 	headerLabel.opaque = NO;
-	headerLabel.textColor = [UIColor blackColor];
+	headerLabel.textColor = convertWebColour(0xDDAE88);
 	headerLabel.highlightedTextColor = [UIColor whiteColor];
 	headerLabel.font = [UIFont boldSystemFontOfSize:20];
 	headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
@@ -44,11 +63,11 @@
 	// If you want to align the header text as centered
 	// headerLabel.frame = CGRectMake(150.0, 0.0, 300.0, 44.0);
     
-	headerLabel.text = @"ABC"; // i.e. array element
+	headerLabel.text = title; // i.e. array element
 	[customView addSubview:headerLabel];
     
 	return customView;
-}*/
+}
 
 - (void)viewDidLoad
 {

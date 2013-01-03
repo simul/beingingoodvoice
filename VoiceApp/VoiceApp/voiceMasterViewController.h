@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+
+extern UIColor* convertWebColour(uint i);
 @class voiceDetailViewController;
 
 @interface voiceMasterViewController : UITableViewController

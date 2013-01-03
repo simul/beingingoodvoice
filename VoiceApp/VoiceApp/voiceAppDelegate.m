@@ -7,6 +7,8 @@
 //
 
 #import "voiceAppDelegate.h"
+#import "voiceMasterViewController.h"
+#import "UiKit/UiAppearance.h"
 
 @implementation voiceAppDelegate
 
@@ -17,6 +19,9 @@
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
+		
+		//[[UINavigationBar appearance] setBackgroundColor:convertWebColour(0xFF00FF) forBarMetrics:UIBarMetricsDefault];
+		//[[UINavigationBar appearance] setBackgroundColor:convertWebColour(0) forBarMetrics];
     }
     return YES;
 }
