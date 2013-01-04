@@ -21,7 +21,9 @@
         splitViewController.delegate = (id)navigationController.topViewController;
 		
 		//[[UINavigationBar appearance] setBackgroundColor:convertWebColour(0xFF00FF) forBarMetrics:UIBarMetricsDefault];
-		//[[UINavigationBar appearance] setBackgroundColor:convertWebColour(0) forBarMetrics];
+		[[UINavigationBar appearance] setBackgroundColor:convertWebColour(0xFF)];
+		[[UINavigationBar appearance] setColor:convertWebColour(0xFF)];
+
     }
     return YES;
 }
