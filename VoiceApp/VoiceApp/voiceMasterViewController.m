@@ -74,7 +74,7 @@ UIColor* convertWebColour(uint i)
 	[super viewDidLoad];
 	self.tableView.backgroundView = nil;
     //self.tableView.opaque = NO;
-	self.tableView.backgroundColor = [UIColor colorWithRed:13.0/255.0 green:57.0/255.0 blue:78.0/255.0 alpha:1];
+	self.tableView.backgroundColor = convertWebColour(0xA8FCF6);
     //self.tableView.tableHeaderView.
 	// Do any additional setup after loading the view, typically from a nib.
   /*  self.navigationItem.leftBarButtonItem = self.editButtonItem;
@@ -90,13 +90,23 @@ UIColor* convertWebColour(uint i)
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem) {
+        _detailItem = newDetailItem;
+        
+    }
+	
+}
+
 #pragma mark - Table View
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     NSString *str           = [segue identifier];
-    NSIndexPath *indexPath  = [self.tableView indexPathForSelectedRow];
-    NSDate *object          = _objects[indexPath.row];
+    //NSIndexPath *indexPath  = [self.tableView indexPathForSelectedRow];
+    //NSDate *object          = _objects[indexPath.row];
     [[segue destinationViewController] setDetailItem:str];
 }
 

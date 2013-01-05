@@ -7,13 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface voiceDetailViewController : UIViewController <UISplitViewControllerDelegate>  {
+	IBOutlet UIButton *playButton;
     IBOutlet UIWebView *webView;
+	AVAudioPlayer *audioPlayer;
+	UIImage								*playBtnBG;
+	UIImage								*pauseBtnBG;
 }
 
+
+@property (nonatomic, retain) UIButton *playButton;
 @property (nonatomic, retain) UIWebView *webView;
 
 @property (strong, nonatomic) id detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+-(IBAction)playAudio;
 @end

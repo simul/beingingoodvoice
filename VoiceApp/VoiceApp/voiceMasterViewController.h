@@ -13,6 +13,7 @@ extern UIColor* convertWebColour(uint i);
 @class voiceDetailViewController;
 
 @interface voiceMasterViewController : UITableViewController
+@property (strong, nonatomic) id detailItem;
 
 @property (strong, nonatomic) voiceDetailViewController *detailViewController;
 
