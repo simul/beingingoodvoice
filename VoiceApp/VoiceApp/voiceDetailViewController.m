@@ -20,27 +20,6 @@
 @synthesize audioControl;
 @synthesize playButton;
 
--(IBAction)playAudio
-{
-	CFBundleRef mainBundle=CFBundleGetMainBundle();
-	CFURLRef audioRef=CFBundleCopyResourceURL(mainBundle,(CFStringRef) @"alignment",CFSTR("mp3"),NULL);
-	if(audioPlayer!=nil)
-	{
-		if(![audioPlayer isPlaying])
-			[audioPlayer play];
-		else
-			[audioPlayer pause];
-		
-		[playButton setImage:((audioPlayer.playing == YES) ? pauseBtnBG : playBtnBG) forState:UIControlStateNormal];
-	}
-	/*
-	 audioPlayer.volume = 0.5; // 0.0 - no volume; 1.0 full volume
-	 NSLog(@"%f seconds played so far", audioPlayer.currentTime);
-	 audioPlayer.currentTime = 10; // jump to the 10 second mark
-	 [audioPlayer stop]; /
-	 */
-
-}
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem
@@ -76,16 +55,6 @@
         NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile2 encoding:NSUTF8StringEncoding error:nil];
         [webView loadHTMLString:htmlString baseURL:nil];
     }
-	// The audio player
-	
-	NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/alignment.mp3", [[NSBundle mainBundle] resourcePath]]];
-	
-	NSError *error;
-	audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
-	if (audioPlayer == nil)
-		NSLog(@"Failed to create audio player");
-	else
-		audioPlayer.numberOfLoops = -1;
 	
 	playBtnBG = [UIImage imageNamed:@"play.png"];
 	pauseBtnBG = [UIImage imageNamed:@"pause.png"];

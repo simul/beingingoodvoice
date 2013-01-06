@@ -7,14 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 #import "UIAudioControl.h"
 
 @interface voiceDetailViewController : UIViewController <UISplitViewControllerDelegate>  {
 	IBOutlet UIButton *playButton;
     IBOutlet UIWebView *webView;
 	IBOutlet UIAudioControl *audioControl;
-	AVAudioPlayer *audioPlayer;
 	UIImage								*playBtnBG;
 	UIImage								*pauseBtnBG;
 }

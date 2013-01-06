@@ -229,7 +229,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="playAudio" destination="21" eventType="touchUpInside" id="YuW-Go-P29"/>
+                                            <action selector="playAudio" destination="rGo-Ty-aQX" eventType="touchUpInside" id="Bux-eO-yvD"/>
                                         </connections>
                                     </button>
                                 </subviews>
