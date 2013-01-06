@@ -16,8 +16,6 @@
 		47DF755E1698501F0054B51C /* sound_meter_glare.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75561698501F0054B51C /* sound_meter_glare.png */; };
 		47DF755F1698501F0054B51C /* volume_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75571698501F0054B51C /* volume_down.png */; };
 		47DF75601698501F0054B51C /* volume_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75581698501F0054B51C /* volume_up.png */; };
-		47DF75651698F4B70054B51C /* moveeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75631698F4B70054B51C /* moveeasy.htm */; };
-		47DF75661698F4B70054B51C /* standeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75641698F4B70054B51C /* standeasy.htm */; };
 		47DF7569169910F90054B51C /* UIAudioControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF7568169910F90054B51C /* UIAudioControl.m */; };
 		47DFC6841692D5F7002856B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFC6831692D5F7002856B8 /* UIKit.framework */; };
 		47DFC6861692D5F7002856B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFC6851692D5F7002856B8 /* Foundation.framework */; };
@@ -81,6 +79,9 @@
 		47E04BCE169806FA0067A08B /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBD169806FA0067A08B /* VoicedAh.mp3 */; };
 		47E04BCF169806FA0067A08B /* whatismvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBE169806FA0067A08B /* whatismvw.mp3 */; };
 		47E04BD11698095D0067A08B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E04BD01698095D0067A08B /* AVFoundation.framework */; };
+		C85D68CD16994C4700BFFB1E /* Before You Begin.htm in Resources */ = {isa = PBXBuildFile; fileRef = C85D68CA16994C4700BFFB1E /* Before You Begin.htm */; };
+		C85D68CE16994C4700BFFB1E /* moveeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = C85D68CB16994C4700BFFB1E /* moveeasy.htm */; };
+		C85D68CF16994C4700BFFB1E /* standeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = C85D68CC16994C4700BFFB1E /* standeasy.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,8 +94,6 @@
 		47DF75561698501F0054B51C /* sound_meter_glare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound_meter_glare.png; path = VoiceApp/images/sound_meter_glare.png; sourceTree = "<group>"; };
 		47DF75571698501F0054B51C /* volume_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volume_down.png; path = VoiceApp/images/volume_down.png; sourceTree = "<group>"; };
 		47DF75581698501F0054B51C /* volume_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volume_up.png; path = VoiceApp/images/volume_up.png; sourceTree = "<group>"; };
-		47DF75631698F4B70054B51C /* moveeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = moveeasy.htm; sourceTree = "<group>"; };
-		47DF75641698F4B70054B51C /* standeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = standeasy.htm; sourceTree = "<group>"; };
 		47DF7567169910F80054B51C /* UIAudioControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAudioControl.h; sourceTree = "<group>"; };
 		47DF7568169910F90054B51C /* UIAudioControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAudioControl.m; sourceTree = "<group>"; };
 		47DFC67F1692D5F7002856B8 /* VoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +166,9 @@
 		47E04BBD169806FA0067A08B /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
 		47E04BBE169806FA0067A08B /* whatismvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatismvw.mp3; sourceTree = "<group>"; };
 		47E04BD01698095D0067A08B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C85D68CA16994C4700BFFB1E /* Before You Begin.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Before You Begin.htm"; sourceTree = "<group>"; };
+		C85D68CB16994C4700BFFB1E /* moveeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = moveeasy.htm; sourceTree = "<group>"; };
+		C85D68CC16994C4700BFFB1E /* standeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = standeasy.htm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,8 +205,9 @@
 		47DF75621698F4B70054B51C /* beingeasy */ = {
 			isa = PBXGroup;
 			children = (
-				47DF75631698F4B70054B51C /* moveeasy.htm */,
-				47DF75641698F4B70054B51C /* standeasy.htm */,
+				C85D68CA16994C4700BFFB1E /* Before You Begin.htm */,
+				C85D68CB16994C4700BFFB1E /* moveeasy.htm */,
+				C85D68CC16994C4700BFFB1E /* standeasy.htm */,
 			);
 			name = beingeasy;
 			path = "VoiceApp/html/01Preparation/Being in Body/beingeasy";
@@ -537,8 +540,9 @@
 				47DF755E1698501F0054B51C /* sound_meter_glare.png in Resources */,
 				47DF755F1698501F0054B51C /* volume_down.png in Resources */,
 				47DF75601698501F0054B51C /* volume_up.png in Resources */,
-				47DF75651698F4B70054B51C /* moveeasy.htm in Resources */,
-				47DF75661698F4B70054B51C /* standeasy.htm in Resources */,
+				C85D68CD16994C4700BFFB1E /* Before You Begin.htm in Resources */,
+				C85D68CE16994C4700BFFB1E /* moveeasy.htm in Resources */,
+				C85D68CF16994C4700BFFB1E /* standeasy.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
