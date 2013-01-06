@@ -207,45 +207,53 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-uW-Gfv">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="339" id="zjK-hB-GLz"/>
+                                    <constraint firstAttribute="height" constant="145" id="WSQ-X3-pl0"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="21" id="gg5-XJ-kiS"/>
                                 </connections>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiM-nI-vf2">
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rGo-Ty-aQX" customClass="UIAudioControl">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiM-nI-vf2">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="83" id="c9b-Zp-6gw"/>
+                                            <constraint firstAttribute="height" constant="84" id="f7u-Rc-J04"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <state key="normal" image="play.png">
+                                            <color key="titleColor" red="0.78039222959999999" green="0.59215688710000003" blue="0.61568629740000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playAudio" destination="21" eventType="touchUpInside" id="YuW-Go-P29"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="83" id="c9b-Zp-6gw"/>
-                                    <constraint firstAttribute="height" constant="84" id="f7u-Rc-J04"/>
+                                    <constraint firstItem="tiM-nI-vf2" firstAttribute="centerY" secondItem="rGo-Ty-aQX" secondAttribute="centerY" type="default" id="hN2-nU-2rI"/>
+                                    <constraint firstItem="tiM-nI-vf2" firstAttribute="centerX" secondItem="rGo-Ty-aQX" secondAttribute="centerX" type="default" id="hqm-T7-OtX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" image="play.png">
-                                    <color key="titleColor" red="0.78039222959999999" green="0.59215688710000003" blue="0.61568629740000003" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playAudio" destination="21" eventType="touchUpInside" id="YuW-Go-P29"/>
-                                </connections>
-                            </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ocT-SG-wXg"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.70980393886566162" green="0.98823535442352295" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cqs-uW-Gfv" secondAttribute="bottom" constant="43" id="4XX-ZA-qRq"/>
                             <constraint firstAttribute="trailing" secondItem="cqs-uW-Gfv" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4rx-yC-SBq"/>
-                            <constraint firstItem="cqs-uW-Gfv" firstAttribute="top" secondItem="ocT-SG-wXg" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6yl-HL-AeF"/>
-                            <constraint firstItem="ocT-SG-wXg" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Fkw-lm-h4k"/>
-                            <constraint firstItem="ocT-SG-wXg" firstAttribute="top" secondItem="tiM-nI-vf2" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="MT2-B5-wjO"/>
+                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="top" secondItem="22" secondAttribute="top" constant="70" id="4ve-al-IXs"/>
                             <constraint firstItem="cqs-uW-Gfv" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QFY-6K-4pP"/>
-                            <constraint firstItem="tiM-nI-vf2" firstAttribute="top" secondItem="22" secondAttribute="top" type="default" id="UqJ-Rj-6so"/>
-                            <constraint firstAttribute="trailing" secondItem="ocT-SG-wXg" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="VGF-sb-EYV"/>
-                            <constraint firstItem="tiM-nI-vf2" firstAttribute="centerX" secondItem="ocT-SG-wXg" secondAttribute="centerX" type="default" id="qQX-KK-Zka"/>
+                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="42" id="U0c-UZ-vmZ"/>
+                            <constraint firstItem="cqs-uW-Gfv" firstAttribute="top" secondItem="rGo-Ty-aQX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="m6D-cd-0gg"/>
+                            <constraint firstItem="cqs-uW-Gfv" firstAttribute="centerX" secondItem="rGo-Ty-aQX" secondAttribute="centerX" type="default" id="wR7-pZ-bIa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="26"/>
                     <connections>
+                        <outlet property="audioControl" destination="rGo-Ty-aQX" id="XJ1-Pw-VZy"/>
                         <outlet property="playButton" destination="tiM-nI-vf2" id="zGn-8R-fWc"/>
                         <outlet property="webView" destination="cqs-uW-Gfv" id="Sr4-FI-CSm"/>
                     </connections>
@@ -365,7 +373,7 @@
                             <tableViewSection footerTitle="" id="dKx-zY-saA" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Breath" textLabel="VdK-xq-maL" style="IBUITableViewCellStyleDefault" id="rTL-Qa-PCf">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -387,7 +395,7 @@
                             <tableViewSection footerTitle="" id="fSb-Yw-C5a" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Breath Exercises" textLabel="9kX-rA-C01" style="IBUITableViewCellStyleDefault" id="CY0-Ri-JoY">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -1038,23 +1046,6 @@
     <resources>
         <image name="play.png" width="23" height="21"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="voiceDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceDetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="playAudio"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="voiceMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceMasterViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

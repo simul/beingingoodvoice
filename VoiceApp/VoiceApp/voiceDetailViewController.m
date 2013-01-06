@@ -17,6 +17,7 @@
 @implementation voiceDetailViewController
 
 @synthesize webView;
+@synthesize audioControl;
 @synthesize playButton;
 
 -(IBAction)playAudio
