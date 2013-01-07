@@ -55,7 +55,7 @@ UIColor* convertWebColour(uint i)
 	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 	headerLabel.backgroundColor = [UIColor clearColor];
 	headerLabel.opaque = NO;
-	headerLabel.textColor = convertWebColour(0xDDAE88);
+	headerLabel.textColor = convertWebColour(0xc6f500);
 	headerLabel.highlightedTextColor = [UIColor whiteColor];
 	headerLabel.font = [UIFont boldSystemFontOfSize:20];
 	headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
@@ -74,7 +74,7 @@ UIColor* convertWebColour(uint i)
 	[super viewDidLoad];
 	self.tableView.backgroundView = nil;
     //self.tableView.opaque = NO;
-	self.tableView.backgroundColor = convertWebColour(0xA8FCF6);
+	self.tableView.backgroundColor = convertWebColour(0x560ead);
     //self.tableView.tableHeaderView.
 	// Do any additional setup after loading the view, typically from a nib.
   /*  self.navigationItem.leftBarButtonItem = self.editButtonItem;

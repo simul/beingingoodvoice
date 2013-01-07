@@ -10,6 +10,7 @@
                 <navigationController id="3" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4">
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.33725490196078434" green="0.054901960784313725" blue="0.67843137254901964" alpha="0.75" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="NO3-VG-doX">
                         <rect key="frame" x="0.0" y="416" width="320" height="44"/>
@@ -31,7 +32,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <color key="separatorColor" red="0.70980393886566162" green="0.98823535442352295" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="separatorColor" red="0.33725490196078434" green="0.054901960784313725" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Preparation" footerTitle="" id="Nsa-A1-tYD" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
@@ -98,7 +99,7 @@
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Beginners" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D4-lQ-hov">
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.67843137254901964" green="0.0" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
@@ -124,7 +125,7 @@
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Intermediate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6nR-YM-uPu">
                                                     <rect key="frame" x="10" y="24" width="78" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" red="0.78039222955703735" green="0.59215688705444336" blue="0.61568629741668701" alpha="1" colorSpace="deviceRGB"/>
+                                                    <color key="textColor" red="0.67843137249999996" green="0.0" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
@@ -207,7 +208,7 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-uW-Gfv">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="145" id="WSQ-X3-pl0"/>
+                                    <constraint firstAttribute="height" constant="216" id="vgq-8H-deM"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="21" id="gg5-XJ-kiS"/>
@@ -240,15 +241,15 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.70980393886566162" green="0.98823535442352295" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.33725490196078434" green="0.054901960784313725" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="cqs-uW-Gfv" secondAttribute="bottom" constant="43" id="4XX-ZA-qRq"/>
                             <constraint firstAttribute="trailing" secondItem="cqs-uW-Gfv" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4rx-yC-SBq"/>
-                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="top" secondItem="22" secondAttribute="top" constant="70" id="4ve-al-IXs"/>
+                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="centerX" secondItem="cqs-uW-Gfv" secondAttribute="centerX" type="default" id="8rR-uP-SEk"/>
+                            <constraint firstAttribute="bottom" secondItem="rGo-Ty-aQX" secondAttribute="bottom" constant="255" id="CkK-e1-I3K"/>
                             <constraint firstItem="cqs-uW-Gfv" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QFY-6K-4pP"/>
-                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="42" id="U0c-UZ-vmZ"/>
-                            <constraint firstItem="cqs-uW-Gfv" firstAttribute="top" secondItem="rGo-Ty-aQX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="m6D-cd-0gg"/>
-                            <constraint firstItem="cqs-uW-Gfv" firstAttribute="centerX" secondItem="rGo-Ty-aQX" secondAttribute="centerX" type="default" id="wR7-pZ-bIa"/>
+                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="42" id="hOv-Np-K4k"/>
+                            <constraint firstAttribute="bottom" secondItem="cqs-uW-Gfv" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="lya-jt-Q0G"/>
+                            <constraint firstItem="rGo-Ty-aQX" firstAttribute="top" secondItem="22" secondAttribute="top" constant="11" id="rtI-av-jNG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="26"/>
@@ -373,7 +374,7 @@
                             <tableViewSection footerTitle="" id="dKx-zY-saA" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Breath" textLabel="VdK-xq-maL" style="IBUITableViewCellStyleDefault" id="rTL-Qa-PCf">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -395,7 +396,7 @@
                             <tableViewSection footerTitle="" id="fSb-Yw-C5a" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Breath Exercises" textLabel="9kX-rA-C01" style="IBUITableViewCellStyleDefault" id="CY0-Ri-JoY">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -945,7 +946,7 @@
                             <tableViewSection footerTitle="" id="nQC-6A-zpp" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="About Being in Voice" textLabel="FnO-E5-kZf" style="IBUITableViewCellStyleDefault" id="uqf-LZ-wIr">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -967,7 +968,7 @@
                             <tableViewSection footerTitle="" id="2E1-nV-ZEA" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="About This App" textLabel="2hY-HX-TbR" style="IBUITableViewCellStyleDefault" id="ljn-so-txt">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -989,7 +990,7 @@
                             <tableViewSection footerTitle="" id="D6F-ZW-ska" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Privacy Policy" textLabel="gGi-YB-hMC" style="IBUITableViewCellStyleDefault" id="hZn-sd-8gc">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
@@ -1011,7 +1012,7 @@
                             <tableViewSection footerTitle="" id="ttB-8x-sSY" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Contact Us" textLabel="tCy-Fb-JW3" style="IBUITableViewCellStyleDefault" id="j6F-rl-tAY">
-                                        <rect key="frame" x="0.0" y="205" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="205" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
@@ -1046,6 +1047,27 @@
     <resources>
         <image name="play.png" width="23" height="21"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="UIAudioControl" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIAudioControl.h"/>
+        </class>
+        <class className="voiceDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="playAudio"/>
+                <relationship kind="outlet" name="audioControl" candidateClass="UIAudioControl"/>
+                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="voiceMasterViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceMasterViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
