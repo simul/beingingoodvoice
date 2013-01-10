@@ -8,27 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		47DD28E0169D7C6E005E9710 /* beforeyoumakeasound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28DF169D7C6E005E9710 /* beforeyoumakeasound.mp3 */; };
-		47DD28E2169D9548005E9710 /* Breath Exercises Text.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28E1169D9548005E9710 /* Breath Exercises Text.htm */; };
-		47DD28E5169D9559005E9710 /* breatheeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28E3169D9559005E9710 /* breatheeasy.htm */; };
-		47DD28E6169D9559005E9710 /* breathex.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28E4169D9559005E9710 /* breathex.htm */; };
-		47DD28F3169D958F005E9710 /* 08howtousemvw.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28E7169D958F005E9710 /* 08howtousemvw.htm */; };
-		47DD28F4169D958F005E9710 /* 09Sigh.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28E8169D958F005E9710 /* 09Sigh.htm */; };
-		47DD28F5169D958F005E9710 /* 10sighingah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28E9169D958F005E9710 /* 10sighingah.htm */; };
-		47DD28F6169D958F005E9710 /* 11hum.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28EA169D958F005E9710 /* 11hum.htm */; };
-		47DD28F7169D958F005E9710 /* 12FastAscendingTrill.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28EB169D958F005E9710 /* 12FastAscendingTrill.htm */; };
-		47DD28F8169D958F005E9710 /* 13FastDescendingTrill.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28EC169D958F005E9710 /* 13FastDescendingTrill.htm */; };
-		47DD28F9169D958F005E9710 /* 14voicedah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28ED169D958F005E9710 /* 14voicedah.htm */; };
-		47DD28FC169D958F005E9710 /* FastAscendingTrilltext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28F0169D958F005E9710 /* FastAscendingTrilltext.htm */; };
-		47DD28FD169D958F005E9710 /* Humtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28F1169D958F005E9710 /* Humtext.htm */; };
-		47DD28FE169D958F005E9710 /* voicedahtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28F2169D958F005E9710 /* voicedahtext.htm */; };
-		47DD2905169D95AA005E9710 /* 17vocalmaintenanceprogram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28FF169D95AA005E9710 /* 17vocalmaintenanceprogram.htm */; };
-		47DD2907169D95AA005E9710 /* 19articulation.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD2901169D95AA005E9710 /* 19articulation.htm */; };
-		47DD2908169D95AA005E9710 /* articulationtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD2902169D95AA005E9710 /* articulationtext.htm */; };
-		47DD2909169D95AA005E9710 /* finishwithfocus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD2903169D95AA005E9710 /* finishwithfocus.htm */; };
-		47DD290A169D95AA005E9710 /* finishwithfocustxt.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD2904169D95AA005E9710 /* finishwithfocustxt.htm */; };
-		47DD290C169D9612005E9710 /* 18Resonance.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD290B169D9612005E9710 /* 18Resonance.htm */; };
-		47DD290F169D9666005E9710 /* 15 warmupnowwithFlloyd.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD290D169D9666005E9710 /* 15 warmupnowwithFlloyd.htm */; };
-		47DD2910169D9666005E9710 /* 16 warmupnowwithRod.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DD290E169D9666005E9710 /* 16 warmupnowwithRod.htm */; };
+		47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */; };
+		47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */; };
+		47DDB5D9169ED53D000A9A2B /* 01welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D6169ED53D000A9A2B /* 01welcome.html */; };
+		47DDB5DA169ED53D000A9A2B /* 02whatisbeinginvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D7169ED53D000A9A2B /* 02whatisbeinginvoice.htm */; };
+		47DDB5DB169ED53D000A9A2B /* 03whywarmup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D8169ED53D000A9A2B /* 03whywarmup.htm */; };
+		47DDB5E7169ED5B1000A9A2B /* intro text.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5E4169ED5B1000A9A2B /* intro text.htm */; };
+		47DDB5E8169ED5B1000A9A2B /* moveeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5E5169ED5B1000A9A2B /* moveeasy.htm */; };
+		47DDB5E9169ED5B1000A9A2B /* standeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5E6169ED5B1000A9A2B /* standeasy.htm */; };
+		47DDB5EB169ED5C1000A9A2B /* BeforeYouMakeASound.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5EA169ED5C1000A9A2B /* BeforeYouMakeASound.htm */; };
+		47DDB5F0169ED5EF000A9A2B /* 03BeinginBodytext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5ED169ED5EF000A9A2B /* 03BeinginBodytext.htm */; };
+		47DDB5F1169ED5EF000A9A2B /* 04posturetext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5EE169ED5EF000A9A2B /* 04posturetext.htm */; };
+		47DDB5F2169ED5EF000A9A2B /* 05rollingspinetext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5EF169ED5EF000A9A2B /* 05rollingspinetext.htm */; };
+		47DDB5F6169ED614000A9A2B /* Breath Exercises Text.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5F3169ED614000A9A2B /* Breath Exercises Text.htm */; };
+		47DDB5F7169ED614000A9A2B /* breatheeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5F4169ED614000A9A2B /* breatheeasy.htm */; };
+		47DDB5F8169ED614000A9A2B /* breathex.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5F5169ED614000A9A2B /* breathex.htm */; };
+		47DDB605169ED65B000A9A2B /* 08howtousemvw.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5F9169ED65B000A9A2B /* 08howtousemvw.htm */; };
+		47DDB606169ED65B000A9A2B /* 09Sigh.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5FA169ED65B000A9A2B /* 09Sigh.htm */; };
+		47DDB607169ED65B000A9A2B /* 10sighingah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5FB169ED65B000A9A2B /* 10sighingah.htm */; };
+		47DDB608169ED65B000A9A2B /* 11hum.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5FC169ED65B000A9A2B /* 11hum.htm */; };
+		47DDB609169ED65B000A9A2B /* 12FastAscendingTrill.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5FD169ED65B000A9A2B /* 12FastAscendingTrill.htm */; };
+		47DDB60A169ED65B000A9A2B /* 13FastDescendingTrill.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5FE169ED65B000A9A2B /* 13FastDescendingTrill.htm */; };
+		47DDB60B169ED65B000A9A2B /* 14voicedah.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5FF169ED65B000A9A2B /* 14voicedah.htm */; };
+		47DDB60C169ED65B000A9A2B /* 15 warmupnowwithFlloyd.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB600169ED65B000A9A2B /* 15 warmupnowwithFlloyd.htm */; };
+		47DDB60D169ED65B000A9A2B /* 16 warmupnowwithRod.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB601169ED65B000A9A2B /* 16 warmupnowwithRod.htm */; };
+		47DDB60E169ED65B000A9A2B /* FastAscendingTrilltext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB602169ED65B000A9A2B /* FastAscendingTrilltext.htm */; };
+		47DDB60F169ED65B000A9A2B /* Humtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB603169ED65B000A9A2B /* Humtext.htm */; };
+		47DDB610169ED65B000A9A2B /* voicedahtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB604169ED65B000A9A2B /* voicedahtext.htm */; };
+		47DDB618169ED689000A9A2B /* 17vocalmaintenanceprogram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB611169ED689000A9A2B /* 17vocalmaintenanceprogram.htm */; };
+		47DDB619169ED689000A9A2B /* 18Resonance.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB612169ED689000A9A2B /* 18Resonance.htm */; };
+		47DDB61A169ED689000A9A2B /* 19articulation.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB613169ED689000A9A2B /* 19articulation.htm */; };
+		47DDB61B169ED689000A9A2B /* 20finishwithfocus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB614169ED689000A9A2B /* 20finishwithfocus.htm */; };
+		47DDB61C169ED689000A9A2B /* articulationtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB615169ED689000A9A2B /* articulationtext.htm */; };
+		47DDB61D169ED689000A9A2B /* finishwithfocus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB616169ED689000A9A2B /* finishwithfocus.htm */; };
+		47DDB61E169ED689000A9A2B /* finishwithfocustxt.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB617169ED689000A9A2B /* finishwithfocustxt.htm */; };
+		47DDB623169ED6A8000A9A2B /* 1voicematters.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB61F169ED6A8000A9A2B /* 1voicematters.htm */; };
+		47DDB624169ED6A8000A9A2B /* 2HowBreathWorks.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB620169ED6A8000A9A2B /* 2HowBreathWorks.htm */; };
+		47DDB625169ED6A8000A9A2B /* 3howvoiceworks.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB621169ED6A8000A9A2B /* 3howvoiceworks.htm */; };
+		47DDB626169ED6A8000A9A2B /* 4howspeechworks.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB622169ED6A8000A9A2B /* 4howspeechworks.htm */; };
+		47DDB628169ED777000A9A2B /* aboutthisapp.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB627169ED777000A9A2B /* aboutthisapp.htm */; };
+		47DDB62A169ED78A000A9A2B /* aboutbeinginvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB629169ED78A000A9A2B /* aboutbeinginvoice.htm */; };
+		47DDB62C169ED79B000A9A2B /* privacypolicy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB62B169ED79B000A9A2B /* privacypolicy.htm */; };
 		47DF7549169839990054B51C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DF7548169839990054B51C /* AudioToolbox.framework */; };
 		47DF75591698501F0054B51C /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75511698501E0054B51C /* forward.png */; };
 		47DF755A1698501F0054B51C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75521698501E0054B51C /* pause.png */; };
@@ -55,21 +75,6 @@
 		47DFC6A61692D5F7002856B8 /* voiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6A51692D5F7002856B8 /* voiceDetailViewController.m */; };
 		47DFC6AE1692E246002856B8 /* HtmlArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6AD1692E246002856B8 /* HtmlArticle.m */; };
 		47DFC6B41692E4BF002856B8 /* voiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6B31692E4BF002856B8 /* voiceDataController.m */; };
-		47E04B721697CF760067A08B /* 01welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B6F1697CF760067A08B /* 01welcome.html */; };
-		47E04B731697CF760067A08B /* 02whatisbeinginvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B701697CF760067A08B /* 02whatisbeinginvoice.htm */; };
-		47E04B741697CF760067A08B /* 03whywarmup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B711697CF760067A08B /* 03whywarmup.htm */; };
-		47E04B781697CF9B0067A08B /* 03BeinginBodytext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B751697CF9B0067A08B /* 03BeinginBodytext.htm */; };
-		47E04B791697CF9B0067A08B /* 04posturetext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B761697CF9B0067A08B /* 04posturetext.htm */; };
-		47E04B7A1697CF9B0067A08B /* 05rollingspinetext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B771697CF9B0067A08B /* 05rollingspinetext.htm */; };
-		47E04B951697F40A0067A08B /* 17vocalmaintenanceprogram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B911697F40A0067A08B /* 17vocalmaintenanceprogram.htm */; };
-		47E04B971697F40A0067A08B /* 19articulation.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B931697F40A0067A08B /* 19articulation.htm */; };
-		47E04B9D1697F4330067A08B /* 01whatisvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B991697F4330067A08B /* 01whatisvoice.htm */; };
-		47E04B9E1697F4330067A08B /* 02voicetospeech.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B9A1697F4330067A08B /* 02voicetospeech.htm */; };
-		47E04B9F1697F4330067A08B /* 03whatisspeech.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B9B1697F4330067A08B /* 03whatisspeech.htm */; };
-		47E04BA01697F4330067A08B /* 04glossary.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04B9C1697F4330067A08B /* 04glossary.htm */; };
-		47E04BA41697F4E90067A08B /* aboutthisapp.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BA11697F4E90067A08B /* aboutthisapp.htm */; };
-		47E04BA61697F4E90067A08B /* privacypolicy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BA31697F4E90067A08B /* privacypolicy.htm */; };
-		47E04BA81697F58A0067A08B /* aboutbeinginvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BA71697F58A0067A08B /* aboutbeinginvoice.htm */; };
 		47E04BAA169803630067A08B /* test.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BA9169803620067A08B /* test.htm */; };
 		47E04BBF169806FA0067A08B /* alignment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BAE169806FA0067A08B /* alignment.mp3 */; };
 		47E04BC0169806FA0067A08B /* bibexercise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BAF169806FA0067A08B /* bibexercise.mp3 */; };
@@ -89,34 +94,51 @@
 		47E04BCE169806FA0067A08B /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBD169806FA0067A08B /* VoicedAh.mp3 */; };
 		47E04BCF169806FA0067A08B /* whatismvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBE169806FA0067A08B /* whatismvw.mp3 */; };
 		47E04BD11698095D0067A08B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E04BD01698095D0067A08B /* AVFoundation.framework */; };
-		C85D68CD16994C4700BFFB1E /* BeforeYouMakeASound.htm in Resources */ = {isa = PBXBuildFile; fileRef = C85D68CA16994C4700BFFB1E /* BeforeYouMakeASound.htm */; };
-		C85D68CE16994C4700BFFB1E /* moveeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = C85D68CB16994C4700BFFB1E /* moveeasy.htm */; };
-		C85D68CF16994C4700BFFB1E /* standeasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = C85D68CC16994C4700BFFB1E /* standeasy.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47DD28DF169D7C6E005E9710 /* beforeyoumakeasound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beforeyoumakeasound.mp3; path = "new recordings/beforeyoumakeasound.mp3"; sourceTree = "<group>"; };
-		47DD28E1169D9548005E9710 /* Breath Exercises Text.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Breath Exercises Text.htm"; path = "VoiceApp/html/01Preparation/Being in Breath/Breath Exercises Text.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28E3169D9559005E9710 /* breatheeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = breatheeasy.htm; path = "VoiceApp/html/01Preparation/Being in Breath/breatheeasy.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28E4169D9559005E9710 /* breathex.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = breathex.htm; path = "VoiceApp/html/01Preparation/Being in Breath/breathex.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28E7169D958F005E9710 /* 08howtousemvw.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 08howtousemvw.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/08howtousemvw.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28E8169D958F005E9710 /* 09Sigh.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 09Sigh.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/09Sigh.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28E9169D958F005E9710 /* 10sighingah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 10sighingah.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/10sighingah.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28EA169D958F005E9710 /* 11hum.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 11hum.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/11hum.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28EB169D958F005E9710 /* 12FastAscendingTrill.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 12FastAscendingTrill.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/12FastAscendingTrill.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28EC169D958F005E9710 /* 13FastDescendingTrill.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 13FastDescendingTrill.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/13FastDescendingTrill.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28ED169D958F005E9710 /* 14voicedah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 14voicedah.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/14voicedah.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28F0169D958F005E9710 /* FastAscendingTrilltext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = FastAscendingTrilltext.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/FastAscendingTrilltext.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28F1169D958F005E9710 /* Humtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Humtext.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/Humtext.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28F2169D958F005E9710 /* voicedahtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = voicedahtext.htm; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/voicedahtext.htm"; sourceTree = SOURCE_ROOT; };
-		47DD28FF169D95AA005E9710 /* 17vocalmaintenanceprogram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 17vocalmaintenanceprogram.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/17vocalmaintenanceprogram.htm"; sourceTree = SOURCE_ROOT; };
-		47DD2901169D95AA005E9710 /* 19articulation.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 19articulation.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/19articulation.htm"; sourceTree = SOURCE_ROOT; };
-		47DD2902169D95AA005E9710 /* articulationtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = articulationtext.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/articulationtext.htm"; sourceTree = SOURCE_ROOT; };
-		47DD2903169D95AA005E9710 /* finishwithfocus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = finishwithfocus.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/finishwithfocus.htm"; sourceTree = SOURCE_ROOT; };
-		47DD2904169D95AA005E9710 /* finishwithfocustxt.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = finishwithfocustxt.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/finishwithfocustxt.htm"; sourceTree = SOURCE_ROOT; };
-		47DD290B169D9612005E9710 /* 18Resonance.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 18Resonance.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/18Resonance.htm"; sourceTree = SOURCE_ROOT; };
-		47DD290D169D9666005E9710 /* 15 warmupnowwithFlloyd.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "15 warmupnowwithFlloyd.htm"; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/15 warmupnowwithFlloyd.htm"; sourceTree = SOURCE_ROOT; };
-		47DD290E169D9666005E9710 /* 16 warmupnowwithRod.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "16 warmupnowwithRod.htm"; path = "VoiceApp/html/02The Warmups/03WarmupBeginners/Mini Vocal Warmup/16 warmupnowwithRod.htm"; sourceTree = SOURCE_ROOT; };
+		47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo 200 px.jpg"; path = "../../Pictures/iPhoto Library/Masters/2011/05/27/20110527-104832/logo 200 px.jpg"; sourceTree = "<group>"; };
+		47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3404.JPG; path = "../../Pictures/iPhoto Library/Previews/2012/06/19/20120619-151606/CNXhQDXlTPiTLF4vV2KmQg/IMG_3404.JPG"; sourceTree = "<group>"; };
+		47DDB5D6169ED53D000A9A2B /* 01welcome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 01welcome.html; path = VoiceApp/html/01Welcome/01welcome.html; sourceTree = SOURCE_ROOT; };
+		47DDB5D7169ED53D000A9A2B /* 02whatisbeinginvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 02whatisbeinginvoice.htm; path = VoiceApp/html/01Welcome/02whatisbeinginvoice.htm; sourceTree = SOURCE_ROOT; };
+		47DDB5D8169ED53D000A9A2B /* 03whywarmup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 03whywarmup.htm; path = VoiceApp/html/01Welcome/03whywarmup.htm; sourceTree = SOURCE_ROOT; };
+		47DDB5E4169ED5B1000A9A2B /* intro text.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "intro text.htm"; sourceTree = "<group>"; };
+		47DDB5E5169ED5B1000A9A2B /* moveeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = moveeasy.htm; sourceTree = "<group>"; };
+		47DDB5E6169ED5B1000A9A2B /* standeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = standeasy.htm; sourceTree = "<group>"; };
+		47DDB5EA169ED5C1000A9A2B /* BeforeYouMakeASound.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BeforeYouMakeASound.htm; sourceTree = "<group>"; };
+		47DDB5ED169ED5EF000A9A2B /* 03BeinginBodytext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 03BeinginBodytext.htm; sourceTree = "<group>"; };
+		47DDB5EE169ED5EF000A9A2B /* 04posturetext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 04posturetext.htm; sourceTree = "<group>"; };
+		47DDB5EF169ED5EF000A9A2B /* 05rollingspinetext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 05rollingspinetext.htm; sourceTree = "<group>"; };
+		47DDB5F3169ED614000A9A2B /* Breath Exercises Text.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Breath Exercises Text.htm"; sourceTree = "<group>"; };
+		47DDB5F4169ED614000A9A2B /* breatheeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = breatheeasy.htm; sourceTree = "<group>"; };
+		47DDB5F5169ED614000A9A2B /* breathex.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = breathex.htm; sourceTree = "<group>"; };
+		47DDB5F9169ED65B000A9A2B /* 08howtousemvw.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 08howtousemvw.htm; sourceTree = "<group>"; };
+		47DDB5FA169ED65B000A9A2B /* 09Sigh.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 09Sigh.htm; sourceTree = "<group>"; };
+		47DDB5FB169ED65B000A9A2B /* 10sighingah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 10sighingah.htm; sourceTree = "<group>"; };
+		47DDB5FC169ED65B000A9A2B /* 11hum.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 11hum.htm; sourceTree = "<group>"; };
+		47DDB5FD169ED65B000A9A2B /* 12FastAscendingTrill.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 12FastAscendingTrill.htm; sourceTree = "<group>"; };
+		47DDB5FE169ED65B000A9A2B /* 13FastDescendingTrill.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 13FastDescendingTrill.htm; sourceTree = "<group>"; };
+		47DDB5FF169ED65B000A9A2B /* 14voicedah.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 14voicedah.htm; sourceTree = "<group>"; };
+		47DDB600169ED65B000A9A2B /* 15 warmupnowwithFlloyd.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "15 warmupnowwithFlloyd.htm"; sourceTree = "<group>"; };
+		47DDB601169ED65B000A9A2B /* 16 warmupnowwithRod.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "16 warmupnowwithRod.htm"; sourceTree = "<group>"; };
+		47DDB602169ED65B000A9A2B /* FastAscendingTrilltext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FastAscendingTrilltext.htm; sourceTree = "<group>"; };
+		47DDB603169ED65B000A9A2B /* Humtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Humtext.htm; sourceTree = "<group>"; };
+		47DDB604169ED65B000A9A2B /* voicedahtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = voicedahtext.htm; sourceTree = "<group>"; };
+		47DDB611169ED689000A9A2B /* 17vocalmaintenanceprogram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 17vocalmaintenanceprogram.htm; sourceTree = "<group>"; };
+		47DDB612169ED689000A9A2B /* 18Resonance.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 18Resonance.htm; sourceTree = "<group>"; };
+		47DDB613169ED689000A9A2B /* 19articulation.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 19articulation.htm; sourceTree = "<group>"; };
+		47DDB614169ED689000A9A2B /* 20finishwithfocus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 20finishwithfocus.htm; sourceTree = "<group>"; };
+		47DDB615169ED689000A9A2B /* articulationtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = articulationtext.htm; sourceTree = "<group>"; };
+		47DDB616169ED689000A9A2B /* finishwithfocus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = finishwithfocus.htm; sourceTree = "<group>"; };
+		47DDB617169ED689000A9A2B /* finishwithfocustxt.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = finishwithfocustxt.htm; sourceTree = "<group>"; };
+		47DDB61F169ED6A8000A9A2B /* 1voicematters.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 1voicematters.htm; path = VoiceApp/html/04Technical/1voicematters.htm; sourceTree = SOURCE_ROOT; };
+		47DDB620169ED6A8000A9A2B /* 2HowBreathWorks.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 2HowBreathWorks.htm; path = VoiceApp/html/04Technical/2HowBreathWorks.htm; sourceTree = SOURCE_ROOT; };
+		47DDB621169ED6A8000A9A2B /* 3howvoiceworks.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 3howvoiceworks.htm; path = VoiceApp/html/04Technical/3howvoiceworks.htm; sourceTree = SOURCE_ROOT; };
+		47DDB622169ED6A8000A9A2B /* 4howspeechworks.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 4howspeechworks.htm; path = VoiceApp/html/04Technical/4howspeechworks.htm; sourceTree = SOURCE_ROOT; };
+		47DDB627169ED777000A9A2B /* aboutthisapp.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = aboutthisapp.htm; path = "../../../../abeingingoodvoicesunday_v20_iOS/BT_Docs/htm files/aboutthisapp.htm"; sourceTree = "<group>"; };
+		47DDB629169ED78A000A9A2B /* aboutbeinginvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = aboutbeinginvoice.htm; path = "../../../../abeingingoodvoicesunday_v20_iOS/BT_Docs/htm files/aboutbeinginvoice.htm"; sourceTree = "<group>"; };
+		47DDB62B169ED79B000A9A2B /* privacypolicy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = privacypolicy.htm; path = "../../../../abeingingoodvoicesunday_v20_iOS/BT_Docs/htm files/privacypolicy.htm"; sourceTree = "<group>"; };
 		47DF7548169839990054B51C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		47DF75511698501E0054B51C /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = VoiceApp/images/forward.png; sourceTree = "<group>"; };
 		47DF75521698501E0054B51C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = VoiceApp/images/pause.png; sourceTree = "<group>"; };
@@ -152,21 +174,6 @@
 		47DFC6AD1692E246002856B8 /* HtmlArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlArticle.m; sourceTree = "<group>"; };
 		47DFC6B21692E4BF002856B8 /* voiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voiceDataController.h; sourceTree = "<group>"; };
 		47DFC6B31692E4BF002856B8 /* voiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voiceDataController.m; sourceTree = "<group>"; };
-		47E04B6F1697CF760067A08B /* 01welcome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 01welcome.html; path = VoiceApp/html/Welcome/01welcome.html; sourceTree = SOURCE_ROOT; };
-		47E04B701697CF760067A08B /* 02whatisbeinginvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 02whatisbeinginvoice.htm; path = VoiceApp/html/Welcome/02whatisbeinginvoice.htm; sourceTree = SOURCE_ROOT; };
-		47E04B711697CF760067A08B /* 03whywarmup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 03whywarmup.htm; path = VoiceApp/html/Welcome/03whywarmup.htm; sourceTree = SOURCE_ROOT; };
-		47E04B751697CF9B0067A08B /* 03BeinginBodytext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 03BeinginBodytext.htm; path = "VoiceApp/html/01Preparation/Being in Body/03BeinginBodytext.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B761697CF9B0067A08B /* 04posturetext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 04posturetext.htm; path = "VoiceApp/html/01Preparation/Being in Body/04posturetext.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B771697CF9B0067A08B /* 05rollingspinetext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 05rollingspinetext.htm; path = "VoiceApp/html/01Preparation/Being in Body/05rollingspinetext.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B911697F40A0067A08B /* 17vocalmaintenanceprogram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 17vocalmaintenanceprogram.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/17vocalmaintenanceprogram.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B931697F40A0067A08B /* 19articulation.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 19articulation.htm; path = "VoiceApp/html/02The Warmups/04Warmupadvanced/19articulation.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B991697F4330067A08B /* 01whatisvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 01whatisvoice.htm; path = "VoiceApp/html/03About Voice/01whatisvoice.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B9A1697F4330067A08B /* 02voicetospeech.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 02voicetospeech.htm; path = "VoiceApp/html/03About Voice/02voicetospeech.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B9B1697F4330067A08B /* 03whatisspeech.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 03whatisspeech.htm; path = "VoiceApp/html/03About Voice/03whatisspeech.htm"; sourceTree = SOURCE_ROOT; };
-		47E04B9C1697F4330067A08B /* 04glossary.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 04glossary.htm; path = "VoiceApp/html/03About Voice/04glossary.htm"; sourceTree = SOURCE_ROOT; };
-		47E04BA11697F4E90067A08B /* aboutthisapp.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutthisapp.htm; sourceTree = "<group>"; };
-		47E04BA31697F4E90067A08B /* privacypolicy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacypolicy.htm; sourceTree = "<group>"; };
-		47E04BA71697F58A0067A08B /* aboutbeinginvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutbeinginvoice.htm; sourceTree = "<group>"; };
 		47E04BA9169803620067A08B /* test.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.htm; path = VoiceApp/test.htm; sourceTree = "<group>"; };
 		47E04BAE169806FA0067A08B /* alignment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alignment.mp3; sourceTree = "<group>"; };
 		47E04BAF169806FA0067A08B /* bibexercise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bibexercise.mp3; sourceTree = "<group>"; };
@@ -186,9 +193,6 @@
 		47E04BBD169806FA0067A08B /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
 		47E04BBE169806FA0067A08B /* whatismvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatismvw.mp3; sourceTree = "<group>"; };
 		47E04BD01698095D0067A08B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C85D68CA16994C4700BFFB1E /* BeforeYouMakeASound.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BeforeYouMakeASound.htm; sourceTree = "<group>"; };
-		C85D68CB16994C4700BFFB1E /* moveeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = moveeasy.htm; sourceTree = "<group>"; };
-		C85D68CC16994C4700BFFB1E /* standeasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = standeasy.htm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,9 +212,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47DDB5BC169ED348000A9A2B /* 04Technical */ = {
+			isa = PBXGroup;
+			children = (
+				47DDB61F169ED6A8000A9A2B /* 1voicematters.htm */,
+				47DDB620169ED6A8000A9A2B /* 2HowBreathWorks.htm */,
+				47DDB621169ED6A8000A9A2B /* 3howvoiceworks.htm */,
+				47DDB622169ED6A8000A9A2B /* 4howspeechworks.htm */,
+			);
+			name = 04Technical;
+			path = VoiceApp/html/03Technical;
+			sourceTree = "<group>";
+		};
+		47DDB5C9169ED501000A9A2B /* 05More... */ = {
+			isa = PBXGroup;
+			children = (
+				47DDB62B169ED79B000A9A2B /* privacypolicy.htm */,
+				47DDB629169ED78A000A9A2B /* aboutbeinginvoice.htm */,
+				47DDB627169ED777000A9A2B /* aboutthisapp.htm */,
+			);
+			name = 05More...;
+			path = VoiceApp/html/05More...;
+			sourceTree = "<group>";
+		};
+		47DDB5EC169ED5EF000A9A2B /* beingeasy */ = {
+			isa = PBXGroup;
+			children = (
+				47DDB5ED169ED5EF000A9A2B /* 03BeinginBodytext.htm */,
+				47DDB5EE169ED5EF000A9A2B /* 04posturetext.htm */,
+				47DDB5EF169ED5EF000A9A2B /* 05rollingspinetext.htm */,
+			);
+			path = beingeasy;
+			sourceTree = "<group>";
+		};
 		47DF7561169850290054B51C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */,
+				47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */,
 				47DF75511698501E0054B51C /* forward.png */,
 				47DF75521698501E0054B51C /* pause.png */,
 				47DF75531698501F0054B51C /* play.png */,
@@ -222,17 +261,6 @@
 			);
 			name = images;
 			sourceTree = "<group>";
-		};
-		47DF75621698F4B70054B51C /* beingeasy */ = {
-			isa = PBXGroup;
-			children = (
-				C85D68CA16994C4700BFFB1E /* BeforeYouMakeASound.htm */,
-				C85D68CB16994C4700BFFB1E /* moveeasy.htm */,
-				C85D68CC16994C4700BFFB1E /* standeasy.htm */,
-			);
-			name = beingeasy;
-			path = "VoiceApp/html/01Preparation/Being in Body/beingeasy";
-			sourceTree = SOURCE_ROOT;
 		};
 		47DFC6741692D5F7002856B8 = {
 			isa = PBXGroup;
@@ -307,11 +335,11 @@
 		47DFC6F21692F720002856B8 /* html */ = {
 			isa = PBXGroup;
 			children = (
-				47E04B5F1697CF340067A08B /* 01AboutVoice */,
-				47E04B5E1697CF340067A08B /* 04More... */,
+				47DDB5C9169ED501000A9A2B /* 05More... */,
+				C85D68851696FBD600BFFB1E /* 01Welcome */,
+				C85D68891696FBD600BFFB1E /* 02Preparation */,
 				47E04B401697CF1B0067A08B /* 03The Warmups */,
-				C85D68851696FBD600BFFB1E /* Welcome */,
-				C85D68891696FBD600BFFB1E /* 01Preparation */,
+				47DDB5BC169ED348000A9A2B /* 04Technical */,
 			);
 			name = html;
 			sourceTree = "<group>";
@@ -337,18 +365,18 @@
 		47E04B421697CF1B0067A08B /* Mini Vocal Warmup */ = {
 			isa = PBXGroup;
 			children = (
-				47DD290D169D9666005E9710 /* 15 warmupnowwithFlloyd.htm */,
-				47DD290E169D9666005E9710 /* 16 warmupnowwithRod.htm */,
-				47DD28E7169D958F005E9710 /* 08howtousemvw.htm */,
-				47DD28E8169D958F005E9710 /* 09Sigh.htm */,
-				47DD28E9169D958F005E9710 /* 10sighingah.htm */,
-				47DD28EA169D958F005E9710 /* 11hum.htm */,
-				47DD28EB169D958F005E9710 /* 12FastAscendingTrill.htm */,
-				47DD28EC169D958F005E9710 /* 13FastDescendingTrill.htm */,
-				47DD28ED169D958F005E9710 /* 14voicedah.htm */,
-				47DD28F0169D958F005E9710 /* FastAscendingTrilltext.htm */,
-				47DD28F1169D958F005E9710 /* Humtext.htm */,
-				47DD28F2169D958F005E9710 /* voicedahtext.htm */,
+				47DDB5F9169ED65B000A9A2B /* 08howtousemvw.htm */,
+				47DDB5FA169ED65B000A9A2B /* 09Sigh.htm */,
+				47DDB5FB169ED65B000A9A2B /* 10sighingah.htm */,
+				47DDB5FC169ED65B000A9A2B /* 11hum.htm */,
+				47DDB5FD169ED65B000A9A2B /* 12FastAscendingTrill.htm */,
+				47DDB5FE169ED65B000A9A2B /* 13FastDescendingTrill.htm */,
+				47DDB5FF169ED65B000A9A2B /* 14voicedah.htm */,
+				47DDB600169ED65B000A9A2B /* 15 warmupnowwithFlloyd.htm */,
+				47DDB601169ED65B000A9A2B /* 16 warmupnowwithRod.htm */,
+				47DDB602169ED65B000A9A2B /* FastAscendingTrilltext.htm */,
+				47DDB603169ED65B000A9A2B /* Humtext.htm */,
+				47DDB604169ED65B000A9A2B /* voicedahtext.htm */,
 			);
 			path = "Mini Vocal Warmup";
 			sourceTree = "<group>";
@@ -356,39 +384,15 @@
 		47E04B4C1697CF1B0067A08B /* 04Warmupadvanced */ = {
 			isa = PBXGroup;
 			children = (
-				47DD290B169D9612005E9710 /* 18Resonance.htm */,
-				47DD28FF169D95AA005E9710 /* 17vocalmaintenanceprogram.htm */,
-				47DD2901169D95AA005E9710 /* 19articulation.htm */,
-				47DD2902169D95AA005E9710 /* articulationtext.htm */,
-				47DD2903169D95AA005E9710 /* finishwithfocus.htm */,
-				47DD2904169D95AA005E9710 /* finishwithfocustxt.htm */,
-				47E04B911697F40A0067A08B /* 17vocalmaintenanceprogram.htm */,
-				47E04B931697F40A0067A08B /* 19articulation.htm */,
+				47DDB611169ED689000A9A2B /* 17vocalmaintenanceprogram.htm */,
+				47DDB612169ED689000A9A2B /* 18Resonance.htm */,
+				47DDB613169ED689000A9A2B /* 19articulation.htm */,
+				47DDB614169ED689000A9A2B /* 20finishwithfocus.htm */,
+				47DDB615169ED689000A9A2B /* articulationtext.htm */,
+				47DDB616169ED689000A9A2B /* finishwithfocus.htm */,
+				47DDB617169ED689000A9A2B /* finishwithfocustxt.htm */,
 			);
 			path = 04Warmupadvanced;
-			sourceTree = "<group>";
-		};
-		47E04B5E1697CF340067A08B /* 04More... */ = {
-			isa = PBXGroup;
-			children = (
-				47E04BA71697F58A0067A08B /* aboutbeinginvoice.htm */,
-				47E04BA11697F4E90067A08B /* aboutthisapp.htm */,
-				47E04BA31697F4E90067A08B /* privacypolicy.htm */,
-			);
-			name = 04More...;
-			path = VoiceApp/html/04More...;
-			sourceTree = "<group>";
-		};
-		47E04B5F1697CF340067A08B /* 01AboutVoice */ = {
-			isa = PBXGroup;
-			children = (
-				47E04B991697F4330067A08B /* 01whatisvoice.htm */,
-				47E04B9A1697F4330067A08B /* 02voicetospeech.htm */,
-				47E04B9B1697F4330067A08B /* 03whatisspeech.htm */,
-				47E04B9C1697F4330067A08B /* 04glossary.htm */,
-			);
-			name = 01AboutVoice;
-			path = "VoiceApp/html/04More.../01About Voice";
 			sourceTree = "<group>";
 		};
 		47E04BAD169806FA0067A08B /* audio */ = {
@@ -417,34 +421,35 @@
 			path = VoiceApp/audio;
 			sourceTree = "<group>";
 		};
-		C85D68851696FBD600BFFB1E /* Welcome */ = {
+		C85D68851696FBD600BFFB1E /* 01Welcome */ = {
 			isa = PBXGroup;
 			children = (
-				47E04B6F1697CF760067A08B /* 01welcome.html */,
-				47E04B701697CF760067A08B /* 02whatisbeinginvoice.htm */,
-				47E04B711697CF760067A08B /* 03whywarmup.htm */,
+				47DDB5D6169ED53D000A9A2B /* 01welcome.html */,
+				47DDB5D7169ED53D000A9A2B /* 02whatisbeinginvoice.htm */,
+				47DDB5D8169ED53D000A9A2B /* 03whywarmup.htm */,
 			);
-			name = Welcome;
+			name = 01Welcome;
 			path = "VoiceApp/html/01 Welcome";
 			sourceTree = "<group>";
 		};
-		C85D68891696FBD600BFFB1E /* 01Preparation */ = {
+		C85D68891696FBD600BFFB1E /* 02Preparation */ = {
 			isa = PBXGroup;
 			children = (
 				C85D688A1696FBD600BFFB1E /* Being in Body */,
 				C85D688E1696FBD600BFFB1E /* Being in Breath */,
 			);
-			name = 01Preparation;
+			name = 02Preparation;
 			path = VoiceApp/html/02Preparation;
 			sourceTree = "<group>";
 		};
 		C85D688A1696FBD600BFFB1E /* Being in Body */ = {
 			isa = PBXGroup;
 			children = (
-				47DF75621698F4B70054B51C /* beingeasy */,
-				47E04B751697CF9B0067A08B /* 03BeinginBodytext.htm */,
-				47E04B761697CF9B0067A08B /* 04posturetext.htm */,
-				47E04B771697CF9B0067A08B /* 05rollingspinetext.htm */,
+				47DDB5EA169ED5C1000A9A2B /* BeforeYouMakeASound.htm */,
+				47DDB5E4169ED5B1000A9A2B /* intro text.htm */,
+				47DDB5E5169ED5B1000A9A2B /* moveeasy.htm */,
+				47DDB5E6169ED5B1000A9A2B /* standeasy.htm */,
+				47DDB5EC169ED5EF000A9A2B /* beingeasy */,
 			);
 			path = "Being in Body";
 			sourceTree = "<group>";
@@ -452,9 +457,9 @@
 		C85D688E1696FBD600BFFB1E /* Being in Breath */ = {
 			isa = PBXGroup;
 			children = (
-				47DD28E3169D9559005E9710 /* breatheeasy.htm */,
-				47DD28E4169D9559005E9710 /* breathex.htm */,
-				47DD28E1169D9548005E9710 /* Breath Exercises Text.htm */,
+				47DDB5F3169ED614000A9A2B /* Breath Exercises Text.htm */,
+				47DDB5F4169ED614000A9A2B /* breatheeasy.htm */,
+				47DDB5F5169ED614000A9A2B /* breathex.htm */,
 			);
 			path = "Being in Breath";
 			sourceTree = "<group>";
@@ -517,21 +522,6 @@
 				47DFC69A1692D5F7002856B8 /* Default-568h@2x.png in Resources */,
 				47DFC69D1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				47DFC6A01692D5F7002856B8 /* MainStoryboard_iPad.storyboard in Resources */,
-				47E04B721697CF760067A08B /* 01welcome.html in Resources */,
-				47E04B731697CF760067A08B /* 02whatisbeinginvoice.htm in Resources */,
-				47E04B741697CF760067A08B /* 03whywarmup.htm in Resources */,
-				47E04B781697CF9B0067A08B /* 03BeinginBodytext.htm in Resources */,
-				47E04B791697CF9B0067A08B /* 04posturetext.htm in Resources */,
-				47E04B7A1697CF9B0067A08B /* 05rollingspinetext.htm in Resources */,
-				47E04B951697F40A0067A08B /* 17vocalmaintenanceprogram.htm in Resources */,
-				47E04B971697F40A0067A08B /* 19articulation.htm in Resources */,
-				47E04B9D1697F4330067A08B /* 01whatisvoice.htm in Resources */,
-				47E04B9E1697F4330067A08B /* 02voicetospeech.htm in Resources */,
-				47E04B9F1697F4330067A08B /* 03whatisspeech.htm in Resources */,
-				47E04BA01697F4330067A08B /* 04glossary.htm in Resources */,
-				47E04BA41697F4E90067A08B /* aboutthisapp.htm in Resources */,
-				47E04BA61697F4E90067A08B /* privacypolicy.htm in Resources */,
-				47E04BA81697F58A0067A08B /* aboutbeinginvoice.htm in Resources */,
 				47E04BAA169803630067A08B /* test.htm in Resources */,
 				47E04BBF169806FA0067A08B /* alignment.mp3 in Resources */,
 				47E04BC0169806FA0067A08B /* bibexercise.mp3 in Resources */,
@@ -558,31 +548,48 @@
 				47DF755E1698501F0054B51C /* sound_meter_glare.png in Resources */,
 				47DF755F1698501F0054B51C /* volume_down.png in Resources */,
 				47DF75601698501F0054B51C /* volume_up.png in Resources */,
-				C85D68CD16994C4700BFFB1E /* BeforeYouMakeASound.htm in Resources */,
-				C85D68CE16994C4700BFFB1E /* moveeasy.htm in Resources */,
-				C85D68CF16994C4700BFFB1E /* standeasy.htm in Resources */,
 				47DD28E0169D7C6E005E9710 /* beforeyoumakeasound.mp3 in Resources */,
-				47DD28E2169D9548005E9710 /* Breath Exercises Text.htm in Resources */,
-				47DD28E5169D9559005E9710 /* breatheeasy.htm in Resources */,
-				47DD28E6169D9559005E9710 /* breathex.htm in Resources */,
-				47DD28F3169D958F005E9710 /* 08howtousemvw.htm in Resources */,
-				47DD28F4169D958F005E9710 /* 09Sigh.htm in Resources */,
-				47DD28F5169D958F005E9710 /* 10sighingah.htm in Resources */,
-				47DD28F6169D958F005E9710 /* 11hum.htm in Resources */,
-				47DD28F7169D958F005E9710 /* 12FastAscendingTrill.htm in Resources */,
-				47DD28F8169D958F005E9710 /* 13FastDescendingTrill.htm in Resources */,
-				47DD28F9169D958F005E9710 /* 14voicedah.htm in Resources */,
-				47DD28FC169D958F005E9710 /* FastAscendingTrilltext.htm in Resources */,
-				47DD28FD169D958F005E9710 /* Humtext.htm in Resources */,
-				47DD28FE169D958F005E9710 /* voicedahtext.htm in Resources */,
-				47DD2905169D95AA005E9710 /* 17vocalmaintenanceprogram.htm in Resources */,
-				47DD2907169D95AA005E9710 /* 19articulation.htm in Resources */,
-				47DD2908169D95AA005E9710 /* articulationtext.htm in Resources */,
-				47DD2909169D95AA005E9710 /* finishwithfocus.htm in Resources */,
-				47DD290A169D95AA005E9710 /* finishwithfocustxt.htm in Resources */,
-				47DD290C169D9612005E9710 /* 18Resonance.htm in Resources */,
-				47DD290F169D9666005E9710 /* 15 warmupnowwithFlloyd.htm in Resources */,
-				47DD2910169D9666005E9710 /* 16 warmupnowwithRod.htm in Resources */,
+				47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */,
+				47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */,
+				47DDB5D9169ED53D000A9A2B /* 01welcome.html in Resources */,
+				47DDB5DA169ED53D000A9A2B /* 02whatisbeinginvoice.htm in Resources */,
+				47DDB5DB169ED53D000A9A2B /* 03whywarmup.htm in Resources */,
+				47DDB5E7169ED5B1000A9A2B /* intro text.htm in Resources */,
+				47DDB5E8169ED5B1000A9A2B /* moveeasy.htm in Resources */,
+				47DDB5E9169ED5B1000A9A2B /* standeasy.htm in Resources */,
+				47DDB5EB169ED5C1000A9A2B /* BeforeYouMakeASound.htm in Resources */,
+				47DDB5F0169ED5EF000A9A2B /* 03BeinginBodytext.htm in Resources */,
+				47DDB5F1169ED5EF000A9A2B /* 04posturetext.htm in Resources */,
+				47DDB5F2169ED5EF000A9A2B /* 05rollingspinetext.htm in Resources */,
+				47DDB5F6169ED614000A9A2B /* Breath Exercises Text.htm in Resources */,
+				47DDB5F7169ED614000A9A2B /* breatheeasy.htm in Resources */,
+				47DDB5F8169ED614000A9A2B /* breathex.htm in Resources */,
+				47DDB605169ED65B000A9A2B /* 08howtousemvw.htm in Resources */,
+				47DDB606169ED65B000A9A2B /* 09Sigh.htm in Resources */,
+				47DDB607169ED65B000A9A2B /* 10sighingah.htm in Resources */,
+				47DDB608169ED65B000A9A2B /* 11hum.htm in Resources */,
+				47DDB609169ED65B000A9A2B /* 12FastAscendingTrill.htm in Resources */,
+				47DDB60A169ED65B000A9A2B /* 13FastDescendingTrill.htm in Resources */,
+				47DDB60B169ED65B000A9A2B /* 14voicedah.htm in Resources */,
+				47DDB60C169ED65B000A9A2B /* 15 warmupnowwithFlloyd.htm in Resources */,
+				47DDB60D169ED65B000A9A2B /* 16 warmupnowwithRod.htm in Resources */,
+				47DDB60E169ED65B000A9A2B /* FastAscendingTrilltext.htm in Resources */,
+				47DDB60F169ED65B000A9A2B /* Humtext.htm in Resources */,
+				47DDB610169ED65B000A9A2B /* voicedahtext.htm in Resources */,
+				47DDB618169ED689000A9A2B /* 17vocalmaintenanceprogram.htm in Resources */,
+				47DDB619169ED689000A9A2B /* 18Resonance.htm in Resources */,
+				47DDB61A169ED689000A9A2B /* 19articulation.htm in Resources */,
+				47DDB61B169ED689000A9A2B /* 20finishwithfocus.htm in Resources */,
+				47DDB61C169ED689000A9A2B /* articulationtext.htm in Resources */,
+				47DDB61D169ED689000A9A2B /* finishwithfocus.htm in Resources */,
+				47DDB61E169ED689000A9A2B /* finishwithfocustxt.htm in Resources */,
+				47DDB623169ED6A8000A9A2B /* 1voicematters.htm in Resources */,
+				47DDB624169ED6A8000A9A2B /* 2HowBreathWorks.htm in Resources */,
+				47DDB625169ED6A8000A9A2B /* 3howvoiceworks.htm in Resources */,
+				47DDB626169ED6A8000A9A2B /* 4howspeechworks.htm in Resources */,
+				47DDB628169ED777000A9A2B /* aboutthisapp.htm in Resources */,
+				47DDB62A169ED78A000A9A2B /* aboutbeinginvoice.htm in Resources */,
+				47DDB62C169ED79B000A9A2B /* privacypolicy.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
