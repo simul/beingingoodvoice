@@ -10,17 +10,27 @@
 #import <AVFoundation/AVFoundation.h>
 #import "UIAudioControl.h"
 
-@interface UIAudioControl : UIView
+@interface UIAudioControl : UIControl
 {
 	NSString* soundFile;
     BOOL _trackerThumbOn;
 	BOOL _running;
     float _padding;
-    UIImageView * _buttonImage;
+    UIImage * _playImage;
+    UIImage * _pauseImage;
 	UIImageView *_background;
+	UIImageView *thumb;
 	AVAudioPlayer *audioPlayer;
 	CADisplayLink *displayLink;
+	IBOutlet UIButton *button;
 
 }
 @property(nonatomic) NSString* soundFile;
+@property (nonatomic, retain) UIImageView *thumb;
+
+@property (nonatomic, retain) UIButton *button;
+
+-(CGPoint)posForAngle:(CGFloat)angle:(CGFloat)radius;
+-(CGFloat)angleForPos:(CGPoint)p;
+-(void)drawFilledArc:(CGContextRef)context innerRadius:(CGFloat)inner_radius outerRadius:(CGFloat)outer_radius withAngle:(CGFloat)angle withColour:(CGColorRef)color;
 @end

@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47DD28E0169D7C6E005E9710 /* beforeyoumakeasound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47DD28DF169D7C6E005E9710 /* beforeyoumakeasound.mp3 */; };
+		47DB015216A19576004F2F58 /* bar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014716A19576004F2F58 /* bar-background.png */; };
+		47DB015316A19576004F2F58 /* bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014816A19576004F2F58 /* bar-background@2x.png */; };
+		47DB015416A19576004F2F58 /* bar-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014916A19576004F2F58 /* bar-highlight.png */; };
+		47DB015516A19576004F2F58 /* bar-highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014A16A19576004F2F58 /* bar-highlight@2x.png */; };
+		47DB015616A19576004F2F58 /* Color Palette by Color Scheme Generator.html in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014B16A19576004F2F58 /* Color Palette by Color Scheme Generator.html */; };
+		47DB015716A19576004F2F58 /* colour palatte xml file.xml in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014C16A19576004F2F58 /* colour palatte xml file.xml */; };
+		47DB015816A19576004F2F58 /* handle-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014D16A19576004F2F58 /* handle-hover.png */; };
+		47DB015916A19576004F2F58 /* handle-hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014E16A19576004F2F58 /* handle-hover@2x.png */; };
+		47DB015A16A19576004F2F58 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014F16A19576004F2F58 /* handle.png */; };
+		47DB015B16A19576004F2F58 /* handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB015016A19576004F2F58 /* handle@2x.png */; };
+		47DB015C16A19576004F2F58 /* mypalette for photoshop.aco in Resources */ = {isa = PBXBuildFile; fileRef = 47DB015116A19576004F2F58 /* mypalette for photoshop.aco */; };
+		47DB015F16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47DB015E16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 */; };
 		47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */; };
 		47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */; };
 		47DDB5D9169ED53D000A9A2B /* 01welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D6169ED53D000A9A2B /* 01welcome.html */; };
@@ -49,6 +60,7 @@
 		47DDB628169ED777000A9A2B /* aboutthisapp.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB627169ED777000A9A2B /* aboutthisapp.htm */; };
 		47DDB62A169ED78A000A9A2B /* aboutbeinginvoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB629169ED78A000A9A2B /* aboutbeinginvoice.htm */; };
 		47DDB62C169ED79B000A9A2B /* privacypolicy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB62B169ED79B000A9A2B /* privacypolicy.htm */; };
+		47DDB62E169EE507000A9A2B /* FastAscendingLipTrill.MP3 in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */; };
 		47DF7549169839990054B51C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DF7548169839990054B51C /* AudioToolbox.framework */; };
 		47DF75591698501F0054B51C /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75511698501E0054B51C /* forward.png */; };
 		47DF755A1698501F0054B51C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75521698501E0054B51C /* pause.png */; };
@@ -97,7 +109,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47DD28DF169D7C6E005E9710 /* beforeyoumakeasound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beforeyoumakeasound.mp3; path = "new recordings/beforeyoumakeasound.mp3"; sourceTree = "<group>"; };
+		47DB014716A19576004F2F58 /* bar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-background.png"; path = "VoiceApp/images/bar-background.png"; sourceTree = "<group>"; };
+		47DB014816A19576004F2F58 /* bar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-background@2x.png"; path = "VoiceApp/images/bar-background@2x.png"; sourceTree = "<group>"; };
+		47DB014916A19576004F2F58 /* bar-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-highlight.png"; path = "VoiceApp/images/bar-highlight.png"; sourceTree = "<group>"; };
+		47DB014A16A19576004F2F58 /* bar-highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-highlight@2x.png"; path = "VoiceApp/images/bar-highlight@2x.png"; sourceTree = "<group>"; };
+		47DB014B16A19576004F2F58 /* Color Palette by Color Scheme Generator.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Color Palette by Color Scheme Generator.html"; path = "VoiceApp/images/Color Palette by Color Scheme Generator.html"; sourceTree = "<group>"; };
+		47DB014C16A19576004F2F58 /* colour palatte xml file.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "colour palatte xml file.xml"; path = "VoiceApp/images/colour palatte xml file.xml"; sourceTree = "<group>"; };
+		47DB014D16A19576004F2F58 /* handle-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handle-hover.png"; path = "VoiceApp/images/handle-hover.png"; sourceTree = "<group>"; };
+		47DB014E16A19576004F2F58 /* handle-hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handle-hover@2x.png"; path = "VoiceApp/images/handle-hover@2x.png"; sourceTree = "<group>"; };
+		47DB014F16A19576004F2F58 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle.png; path = VoiceApp/images/handle.png; sourceTree = "<group>"; };
+		47DB015016A19576004F2F58 /* handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handle@2x.png"; path = "VoiceApp/images/handle@2x.png"; sourceTree = "<group>"; };
+		47DB015116A19576004F2F58 /* mypalette for photoshop.aco */ = {isa = PBXFileReference; lastKnownFileType = file; name = "mypalette for photoshop.aco"; path = "VoiceApp/images/mypalette for photoshop.aco"; sourceTree = "<group>"; };
+		47DB015E16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BeforeYouMakeASound.mp3; path = "new recordings/BeforeYouMakeASound.mp3"; sourceTree = "<group>"; };
 		47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo 200 px.jpg"; path = "../../Pictures/iPhoto Library/Masters/2011/05/27/20110527-104832/logo 200 px.jpg"; sourceTree = "<group>"; };
 		47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3404.JPG; path = "../../Pictures/iPhoto Library/Previews/2012/06/19/20120619-151606/CNXhQDXlTPiTLF4vV2KmQg/IMG_3404.JPG"; sourceTree = "<group>"; };
 		47DDB5D6169ED53D000A9A2B /* 01welcome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 01welcome.html; path = VoiceApp/html/01Welcome/01welcome.html; sourceTree = SOURCE_ROOT; };
@@ -139,6 +162,7 @@
 		47DDB627169ED777000A9A2B /* aboutthisapp.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = aboutthisapp.htm; path = "../../../../abeingingoodvoicesunday_v20_iOS/BT_Docs/htm files/aboutthisapp.htm"; sourceTree = "<group>"; };
 		47DDB629169ED78A000A9A2B /* aboutbeinginvoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = aboutbeinginvoice.htm; path = "../../../../abeingingoodvoicesunday_v20_iOS/BT_Docs/htm files/aboutbeinginvoice.htm"; sourceTree = "<group>"; };
 		47DDB62B169ED79B000A9A2B /* privacypolicy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = privacypolicy.htm; path = "../../../../abeingingoodvoicesunday_v20_iOS/BT_Docs/htm files/privacypolicy.htm"; sourceTree = "<group>"; };
+		47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FastAscendingLipTrill.MP3; path = "../../../../Desktop/audio for app 6 Jan 13/FastAscendingLipTrill.MP3"; sourceTree = "<group>"; };
 		47DF7548169839990054B51C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		47DF75511698501E0054B51C /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = VoiceApp/images/forward.png; sourceTree = "<group>"; };
 		47DF75521698501E0054B51C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = VoiceApp/images/pause.png; sourceTree = "<group>"; };
@@ -248,6 +272,17 @@
 		47DF7561169850290054B51C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				47DB014716A19576004F2F58 /* bar-background.png */,
+				47DB014816A19576004F2F58 /* bar-background@2x.png */,
+				47DB014916A19576004F2F58 /* bar-highlight.png */,
+				47DB014A16A19576004F2F58 /* bar-highlight@2x.png */,
+				47DB014B16A19576004F2F58 /* Color Palette by Color Scheme Generator.html */,
+				47DB014C16A19576004F2F58 /* colour palatte xml file.xml */,
+				47DB014D16A19576004F2F58 /* handle-hover.png */,
+				47DB014E16A19576004F2F58 /* handle-hover@2x.png */,
+				47DB014F16A19576004F2F58 /* handle.png */,
+				47DB015016A19576004F2F58 /* handle@2x.png */,
+				47DB015116A19576004F2F58 /* mypalette for photoshop.aco */,
 				47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */,
 				47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */,
 				47DF75511698501E0054B51C /* forward.png */,
@@ -398,7 +433,8 @@
 		47E04BAD169806FA0067A08B /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				47DD28DF169D7C6E005E9710 /* beforeyoumakeasound.mp3 */,
+				47DB015E16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 */,
+				47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */,
 				47E04BAE169806FA0067A08B /* alignment.mp3 */,
 				47E04BAF169806FA0067A08B /* bibexercise.mp3 */,
 				47E04BB0169806FA0067A08B /* bibintro.mp3 */,
@@ -548,7 +584,6 @@
 				47DF755E1698501F0054B51C /* sound_meter_glare.png in Resources */,
 				47DF755F1698501F0054B51C /* volume_down.png in Resources */,
 				47DF75601698501F0054B51C /* volume_up.png in Resources */,
-				47DD28E0169D7C6E005E9710 /* beforeyoumakeasound.mp3 in Resources */,
 				47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */,
 				47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */,
 				47DDB5D9169ED53D000A9A2B /* 01welcome.html in Resources */,
@@ -590,6 +625,19 @@
 				47DDB628169ED777000A9A2B /* aboutthisapp.htm in Resources */,
 				47DDB62A169ED78A000A9A2B /* aboutbeinginvoice.htm in Resources */,
 				47DDB62C169ED79B000A9A2B /* privacypolicy.htm in Resources */,
+				47DDB62E169EE507000A9A2B /* FastAscendingLipTrill.MP3 in Resources */,
+				47DB015216A19576004F2F58 /* bar-background.png in Resources */,
+				47DB015316A19576004F2F58 /* bar-background@2x.png in Resources */,
+				47DB015416A19576004F2F58 /* bar-highlight.png in Resources */,
+				47DB015516A19576004F2F58 /* bar-highlight@2x.png in Resources */,
+				47DB015616A19576004F2F58 /* Color Palette by Color Scheme Generator.html in Resources */,
+				47DB015716A19576004F2F58 /* colour palatte xml file.xml in Resources */,
+				47DB015816A19576004F2F58 /* handle-hover.png in Resources */,
+				47DB015916A19576004F2F58 /* handle-hover@2x.png in Resources */,
+				47DB015A16A19576004F2F58 /* handle.png in Resources */,
+				47DB015B16A19576004F2F58 /* handle@2x.png in Resources */,
+				47DB015C16A19576004F2F58 /* mypalette for photoshop.aco in Resources */,
+				47DB015F16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,14 +18,16 @@
 
 @synthesize webView;
 @synthesize audioControl;
-@synthesize playButton;
+
+@synthesize detailItem;
+@synthesize detailDescriptionLabel;
 
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (detailItem != newDetailItem) {
+        detailItem = newDetailItem;
         
         // Update the view.
         [self configureView];
@@ -47,14 +49,15 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    if([_detailItem isKindOfClass:[NSString class]])
+    if([detailItem isKindOfClass:[NSString class]])
     {
-        NSString *str=(NSString*)_detailItem;
+        NSString *str=(NSString*)detailItem;
+		audioControl.soundFile=str;
         NSString *htmlFile2= [[NSBundle mainBundle] pathForResource:str ofType:@"htm" inDirectory:@""];
         NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile2 encoding:NSUTF8StringEncoding error:nil];
         [webView loadHTMLString:htmlString baseURL:nil];
     }
+    [super viewDidLoad];
 	
 	playBtnBG = [UIImage imageNamed:@"play.png"];
 	pauseBtnBG = [UIImage imageNamed:@"pause.png"];
