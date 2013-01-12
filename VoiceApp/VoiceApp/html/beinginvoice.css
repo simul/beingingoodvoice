@@ -1,0 +1,32 @@
+body
+{
+    background-color: white;
+    font-size: 40px;
+}
+
+p
+{
+    color:black;
+    font-size: 40px;
+}
+
+h1
+{
+    font-family:verdana;
+    font-size:30px;
+}
+
+
+#footer
+{
+	background-color:#9BE8FA;
+    clear:both;
+    text-align:center;
+}
+
+audio
+{
+    width: 200px;
+    height:200px;
+    display: block;
+}
