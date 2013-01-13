@@ -55,7 +55,7 @@
 		audioControl.soundFile=str;
         NSString *htmlFile2= [[NSBundle mainBundle] pathForResource:str ofType:@"htm" inDirectory:@""];
         NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile2 encoding:NSUTF8StringEncoding error:nil];
-        [webView loadHTMLString:htmlString baseURL:nil];
+        [webView loadHTMLString:htmlString baseURL:[[NSBundle mainBundle] bundleURL]];
     }
     [super viewDidLoad];
 	
