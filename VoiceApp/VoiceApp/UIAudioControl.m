@@ -33,6 +33,8 @@ CGFloat	pi=3.1415926536;
 	displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(setNeedsDisplay)] ;
 	_playImage = [UIImage imageNamed:@"play.png"];
 	_pauseImage = [UIImage imageNamed:@"pause.png"];
+	
+	[self setBackgroundColor:[UIColor colorWithWhite:0.0 alpha:0.0]];
 }
 
 - (void) setFrame:(CGRect)aFrame

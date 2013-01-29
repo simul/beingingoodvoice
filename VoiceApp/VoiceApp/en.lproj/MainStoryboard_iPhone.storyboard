@@ -29,7 +29,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="12" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="13">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.33725490196078434" green="0.054901960784313725" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
@@ -195,14 +195,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="111" y="-1434"/>
+            <point key="canvasLocation" x="265" y="-1358"/>
         </scene>
         <!--Voice Detail View Controller - Detail-->
         <scene sceneID="24">
             <objects>
                 <viewController storyboardIdentifier="" title="Detail" id="21" customClass="voiceDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="22">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-uW-Gfv">
@@ -262,14 +262,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="-476"/>
+            <point key="canvasLocation" x="2894" y="-1136"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="n28-TO-ce7">
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="YeV-pH-buz" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Uix-Wl-cLf">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -326,7 +326,7 @@
                             </tableViewSection>
                             <tableViewSection footerTitle="" id="7dO-lk-Eiy" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Rolling Down" textLabel="g0q-vZ-ljE" style="IBUITableViewCellStyleDefault" id="pCM-sM-4jF">
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MoveEasy" textLabel="g0q-vZ-ljE" style="IBUITableViewCellStyleDefault" id="pCM-sM-4jF">
                                         <rect key="frame" x="0.0" y="140" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -360,14 +360,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pSB-2C-YPu" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="-1178"/>
+            <point key="canvasLocation" x="792" y="-790"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="8TH-vt-GGh">
             <objects>
                 <tableViewController storyboardIdentifier="beinginbreath" title="Master" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rsR-wC-Eic" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ygU-ds-5z1">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -391,6 +391,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="21" kind="push" identifier="BeingInBreath" id="W91-2c-gPX"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -413,6 +416,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="21" kind="push" identifier="BreathExercises" id="B9Q-sZ-hCB"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -429,14 +435,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSn-AU-Cts" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="578" y="-716"/>
+            <point key="canvasLocation" x="792" y="-1510"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="f9s-Mb-iVU">
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="zam-h4-H6M" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="j6x-ZB-QaW">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -565,7 +571,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="TkG-m9-YDo" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="hAm-BW-GnK">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -573,7 +579,7 @@
                             <tableViewSection footerTitle="" id="O5Z-sW-28u" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Vocal Function Exercises" textLabel="Zye-Cz-FBN" style="IBUITableViewCellStyleDefault" id="gaX-Ue-pFf">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -598,7 +604,7 @@
                             <tableViewSection footerTitle="" id="RUN-xd-Azm" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Resonance &amp; Color" textLabel="syl-iF-8Lz" style="IBUITableViewCellStyleDefault" id="Gju-mg-KBb">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -623,7 +629,7 @@
                             <tableViewSection footerTitle="" id="Gsl-Rx-zGo" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Articulation and Diction" textLabel="kwK-7b-LPU" style="IBUITableViewCellStyleDefault" id="fgu-IA-D1W">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -648,7 +654,7 @@
                             <tableViewSection footerTitle="" id="Cuv-oO-7BZ" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Finish with Focus" textLabel="eoL-aW-CKl" style="IBUITableViewCellStyleDefault" id="PmY-o8-o1Z">
-                                        <rect key="frame" x="0.0" y="205" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="205" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -687,7 +693,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="zX9-OW-kpW" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="sSi-Zw-xXc">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -855,14 +861,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cia-LH-f4f" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34" y="-80"/>
+            <point key="canvasLocation" x="-34" y="-408"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="1GJ-Y1-Nke">
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="PRx-Vd-GHf" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="9cO-Lm-2Og">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -887,7 +893,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="0ch-hi-FXa" kind="push" identifier="VoiceMatters" id="dE6-V5-ZpY"/>
+                                            <segue destination="0ch-hi-FXa" kind="push" identifier="WhyVoiceMatters" id="dE6-V5-ZpY"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -977,7 +983,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X73-lW-BfL" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1110" y="-1440"/>
+            <point key="canvasLocation" x="802" y="-2236"/>
         </scene>
         <!--Voice Detail View Controller - Information-->
         <scene sceneID="iRL-TA-CWO">
@@ -1006,14 +1012,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghh-h8-LWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938" y="-2364"/>
+            <point key="canvasLocation" x="2966" y="-1920"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="gUh-FH-9Qq">
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" id="wRm-Ji-GSb" customClass="voiceMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="WPh-cC-v26">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.074509806930000005" green="0.41960787770000002" blue="0.54509806630000002" alpha="1" colorSpace="deviceRGB"/>
@@ -1128,7 +1134,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZLO-dH-MKA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1910" y="-1752"/>
+            <point key="canvasLocation" x="1761" y="-1625"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="Odw-L0-x5n">
@@ -1139,11 +1145,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.33725490200000002" green="0.054901960780000002" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" image="logo 360.jpg" id="7UX-cf-gO3">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
                         <sections>
                             <tableViewSection headerTitle="" footerTitle="" id="lIY-dY-MZs" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Being in Body" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Body" textLabel="2oN-cA-ont" style="IBUITableViewCellStyleDefault" id="EmJ-UH-nhD">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -1168,7 +1178,7 @@
                             <tableViewSection headerTitle="" footerTitle="" id="Pbl-Zv-wKm" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Beginners" textLabel="PIP-iD-wXa" style="IBUITableViewCellStyleDefault" id="MgI-RZ-K06">
-                                        <rect key="frame" x="0.0" y="76" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="206" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -1193,7 +1203,7 @@
                             <tableViewSection headerTitle="" footerTitle="" id="1iO-gd-nrl" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="About Voice" textLabel="x0M-a3-8dr" style="IBUITableViewCellStyleDefault" id="3w7-iZ-4eP">
-                                        <rect key="frame" x="0.0" y="142" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="272" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -1215,6 +1225,31 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="" footerTitle="" id="zdr-55-mNX" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="About Voice" textLabel="pU1-mX-pnL" style="IBUITableViewCellStyleDefault" id="MQ1-5L-DB5">
+                                        <rect key="frame" x="0.0" y="338" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Get Started Now" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pU1-mX-pnL">
+                                                    <rect key="frame" x="10" y="0.0" width="260" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="12" kind="push" id="bag-LK-P2A"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="sm4-q9-yaR" id="0mL-WO-rZb"/>
@@ -1226,19 +1261,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovu-hC-mYk" sceneMemberID="firstResponder"/>
                 <navigationItem title="Welcome" id="9Js-C2-s1o" userLabel="Navigation Item - Welcome"/>
             </objects>
-            <point key="canvasLocation" x="-233" y="-1416"/>
+            <point key="canvasLocation" x="-197" y="-2040"/>
         </scene>
     </scenes>
     <resources>
+        <image name="logo 360.jpg" width="360" height="131"/>
         <image name="play.png" width="23" height="21"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="UIAudioControl" superclassName="UIControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIAudioControl.h"/>
+            <relationships>
+                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="voiceDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="audioControl" candidateClass="UIAudioControl"/>
+                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="voiceMasterViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceMasterViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tZm-8X-Pgm"/>
-        <segue reference="yaA-Hv-Kkx"/>
+        <segue reference="CLc-ii-mrI"/>
+        <segue reference="W91-2c-gPX"/>
     </inferredMetricsTieBreakers>
 </document>

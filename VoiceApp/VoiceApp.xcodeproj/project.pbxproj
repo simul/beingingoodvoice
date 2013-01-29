@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47CC5F2216AE2EFF00FF0DC8 /* Welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */; };
+		47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */; };
 		47D8975F16A292DD0012E99E /* VocalMaintenanceProgram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */; };
 		47D8976116A292FC0012E99E /* Resonance.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8976016A292FC0012E99E /* Resonance.htm */; };
 		47D8976316A293120012E99E /* FinishWithFocus.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8976216A293120012E99E /* FinishWithFocus.htm */; };
@@ -19,6 +21,12 @@
 		47D8977C16A298190012E99E /* AboutThisApp.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8977916A298190012E99E /* AboutThisApp.htm */; };
 		47D8977D16A298190012E99E /* PrivacyPolicy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8977A16A298190012E99E /* PrivacyPolicy.htm */; };
 		47D89F1716A2AA130000367B /* ContactBeingInVoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F1616A2AA130000367B /* ContactBeingInVoice.htm */; };
+		47D89F1F16A2CCAB0000367B /* BeforeYouMakeASound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F1E16A2CCAB0000367B /* BeforeYouMakeASound.mp3 */; };
+		47D89F2116A2CEDE0000367B /* MoveEasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F2016A2CEDE0000367B /* MoveEasy.mp3 */; };
+		47D89F2316A2D16F0000367B /* BreathExercises.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F2216A2D16F0000367B /* BreathExercises.mp3 */; };
+		47D89F2516A2D4430000367B /* logo 360.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F2416A2D4430000367B /* logo 360.jpg */; };
+		47D89F2716A2D6620000367B /* FlloydKennedy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F2616A2D6620000367B /* FlloydKennedy.jpg */; };
+		47D89F2916A2DB890000367B /* BeingInBreath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47D89F2816A2DB890000367B /* BeingInBreath.mp3 */; };
 		47DB015216A19576004F2F58 /* bar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014716A19576004F2F58 /* bar-background.png */; };
 		47DB015316A19576004F2F58 /* bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014816A19576004F2F58 /* bar-background@2x.png */; };
 		47DB015416A19576004F2F58 /* bar-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014916A19576004F2F58 /* bar-highlight.png */; };
@@ -29,8 +37,6 @@
 		47DB015916A19576004F2F58 /* handle-hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014E16A19576004F2F58 /* handle-hover@2x.png */; };
 		47DB015A16A19576004F2F58 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB014F16A19576004F2F58 /* handle.png */; };
 		47DB015B16A19576004F2F58 /* handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DB015016A19576004F2F58 /* handle@2x.png */; };
-		47DB015C16A19576004F2F58 /* mypalette for photoshop.aco in Resources */ = {isa = PBXBuildFile; fileRef = 47DB015116A19576004F2F58 /* mypalette for photoshop.aco */; };
-		47DB015F16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47DB015E16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 */; };
 		47DB016116A1A768004F2F58 /* beinginvoice.css in Resources */ = {isa = PBXBuildFile; fileRef = 47DB016016A1A768004F2F58 /* beinginvoice.css */; };
 		47DB016416A1AAD6004F2F58 /* MoveEasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DB016216A1AAD6004F2F58 /* MoveEasy.htm */; };
 		47DB016516A1AAD6004F2F58 /* StandEasy.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DB016316A1AAD6004F2F58 /* StandEasy.htm */; };
@@ -48,7 +54,7 @@
 		47DC0D6816A258D0000A774B /* WarmupNowWithRod.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5C16A258D0000A774B /* WarmupNowWithRod.htm */; };
 		47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */; };
 		47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */; };
-		47DDB5D9169ED53D000A9A2B /* Welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D6169ED53D000A9A2B /* Welcome.html */; };
+		47DDB5D9169ED53D000A9A2B /* Welcome.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D6169ED53D000A9A2B /* Welcome.htm */; };
 		47DDB5DA169ED53D000A9A2B /* WhatIsBeingInVoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D7169ED53D000A9A2B /* WhatIsBeingInVoice.htm */; };
 		47DDB5DB169ED53D000A9A2B /* WhyWarmup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D8169ED53D000A9A2B /* WhyWarmup.htm */; };
 		47DDB5E7169ED5B1000A9A2B /* intro text.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5E4169ED5B1000A9A2B /* intro text.htm */; };
@@ -89,15 +95,11 @@
 		47DFC6AE1692E246002856B8 /* HtmlArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6AD1692E246002856B8 /* HtmlArticle.m */; };
 		47DFC6B41692E4BF002856B8 /* voiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6B31692E4BF002856B8 /* voiceDataController.m */; };
 		47E04BAA169803630067A08B /* test.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BA9169803620067A08B /* test.htm */; };
-		47E04BBF169806FA0067A08B /* alignment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BAE169806FA0067A08B /* alignment.mp3 */; };
-		47E04BC0169806FA0067A08B /* bibexercise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BAF169806FA0067A08B /* bibexercise.mp3 */; };
 		47E04BC1169806FA0067A08B /* bibintro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB0169806FA0067A08B /* bibintro.mp3 */; };
 		47E04BC2169806FA0067A08B /* Breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB1169806FA0067A08B /* Breath.mp3 */; };
 		47E04BC3169806FA0067A08B /* CompleteMVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB2169806FA0067A08B /* CompleteMVW.mp3 */; };
 		47E04BC4169806FA0067A08B /* Hum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB3169806FA0067A08B /* Hum.mp3 */; };
-		47E04BC5169806FA0067A08B /* introducingmvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB4169806FA0067A08B /* introducingmvw.mp3 */; };
 		47E04BC6169806FA0067A08B /* MVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB5169806FA0067A08B /* MVW.mp3 */; };
-		47E04BC7169806FA0067A08B /* RollDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB6169806FA0067A08B /* RollDown.mp3 */; };
 		47E04BC8169806FA0067A08B /* Sigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB7169806FA0067A08B /* Sigh.mp3 */; };
 		47E04BC9169806FA0067A08B /* SighAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB8169806FA0067A08B /* SighAh.mp3 */; };
 		47E04BCA169806FA0067A08B /* thats my idea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB9169806FA0067A08B /* thats my idea.mp3 */; };
@@ -110,6 +112,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Welcome.mp3; sourceTree = "<group>"; };
+		47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VocalMaintenanceProgram.mp3; sourceTree = "<group>"; };
 		47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VocalMaintenanceProgram.htm; sourceTree = "<group>"; };
 		47D8976016A292FC0012E99E /* Resonance.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Resonance.htm; sourceTree = "<group>"; };
 		47D8976216A293120012E99E /* FinishWithFocus.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FinishWithFocus.htm; sourceTree = "<group>"; };
@@ -122,6 +126,12 @@
 		47D8977916A298190012E99E /* AboutThisApp.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AboutThisApp.htm; sourceTree = "<group>"; };
 		47D8977A16A298190012E99E /* PrivacyPolicy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PrivacyPolicy.htm; sourceTree = "<group>"; };
 		47D89F1616A2AA130000367B /* ContactBeingInVoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ContactBeingInVoice.htm; sourceTree = "<group>"; };
+		47D89F1E16A2CCAB0000367B /* BeforeYouMakeASound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BeforeYouMakeASound.mp3; sourceTree = "<group>"; };
+		47D89F2016A2CEDE0000367B /* MoveEasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MoveEasy.mp3; sourceTree = "<group>"; };
+		47D89F2216A2D16F0000367B /* BreathExercises.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BreathExercises.mp3; path = VoiceApp/audio/BreathExercises.mp3; sourceTree = SOURCE_ROOT; };
+		47D89F2416A2D4430000367B /* logo 360.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo 360.jpg"; path = "VoiceApp/images/logo 360.jpg"; sourceTree = "<group>"; };
+		47D89F2616A2D6620000367B /* FlloydKennedy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FlloydKennedy.jpg; path = VoiceApp/images/FlloydKennedy.jpg; sourceTree = "<group>"; };
+		47D89F2816A2DB890000367B /* BeingInBreath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BeingInBreath.mp3; sourceTree = "<group>"; };
 		47DB014716A19576004F2F58 /* bar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-background.png"; path = "VoiceApp/images/bar-background.png"; sourceTree = "<group>"; };
 		47DB014816A19576004F2F58 /* bar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-background@2x.png"; path = "VoiceApp/images/bar-background@2x.png"; sourceTree = "<group>"; };
 		47DB014916A19576004F2F58 /* bar-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-highlight.png"; path = "VoiceApp/images/bar-highlight.png"; sourceTree = "<group>"; };
@@ -132,8 +142,6 @@
 		47DB014E16A19576004F2F58 /* handle-hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handle-hover@2x.png"; path = "VoiceApp/images/handle-hover@2x.png"; sourceTree = "<group>"; };
 		47DB014F16A19576004F2F58 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle.png; path = VoiceApp/images/handle.png; sourceTree = "<group>"; };
 		47DB015016A19576004F2F58 /* handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handle@2x.png"; path = "VoiceApp/images/handle@2x.png"; sourceTree = "<group>"; };
-		47DB015116A19576004F2F58 /* mypalette for photoshop.aco */ = {isa = PBXFileReference; lastKnownFileType = file; name = "mypalette for photoshop.aco"; path = "VoiceApp/images/mypalette for photoshop.aco"; sourceTree = "<group>"; };
-		47DB015E16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BeforeYouMakeASound.mp3; path = "new recordings/BeforeYouMakeASound.mp3"; sourceTree = "<group>"; };
 		47DB016016A1A768004F2F58 /* beinginvoice.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = beinginvoice.css; path = VoiceApp/html/beinginvoice.css; sourceTree = "<group>"; };
 		47DB016216A1AAD6004F2F58 /* MoveEasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MoveEasy.htm; sourceTree = "<group>"; };
 		47DB016316A1AAD6004F2F58 /* StandEasy.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = StandEasy.htm; sourceTree = "<group>"; };
@@ -151,7 +159,7 @@
 		47DC0D5C16A258D0000A774B /* WarmupNowWithRod.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WarmupNowWithRod.htm; sourceTree = "<group>"; };
 		47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo 200 px.jpg"; path = "../../Pictures/iPhoto Library/Masters/2011/05/27/20110527-104832/logo 200 px.jpg"; sourceTree = "<group>"; };
 		47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3404.JPG; path = "../../Pictures/iPhoto Library/Previews/2012/06/19/20120619-151606/CNXhQDXlTPiTLF4vV2KmQg/IMG_3404.JPG"; sourceTree = "<group>"; };
-		47DDB5D6169ED53D000A9A2B /* Welcome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Welcome.html; path = VoiceApp/html/01Welcome/Welcome.html; sourceTree = SOURCE_ROOT; };
+		47DDB5D6169ED53D000A9A2B /* Welcome.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Welcome.htm; path = VoiceApp/html/01Welcome/Welcome.htm; sourceTree = SOURCE_ROOT; };
 		47DDB5D7169ED53D000A9A2B /* WhatIsBeingInVoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = WhatIsBeingInVoice.htm; path = VoiceApp/html/01Welcome/WhatIsBeingInVoice.htm; sourceTree = SOURCE_ROOT; };
 		47DDB5D8169ED53D000A9A2B /* WhyWarmup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = WhyWarmup.htm; path = VoiceApp/html/01Welcome/WhyWarmup.htm; sourceTree = SOURCE_ROOT; };
 		47DDB5E4169ED5B1000A9A2B /* intro text.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "intro text.htm"; sourceTree = "<group>"; };
@@ -201,15 +209,11 @@
 		47DFC6B21692E4BF002856B8 /* voiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voiceDataController.h; sourceTree = "<group>"; };
 		47DFC6B31692E4BF002856B8 /* voiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voiceDataController.m; sourceTree = "<group>"; };
 		47E04BA9169803620067A08B /* test.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.htm; path = VoiceApp/test.htm; sourceTree = "<group>"; };
-		47E04BAE169806FA0067A08B /* alignment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alignment.mp3; sourceTree = "<group>"; };
-		47E04BAF169806FA0067A08B /* bibexercise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bibexercise.mp3; sourceTree = "<group>"; };
 		47E04BB0169806FA0067A08B /* bibintro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bibintro.mp3; sourceTree = "<group>"; };
 		47E04BB1169806FA0067A08B /* Breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Breath.mp3; sourceTree = "<group>"; };
 		47E04BB2169806FA0067A08B /* CompleteMVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CompleteMVW.mp3; sourceTree = "<group>"; };
 		47E04BB3169806FA0067A08B /* Hum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hum.mp3; sourceTree = "<group>"; };
-		47E04BB4169806FA0067A08B /* introducingmvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = introducingmvw.mp3; sourceTree = "<group>"; };
 		47E04BB5169806FA0067A08B /* MVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MVW.mp3; sourceTree = "<group>"; };
-		47E04BB6169806FA0067A08B /* RollDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RollDown.mp3; sourceTree = "<group>"; };
 		47E04BB7169806FA0067A08B /* Sigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sigh.mp3; sourceTree = "<group>"; };
 		47E04BB8169806FA0067A08B /* SighAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SighAh.mp3; sourceTree = "<group>"; };
 		47E04BB9169806FA0067A08B /* thats my idea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thats my idea.mp3"; sourceTree = "<group>"; };
@@ -277,6 +281,7 @@
 			children = (
 				47DB014716A19576004F2F58 /* bar-background.png */,
 				47DB014816A19576004F2F58 /* bar-background@2x.png */,
+				47D89F2416A2D4430000367B /* logo 360.jpg */,
 				47DB014916A19576004F2F58 /* bar-highlight.png */,
 				47DB014A16A19576004F2F58 /* bar-highlight@2x.png */,
 				47DB014B16A19576004F2F58 /* Color Palette by Color Scheme Generator.html */,
@@ -284,8 +289,8 @@
 				47DB014D16A19576004F2F58 /* handle-hover.png */,
 				47DB014E16A19576004F2F58 /* handle-hover@2x.png */,
 				47DB014F16A19576004F2F58 /* handle.png */,
+				47D89F2616A2D6620000367B /* FlloydKennedy.jpg */,
 				47DB015016A19576004F2F58 /* handle@2x.png */,
-				47DB015116A19576004F2F58 /* mypalette for photoshop.aco */,
 				47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */,
 				47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */,
 				47DF75511698501E0054B51C /* forward.png */,
@@ -436,20 +441,21 @@
 		47E04BAD169806FA0067A08B /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				47DB015E16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 */,
+				47D89F2016A2CEDE0000367B /* MoveEasy.mp3 */,
+				47D89F1E16A2CCAB0000367B /* BeforeYouMakeASound.mp3 */,
 				47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */,
-				47E04BAE169806FA0067A08B /* alignment.mp3 */,
-				47E04BAF169806FA0067A08B /* bibexercise.mp3 */,
 				47E04BB0169806FA0067A08B /* bibintro.mp3 */,
 				47E04BB1169806FA0067A08B /* Breath.mp3 */,
 				47E04BB2169806FA0067A08B /* CompleteMVW.mp3 */,
 				47E04BB3169806FA0067A08B /* Hum.mp3 */,
-				47E04BB4169806FA0067A08B /* introducingmvw.mp3 */,
+				47D89F2816A2DB890000367B /* BeingInBreath.mp3 */,
+				47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */,
 				47E04BB5169806FA0067A08B /* MVW.mp3 */,
-				47E04BB6169806FA0067A08B /* RollDown.mp3 */,
 				47E04BB7169806FA0067A08B /* Sigh.mp3 */,
 				47E04BB8169806FA0067A08B /* SighAh.mp3 */,
 				47E04BB9169806FA0067A08B /* thats my idea.mp3 */,
+				47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */,
+				47D89F2216A2D16F0000367B /* BreathExercises.mp3 */,
 				47E04BBA169806FA0067A08B /* TrillDown.mp3 */,
 				47E04BBB169806FA0067A08B /* TrillUp.mp3 */,
 				47E04BBC169806FA0067A08B /* Vocal Maintenance.mp3 */,
@@ -463,7 +469,7 @@
 		C85D68851696FBD600BFFB1E /* 01Welcome */ = {
 			isa = PBXGroup;
 			children = (
-				47DDB5D6169ED53D000A9A2B /* Welcome.html */,
+				47DDB5D6169ED53D000A9A2B /* Welcome.htm */,
 				47DDB5D7169ED53D000A9A2B /* WhatIsBeingInVoice.htm */,
 				47DDB5D8169ED53D000A9A2B /* WhyWarmup.htm */,
 			);
@@ -562,15 +568,11 @@
 				47DFC69D1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				47DFC6A01692D5F7002856B8 /* MainStoryboard_iPad.storyboard in Resources */,
 				47E04BAA169803630067A08B /* test.htm in Resources */,
-				47E04BBF169806FA0067A08B /* alignment.mp3 in Resources */,
-				47E04BC0169806FA0067A08B /* bibexercise.mp3 in Resources */,
 				47E04BC1169806FA0067A08B /* bibintro.mp3 in Resources */,
 				47E04BC2169806FA0067A08B /* Breath.mp3 in Resources */,
 				47E04BC3169806FA0067A08B /* CompleteMVW.mp3 in Resources */,
 				47E04BC4169806FA0067A08B /* Hum.mp3 in Resources */,
-				47E04BC5169806FA0067A08B /* introducingmvw.mp3 in Resources */,
 				47E04BC6169806FA0067A08B /* MVW.mp3 in Resources */,
-				47E04BC7169806FA0067A08B /* RollDown.mp3 in Resources */,
 				47E04BC8169806FA0067A08B /* Sigh.mp3 in Resources */,
 				47E04BC9169806FA0067A08B /* SighAh.mp3 in Resources */,
 				47E04BCA169806FA0067A08B /* thats my idea.mp3 in Resources */,
@@ -589,7 +591,7 @@
 				47DF75601698501F0054B51C /* volume_up.png in Resources */,
 				47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */,
 				47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */,
-				47DDB5D9169ED53D000A9A2B /* Welcome.html in Resources */,
+				47DDB5D9169ED53D000A9A2B /* Welcome.htm in Resources */,
 				47DDB5DA169ED53D000A9A2B /* WhatIsBeingInVoice.htm in Resources */,
 				47DDB5DB169ED53D000A9A2B /* WhyWarmup.htm in Resources */,
 				47DDB5E7169ED5B1000A9A2B /* intro text.htm in Resources */,
@@ -613,8 +615,6 @@
 				47DB015916A19576004F2F58 /* handle-hover@2x.png in Resources */,
 				47DB015A16A19576004F2F58 /* handle.png in Resources */,
 				47DB015B16A19576004F2F58 /* handle@2x.png in Resources */,
-				47DB015C16A19576004F2F58 /* mypalette for photoshop.aco in Resources */,
-				47DB015F16A1A1DB004F2F58 /* BeforeYouMakeASound.mp3 in Resources */,
 				47DB016116A1A768004F2F58 /* beinginvoice.css in Resources */,
 				47DB016416A1AAD6004F2F58 /* MoveEasy.htm in Resources */,
 				47DB016516A1AAD6004F2F58 /* StandEasy.htm in Resources */,
@@ -642,6 +642,14 @@
 				47D8977C16A298190012E99E /* AboutThisApp.htm in Resources */,
 				47D8977D16A298190012E99E /* PrivacyPolicy.htm in Resources */,
 				47D89F1716A2AA130000367B /* ContactBeingInVoice.htm in Resources */,
+				47D89F1F16A2CCAB0000367B /* BeforeYouMakeASound.mp3 in Resources */,
+				47D89F2116A2CEDE0000367B /* MoveEasy.mp3 in Resources */,
+				47D89F2316A2D16F0000367B /* BreathExercises.mp3 in Resources */,
+				47D89F2516A2D4430000367B /* logo 360.jpg in Resources */,
+				47D89F2716A2D6620000367B /* FlloydKennedy.jpg in Resources */,
+				47D89F2916A2DB890000367B /* BeingInBreath.mp3 in Resources */,
+				47CC5F2216AE2EFF00FF0DC8 /* Welcome.mp3 in Resources */,
+				47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +758,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoiceApp/VoiceApp-Prefix.pch";
 				INFOPLIST_FILE = "VoiceApp/VoiceApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -761,6 +770,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoiceApp/VoiceApp-Prefix.pch";
 				INFOPLIST_FILE = "VoiceApp/VoiceApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
