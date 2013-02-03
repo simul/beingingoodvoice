@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4773FF4416BE9AC300D3F1EC /* Contact.htm */; };
 		47CC5F2216AE2EFF00FF0DC8 /* Welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */; };
 		47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */; };
 		47D8975F16A292DD0012E99E /* VocalMaintenanceProgram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */; };
@@ -51,7 +52,7 @@
 		47DC0D6516A258D0000A774B /* VoicedAh.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5916A258D0000A774B /* VoicedAh.htm */; };
 		47DC0D6616A258D0000A774B /* voicedahtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5A16A258D0000A774B /* voicedahtext.htm */; };
 		47DC0D6716A258D0000A774B /* MVWlesson.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5B16A258D0000A774B /* MVWlesson.htm */; };
-		47DC0D6816A258D0000A774B /* WarmupNowWithRod.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5C16A258D0000A774B /* WarmupNowWithRod.htm */; };
+		47DC0D6816A258D0000A774B /* CompleteMVW.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5C16A258D0000A774B /* CompleteMVW.htm */; };
 		47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */; };
 		47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */; };
 		47DDB5D9169ED53D000A9A2B /* Welcome.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D6169ED53D000A9A2B /* Welcome.htm */; };
@@ -113,6 +114,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4773FF4416BE9AC300D3F1EC /* Contact.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contact.htm; sourceTree = "<group>"; };
 		47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Welcome.mp3; sourceTree = "<group>"; };
 		47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VocalMaintenanceProgram.mp3; sourceTree = "<group>"; };
 		47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VocalMaintenanceProgram.htm; sourceTree = "<group>"; };
@@ -157,7 +159,7 @@
 		47DC0D5916A258D0000A774B /* VoicedAh.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VoicedAh.htm; sourceTree = "<group>"; };
 		47DC0D5A16A258D0000A774B /* voicedahtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = voicedahtext.htm; sourceTree = "<group>"; };
 		47DC0D5B16A258D0000A774B /* MVWlesson.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MVWlesson.htm; sourceTree = "<group>"; };
-		47DC0D5C16A258D0000A774B /* WarmupNowWithRod.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WarmupNowWithRod.htm; sourceTree = "<group>"; };
+		47DC0D5C16A258D0000A774B /* CompleteMVW.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CompleteMVW.htm; sourceTree = "<group>"; };
 		47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo 200 px.jpg"; path = "../../Pictures/iPhoto Library/Masters/2011/05/27/20110527-104832/logo 200 px.jpg"; sourceTree = "<group>"; };
 		47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3404.JPG; path = "../../Pictures/iPhoto Library/Previews/2012/06/19/20120619-151606/CNXhQDXlTPiTLF4vV2KmQg/IMG_3404.JPG"; sourceTree = "<group>"; };
 		47DDB5D6169ED53D000A9A2B /* Welcome.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Welcome.htm; path = VoiceApp/html/01Welcome/Welcome.htm; sourceTree = SOURCE_ROOT; };
@@ -259,6 +261,7 @@
 		47D8977716A298190012E99E /* More... */ = {
 			isa = PBXGroup;
 			children = (
+				4773FF4416BE9AC300D3F1EC /* Contact.htm */,
 				47D89F1616A2AA130000367B /* ContactBeingInVoice.htm */,
 				47D8977816A298190012E99E /* AboutBeingInVoice.htm */,
 				47D8977916A298190012E99E /* AboutThisApp.htm */,
@@ -422,7 +425,7 @@
 				47DC0D5916A258D0000A774B /* VoicedAh.htm */,
 				47DC0D5A16A258D0000A774B /* voicedahtext.htm */,
 				47DC0D5B16A258D0000A774B /* MVWlesson.htm */,
-				47DC0D5C16A258D0000A774B /* WarmupNowWithRod.htm */,
+				47DC0D5C16A258D0000A774B /* CompleteMVW.htm */,
 			);
 			path = "Mini Vocal Warmup";
 			sourceTree = "<group>";
@@ -632,7 +635,7 @@
 				47DC0D6516A258D0000A774B /* VoicedAh.htm in Resources */,
 				47DC0D6616A258D0000A774B /* voicedahtext.htm in Resources */,
 				47DC0D6716A258D0000A774B /* MVWlesson.htm in Resources */,
-				47DC0D6816A258D0000A774B /* WarmupNowWithRod.htm in Resources */,
+				47DC0D6816A258D0000A774B /* CompleteMVW.htm in Resources */,
 				47D8975F16A292DD0012E99E /* VocalMaintenanceProgram.htm in Resources */,
 				47D8976116A292FC0012E99E /* Resonance.htm in Resources */,
 				47D8976316A293120012E99E /* FinishWithFocus.htm in Resources */,
@@ -654,6 +657,7 @@
 				47CC5F2216AE2EFF00FF0DC8 /* Welcome.mp3 in Resources */,
 				47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */,
 				47F6EE5C16BA4323004F4E32 /* MVWlesson.mp3 in Resources */,
+				4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
