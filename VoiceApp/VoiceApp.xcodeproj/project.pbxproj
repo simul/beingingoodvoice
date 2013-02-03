@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4773FF4416BE9AC300D3F1EC /* Contact.htm */; };
+		47C1398016BEB0D40021A762 /* formCss.css in Resources */ = {isa = PBXBuildFile; fileRef = 47C1397F16BEB0D40021A762 /* formCss.css */; };
 		47CC5F2216AE2EFF00FF0DC8 /* Welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */; };
 		47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */; };
 		47D8975F16A292DD0012E99E /* VocalMaintenanceProgram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */; };
@@ -115,6 +116,7 @@
 
 /* Begin PBXFileReference section */
 		4773FF4416BE9AC300D3F1EC /* Contact.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contact.htm; sourceTree = "<group>"; };
+		47C1397F16BEB0D40021A762 /* formCss.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = formCss.css; path = ../../Desktop/formCss.css; sourceTree = "<group>"; };
 		47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Welcome.mp3; sourceTree = "<group>"; };
 		47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VocalMaintenanceProgram.mp3; sourceTree = "<group>"; };
 		47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VocalMaintenanceProgram.htm; sourceTree = "<group>"; };
@@ -383,6 +385,7 @@
 		47DFC6F21692F720002856B8 /* html */ = {
 			isa = PBXGroup;
 			children = (
+				47C1397F16BEB0D40021A762 /* formCss.css */,
 				47D8977716A298190012E99E /* More... */,
 				47D8976E16A297BE0012E99E /* About Voice */,
 				47DB016016A1A768004F2F58 /* beinginvoice.css */,
@@ -658,6 +661,7 @@
 				47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */,
 				47F6EE5C16BA4323004F4E32 /* MVWlesson.mp3 in Resources */,
 				4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */,
+				47C1398016BEB0D40021A762 /* formCss.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
