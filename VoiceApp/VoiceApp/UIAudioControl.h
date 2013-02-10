@@ -25,12 +25,13 @@
 	IBOutlet UIButton *button;
 
 }
+
 @property(nonatomic) NSString* soundFile;
 @property (nonatomic, retain) UIImageView *thumb;
 
 @property (nonatomic, retain) UIButton *button;
 
--(CGPoint)posForAngle:(CGFloat) angle:(CGFloat)radius;
+-(CGPoint)posForAngle:(CGFloat)angle:(CGFloat)radius;
 -(CGFloat)angleForPos:(CGPoint)p;
 -(void)drawFilledArc:(CGContextRef)context innerRadius:(CGFloat)inner_radius outerRadius:(CGFloat)outer_radius withAngle:(CGFloat)angle withColour:(CGColorRef)color;
 @end
