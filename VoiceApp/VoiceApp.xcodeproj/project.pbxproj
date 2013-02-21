@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4773FF4416BE9AC300D3F1EC /* Contact.htm */; };
+		4786500116D368DB00244826 /* FastAscendingTrill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500016D368DB00244826 /* FastAscendingTrill.mp3 */; };
+		4786500316D59FA500244826 /* Articulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500216D59FA400244826 /* Articulation.mp3 */; };
+		4786500516D59FAF00244826 /* Resonance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500416D59FAF00244826 /* Resonance.mp3 */; };
+		4786500716D5D44700244826 /* FastDescendingTrill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500616D5D44700244826 /* FastDescendingTrill.mp3 */; };
+		4786500916D5DAF200244826 /* StandEasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500816D5DAF100244826 /* StandEasy.mp3 */; };
 		47CC5F2216AE2EFF00FF0DC8 /* Welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */; };
 		47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */; };
 		47D8975F16A292DD0012E99E /* VocalMaintenanceProgram.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */; };
@@ -67,7 +72,6 @@
 		47DDB5F8169ED614000A9A2B /* BreathExercises.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5F5169ED614000A9A2B /* BreathExercises.htm */; };
 		47DDB61C169ED689000A9A2B /* articulationtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB615169ED689000A9A2B /* articulationtext.htm */; };
 		47DDB61E169ED689000A9A2B /* finishwithfocustxt.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB617169ED689000A9A2B /* finishwithfocustxt.htm */; };
-		47DDB62E169EE507000A9A2B /* FastAscendingLipTrill.MP3 in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */; };
 		47DF7549169839990054B51C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DF7548169839990054B51C /* AudioToolbox.framework */; };
 		47DF75591698501F0054B51C /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75511698501E0054B51C /* forward.png */; };
 		47DF755A1698501F0054B51C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DF75521698501E0054B51C /* pause.png */; };
@@ -101,19 +105,24 @@
 		47E04BC4169806FA0067A08B /* Hum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB3169806FA0067A08B /* Hum.mp3 */; };
 		47E04BC6169806FA0067A08B /* MVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB5169806FA0067A08B /* MVW.mp3 */; };
 		47E04BC8169806FA0067A08B /* Sigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB7169806FA0067A08B /* Sigh.mp3 */; };
-		47E04BC9169806FA0067A08B /* SighAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB8169806FA0067A08B /* SighAh.mp3 */; };
+		47E04BC9169806FA0067A08B /* SighingAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB8169806FA0067A08B /* SighingAh.mp3 */; };
 		47E04BCA169806FA0067A08B /* thats my idea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BB9169806FA0067A08B /* thats my idea.mp3 */; };
 		47E04BCB169806FA0067A08B /* TrillDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBA169806FA0067A08B /* TrillDown.mp3 */; };
 		47E04BCC169806FA0067A08B /* TrillUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBB169806FA0067A08B /* TrillUp.mp3 */; };
 		47E04BCD169806FA0067A08B /* Vocal Maintenance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBC169806FA0067A08B /* Vocal Maintenance.mp3 */; };
 		47E04BCE169806FA0067A08B /* VoicedAh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBD169806FA0067A08B /* VoicedAh.mp3 */; };
-		47E04BCF169806FA0067A08B /* whatismvw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBE169806FA0067A08B /* whatismvw.mp3 */; };
+		47E04BCF169806FA0067A08B /* HowToUseMVW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E04BBE169806FA0067A08B /* HowToUseMVW.mp3 */; };
 		47E04BD11698095D0067A08B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E04BD01698095D0067A08B /* AVFoundation.framework */; };
 		47F6EE5C16BA4323004F4E32 /* MVWlesson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47F6EE5B16BA4323004F4E32 /* MVWlesson.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4773FF4416BE9AC300D3F1EC /* Contact.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contact.htm; sourceTree = "<group>"; };
+		4786500016D368DB00244826 /* FastAscendingTrill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FastAscendingTrill.mp3; sourceTree = "<group>"; };
+		4786500216D59FA400244826 /* Articulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Articulation.mp3; sourceTree = "<group>"; };
+		4786500416D59FAF00244826 /* Resonance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Resonance.mp3; sourceTree = "<group>"; };
+		4786500616D5D44700244826 /* FastDescendingTrill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FastDescendingTrill.mp3; sourceTree = "<group>"; };
+		4786500816D5DAF100244826 /* StandEasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StandEasy.mp3; sourceTree = "<group>"; };
 		47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Welcome.mp3; sourceTree = "<group>"; };
 		47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VocalMaintenanceProgram.mp3; sourceTree = "<group>"; };
 		47D8975E16A292DD0012E99E /* VocalMaintenanceProgram.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VocalMaintenanceProgram.htm; sourceTree = "<group>"; };
@@ -173,7 +182,6 @@
 		47DDB5F5169ED614000A9A2B /* BreathExercises.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BreathExercises.htm; sourceTree = "<group>"; };
 		47DDB615169ED689000A9A2B /* articulationtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = articulationtext.htm; sourceTree = "<group>"; };
 		47DDB617169ED689000A9A2B /* finishwithfocustxt.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = finishwithfocustxt.htm; sourceTree = "<group>"; };
-		47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FastAscendingLipTrill.MP3; path = "../../../../Desktop/audio for app 6 Jan 13/FastAscendingLipTrill.MP3"; sourceTree = "<group>"; };
 		47DF7548169839990054B51C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		47DF75511698501E0054B51C /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = VoiceApp/images/forward.png; sourceTree = "<group>"; };
 		47DF75521698501E0054B51C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = VoiceApp/images/pause.png; sourceTree = "<group>"; };
@@ -216,13 +224,13 @@
 		47E04BB3169806FA0067A08B /* Hum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hum.mp3; sourceTree = "<group>"; };
 		47E04BB5169806FA0067A08B /* MVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MVW.mp3; sourceTree = "<group>"; };
 		47E04BB7169806FA0067A08B /* Sigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sigh.mp3; sourceTree = "<group>"; };
-		47E04BB8169806FA0067A08B /* SighAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SighAh.mp3; sourceTree = "<group>"; };
+		47E04BB8169806FA0067A08B /* SighingAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SighingAh.mp3; sourceTree = "<group>"; };
 		47E04BB9169806FA0067A08B /* thats my idea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thats my idea.mp3"; sourceTree = "<group>"; };
 		47E04BBA169806FA0067A08B /* TrillDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillDown.mp3; sourceTree = "<group>"; };
 		47E04BBB169806FA0067A08B /* TrillUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TrillUp.mp3; sourceTree = "<group>"; };
 		47E04BBC169806FA0067A08B /* Vocal Maintenance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vocal Maintenance.mp3"; sourceTree = "<group>"; };
 		47E04BBD169806FA0067A08B /* VoicedAh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoicedAh.mp3; sourceTree = "<group>"; };
-		47E04BBE169806FA0067A08B /* whatismvw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatismvw.mp3; sourceTree = "<group>"; };
+		47E04BBE169806FA0067A08B /* HowToUseMVW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HowToUseMVW.mp3; sourceTree = "<group>"; };
 		47E04BD01698095D0067A08B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		47F6EE5B16BA4323004F4E32 /* MVWlesson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MVWlesson.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -444,27 +452,31 @@
 		47E04BAD169806FA0067A08B /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				47F6EE5B16BA4323004F4E32 /* MVWlesson.mp3 */,
-				47D89F2016A2CEDE0000367B /* MoveEasy.mp3 */,
+				4786500216D59FA400244826 /* Articulation.mp3 */,
 				47D89F1E16A2CCAB0000367B /* BeforeYouMakeASound.mp3 */,
-				47DDB62D169EE507000A9A2B /* FastAscendingLipTrill.MP3 */,
-				47E04BB0169806FA0067A08B /* bibintro.mp3 */,
-				47E04BB1169806FA0067A08B /* Breath.mp3 */,
-				47E04BB2169806FA0067A08B /* CompleteMVW.mp3 */,
-				47E04BB3169806FA0067A08B /* Hum.mp3 */,
 				47D89F2816A2DB890000367B /* BeingInBreath.mp3 */,
-				47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */,
-				47E04BB5169806FA0067A08B /* MVW.mp3 */,
-				47E04BB7169806FA0067A08B /* Sigh.mp3 */,
-				47E04BB8169806FA0067A08B /* SighAh.mp3 */,
-				47E04BB9169806FA0067A08B /* thats my idea.mp3 */,
-				47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */,
+				47E04BB1169806FA0067A08B /* Breath.mp3 */,
 				47D89F2216A2D16F0000367B /* BreathExercises.mp3 */,
-				47E04BBA169806FA0067A08B /* TrillDown.mp3 */,
-				47E04BBB169806FA0067A08B /* TrillUp.mp3 */,
+				47E04BB2169806FA0067A08B /* CompleteMVW.mp3 */,
+				4786500016D368DB00244826 /* FastAscendingTrill.mp3 */,
+				4786500616D5D44700244826 /* FastDescendingTrill.mp3 */,
+				47E04BB3169806FA0067A08B /* Hum.mp3 */,
+				47D89F2016A2CEDE0000367B /* MoveEasy.mp3 */,
+				47E04BB5169806FA0067A08B /* MVW.mp3 */,
+				47F6EE5B16BA4323004F4E32 /* MVWlesson.mp3 */,
+				4786500416D59FAF00244826 /* Resonance.mp3 */,
+				47E04BB7169806FA0067A08B /* Sigh.mp3 */,
+				47E04BB8169806FA0067A08B /* SighingAh.mp3 */,
+				4786500816D5DAF100244826 /* StandEasy.mp3 */,
+				47CC5F2416B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 */,
 				47E04BBC169806FA0067A08B /* Vocal Maintenance.mp3 */,
 				47E04BBD169806FA0067A08B /* VoicedAh.mp3 */,
-				47E04BBE169806FA0067A08B /* whatismvw.mp3 */,
+				47CC5F2116AE2EFF00FF0DC8 /* Welcome.mp3 */,
+				47E04BBE169806FA0067A08B /* HowToUseMVW.mp3 */,
+				47E04BB0169806FA0067A08B /* bibintro.mp3 */,
+				47E04BB9169806FA0067A08B /* thats my idea.mp3 */,
+				47E04BBA169806FA0067A08B /* TrillDown.mp3 */,
+				47E04BBB169806FA0067A08B /* TrillUp.mp3 */,
 			);
 			name = audio;
 			path = VoiceApp/audio;
@@ -577,13 +589,13 @@
 				47E04BC4169806FA0067A08B /* Hum.mp3 in Resources */,
 				47E04BC6169806FA0067A08B /* MVW.mp3 in Resources */,
 				47E04BC8169806FA0067A08B /* Sigh.mp3 in Resources */,
-				47E04BC9169806FA0067A08B /* SighAh.mp3 in Resources */,
+				47E04BC9169806FA0067A08B /* SighingAh.mp3 in Resources */,
 				47E04BCA169806FA0067A08B /* thats my idea.mp3 in Resources */,
 				47E04BCB169806FA0067A08B /* TrillDown.mp3 in Resources */,
 				47E04BCC169806FA0067A08B /* TrillUp.mp3 in Resources */,
 				47E04BCD169806FA0067A08B /* Vocal Maintenance.mp3 in Resources */,
 				47E04BCE169806FA0067A08B /* VoicedAh.mp3 in Resources */,
-				47E04BCF169806FA0067A08B /* whatismvw.mp3 in Resources */,
+				47E04BCF169806FA0067A08B /* HowToUseMVW.mp3 in Resources */,
 				47DF75591698501F0054B51C /* forward.png in Resources */,
 				47DF755A1698501F0054B51C /* pause.png in Resources */,
 				47DF755B1698501F0054B51C /* play.png in Resources */,
@@ -606,7 +618,6 @@
 				47DDB5F8169ED614000A9A2B /* BreathExercises.htm in Resources */,
 				47DDB61C169ED689000A9A2B /* articulationtext.htm in Resources */,
 				47DDB61E169ED689000A9A2B /* finishwithfocustxt.htm in Resources */,
-				47DDB62E169EE507000A9A2B /* FastAscendingLipTrill.MP3 in Resources */,
 				47DB015216A19576004F2F58 /* bar-background.png in Resources */,
 				47DB015316A19576004F2F58 /* bar-background@2x.png in Resources */,
 				47DB015416A19576004F2F58 /* bar-highlight.png in Resources */,
@@ -654,6 +665,11 @@
 				47CC5F2516B0045100FF0DC8 /* VocalMaintenanceProgram.mp3 in Resources */,
 				47F6EE5C16BA4323004F4E32 /* MVWlesson.mp3 in Resources */,
 				4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */,
+				4786500116D368DB00244826 /* FastAscendingTrill.mp3 in Resources */,
+				4786500316D59FA500244826 /* Articulation.mp3 in Resources */,
+				4786500516D59FAF00244826 /* Resonance.mp3 in Resources */,
+				4786500716D5D44700244826 /* FastDescendingTrill.mp3 in Resources */,
+				4786500916D5DAF200244826 /* StandEasy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
