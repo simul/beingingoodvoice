@@ -87,7 +87,7 @@ CGFloat	pi=3.1415926536;
 	if (audioPlayer == nil)
 		NSLog(@"Failed to create audio player");
 	else
-		audioPlayer.numberOfLoops = 1;
+		audioPlayer.numberOfLoops = 0;
 	
 }
 -(id)initWithCoder:(NSCoder*)coder
