@@ -37,7 +37,10 @@
         [self.masterPopoverController dismissPopoverAnimated:YES];
     }        
 }
-
+-(void)dealloc
+{
+    [audioControl stop];
+}
 - (void)configureView
 {
     // Update the user interface for the detail item.

@@ -58,8 +58,6 @@
 		47DC0D6616A258D0000A774B /* voicedahtext.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5A16A258D0000A774B /* voicedahtext.htm */; };
 		47DC0D6716A258D0000A774B /* MVWlesson.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5B16A258D0000A774B /* MVWlesson.htm */; };
 		47DC0D6816A258D0000A774B /* CompleteMVW.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DC0D5C16A258D0000A774B /* CompleteMVW.htm */; };
-		47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */; };
-		47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */; };
 		47DDB5DA169ED53D000A9A2B /* WhatIsBeingInVoice.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D7169ED53D000A9A2B /* WhatIsBeingInVoice.htm */; };
 		47DDB5DB169ED53D000A9A2B /* WhyWarmup.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5D8169ED53D000A9A2B /* WhyWarmup.htm */; };
 		47DDB5E7169ED5B1000A9A2B /* intro text.htm in Resources */ = {isa = PBXBuildFile; fileRef = 47DDB5E4169ED5B1000A9A2B /* intro text.htm */; };
@@ -168,8 +166,6 @@
 		47DC0D5A16A258D0000A774B /* voicedahtext.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = voicedahtext.htm; sourceTree = "<group>"; };
 		47DC0D5B16A258D0000A774B /* MVWlesson.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MVWlesson.htm; sourceTree = "<group>"; };
 		47DC0D5C16A258D0000A774B /* CompleteMVW.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CompleteMVW.htm; sourceTree = "<group>"; };
-		47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo 200 px.jpg"; path = "../../Pictures/iPhoto Library/Masters/2011/05/27/20110527-104832/logo 200 px.jpg"; sourceTree = "<group>"; };
-		47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3404.JPG; path = "../../Pictures/iPhoto Library/Previews/2012/06/19/20120619-151606/CNXhQDXlTPiTLF4vV2KmQg/IMG_3404.JPG"; sourceTree = "<group>"; };
 		47DDB5D7169ED53D000A9A2B /* WhatIsBeingInVoice.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = WhatIsBeingInVoice.htm; path = VoiceApp/html/01Welcome/WhatIsBeingInVoice.htm; sourceTree = SOURCE_ROOT; };
 		47DDB5D8169ED53D000A9A2B /* WhyWarmup.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = WhyWarmup.htm; path = VoiceApp/html/01Welcome/WhyWarmup.htm; sourceTree = SOURCE_ROOT; };
 		47DDB5E4169ED5B1000A9A2B /* intro text.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "intro text.htm"; sourceTree = "<group>"; };
@@ -303,8 +299,6 @@
 				47DB014F16A19576004F2F58 /* handle.png */,
 				47D89F2616A2D6620000367B /* FlloydKennedy.jpg */,
 				47DB015016A19576004F2F58 /* handle@2x.png */,
-				47DDB5C7169ED434000A9A2B /* IMG_3404.JPG */,
-				47DDB5C5169ED414000A9A2B /* logo 200 px.jpg */,
 				47DF75511698501E0054B51C /* forward.png */,
 				47DF75521698501E0054B51C /* pause.png */,
 				47DF75531698501F0054B51C /* play.png */,
@@ -604,8 +598,6 @@
 				47DF755E1698501F0054B51C /* sound_meter_glare.png in Resources */,
 				47DF755F1698501F0054B51C /* volume_down.png in Resources */,
 				47DF75601698501F0054B51C /* volume_up.png in Resources */,
-				47DDB5C6169ED414000A9A2B /* logo 200 px.jpg in Resources */,
-				47DDB5C8169ED434000A9A2B /* IMG_3404.JPG in Resources */,
 				47DDB5DA169ED53D000A9A2B /* WhatIsBeingInVoice.htm in Resources */,
 				47DDB5DB169ED53D000A9A2B /* WhyWarmup.htm in Resources */,
 				47DDB5E7169ED5B1000A9A2B /* intro text.htm in Resources */,

@@ -36,7 +36,10 @@ CGFloat	pi=3.1415926536;
 	
 	[self setBackgroundColor:[UIColor colorWithWhite:0.0 alpha:0.0]];
 }
-
+-(void)stop
+{
+    [audioPlayer stop];
+}
 - (void) setFrame:(CGRect)aFrame
 {
     [super setFrame:aFrame]; // Called from initWithCoder by super. Correct frame size.

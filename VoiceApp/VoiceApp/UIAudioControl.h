@@ -34,4 +34,5 @@
 -(CGPoint)posForAngle:(CGFloat)angle:(CGFloat)radius;
 -(CGFloat)angleForPos:(CGPoint)p;
 -(void)drawFilledArc:(CGContextRef)context innerRadius:(CGFloat)inner_radius outerRadius:(CGFloat)outer_radius withAngle:(CGFloat)angle withColour:(CGColorRef)color;
+-(void)stop;
 @end
