@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478962441689104200391BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478962431689104200391BA5 /* UIKit.framework */; };
+		478962461689104200391BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478962451689104200391BA5 /* Foundation.framework */; };
+		478962481689104200391BA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478962471689104200391BA5 /* CoreGraphics.framework */; };
+		4789624E1689104200391BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4789624C1689104200391BA5 /* InfoPlist.strings */; };
+		478962501689104200391BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4789624F1689104200391BA5 /* main.m */; };
+		478962541689104200391BA5 /* beinginvoiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 478962531689104200391BA5 /* beinginvoiceAppDelegate.m */; };
+		478962561689104200391BA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 478962551689104200391BA5 /* Default.png */; };
+		478962581689104300391BA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 478962571689104300391BA5 /* Default@2x.png */; };
+		4789625A1689104300391BA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 478962591689104300391BA5 /* Default-568h@2x.png */; };
+		4789625D1689104300391BA5 /* beinginvoiceRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4789625C1689104300391BA5 /* beinginvoiceRootViewController.m */; };
+		478962601689104300391BA5 /* beinginvoiceDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4789625F1689104300391BA5 /* beinginvoiceDataViewController.m */; };
+		478962631689104300391BA5 /* beinginvoiceModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478962621689104300391BA5 /* beinginvoiceModelController.m */; };
+		478962661689104300391BA5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478962641689104300391BA5 /* MainStoryboard_iPhone.storyboard */; };
+		478962691689104300391BA5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478962671689104300391BA5 /* MainStoryboard_iPad.storyboard */; };
+		478962711689104300391BA5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478962701689104300391BA5 /* SenTestingKit.framework */; };
+		478962721689104300391BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478962431689104200391BA5 /* UIKit.framework */; };
+		478962731689104300391BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478962451689104200391BA5 /* Foundation.framework */; };
+		4789627B1689104300391BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 478962791689104300391BA5 /* InfoPlist.strings */; };
+		4789627E1689104300391BA5 /* Being_In_VoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4789627D1689104300391BA5 /* Being_In_VoiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478962741689104300391BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478962361689104200391BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4789623E1689104200391BA5;
+			remoteInfo = "Being In Voice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4789623F1689104200391BA5 /* Being In Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Being In Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478962431689104200391BA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		478962451689104200391BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		478962471689104200391BA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4789624B1689104200391BA5 /* Being In Voice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Being In Voice-Info.plist"; sourceTree = "<group>"; };
+		4789624D1689104200391BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4789624F1689104200391BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		478962511689104200391BA5 /* Being In Voice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Being In Voice-Prefix.pch"; sourceTree = "<group>"; };
+		478962521689104200391BA5 /* beinginvoiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceAppDelegate.h; sourceTree = "<group>"; };
+		478962531689104200391BA5 /* beinginvoiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceAppDelegate.m; sourceTree = "<group>"; };
+		478962551689104200391BA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		478962571689104300391BA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		478962591689104300391BA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4789625B1689104300391BA5 /* beinginvoiceRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceRootViewController.h; sourceTree = "<group>"; };
+		4789625C1689104300391BA5 /* beinginvoiceRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceRootViewController.m; sourceTree = "<group>"; };
+		4789625E1689104300391BA5 /* beinginvoiceDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceDataViewController.h; sourceTree = "<group>"; };
+		4789625F1689104300391BA5 /* beinginvoiceDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceDataViewController.m; sourceTree = "<group>"; };
+		478962611689104300391BA5 /* beinginvoiceModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beinginvoiceModelController.h; sourceTree = "<group>"; };
+		478962621689104300391BA5 /* beinginvoiceModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beinginvoiceModelController.m; sourceTree = "<group>"; };
+		478962651689104300391BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		478962681689104300391BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4789626F1689104300391BA5 /* Being In VoiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Being In VoiceTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478962701689104300391BA5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		478962781689104300391BA5 /* Being In VoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Being In VoiceTests-Info.plist"; sourceTree = "<group>"; };
+		4789627A1689104300391BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4789627C1689104300391BA5 /* Being_In_VoiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Being_In_VoiceTests.h; sourceTree = "<group>"; };
+		4789627D1689104300391BA5 /* Being_In_VoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Being_In_VoiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4789623C1689104200391BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478962441689104200391BA5 /* UIKit.framework in Frameworks */,
+				478962461689104200391BA5 /* Foundation.framework in Frameworks */,
+				478962481689104200391BA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4789626B1689104300391BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478962711689104300391BA5 /* SenTestingKit.framework in Frameworks */,
+				478962721689104300391BA5 /* UIKit.framework in Frameworks */,
+				478962731689104300391BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478962341689104200391BA5 = {
+			isa = PBXGroup;
+			children = (
+				478962491689104200391BA5 /* Being In Voice */,
+				478962761689104300391BA5 /* Being In VoiceTests */,
+				478962421689104200391BA5 /* Frameworks */,
+				478962401689104200391BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478962401689104200391BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4789623F1689104200391BA5 /* Being In Voice.app */,
+				4789626F1689104300391BA5 /* Being In VoiceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478962421689104200391BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478962431689104200391BA5 /* UIKit.framework */,
+				478962451689104200391BA5 /* Foundation.framework */,
+				478962471689104200391BA5 /* CoreGraphics.framework */,
+				478962701689104300391BA5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		478962491689104200391BA5 /* Being In Voice */ = {
+			isa = PBXGroup;
+			children = (
+				478962521689104200391BA5 /* beinginvoiceAppDelegate.h */,
+				478962531689104200391BA5 /* beinginvoiceAppDelegate.m */,
+				4789625B1689104300391BA5 /* beinginvoiceRootViewController.h */,
+				4789625C1689104300391BA5 /* beinginvoiceRootViewController.m */,
+				4789625E1689104300391BA5 /* beinginvoiceDataViewController.h */,
+				4789625F1689104300391BA5 /* beinginvoiceDataViewController.m */,
+				478962611689104300391BA5 /* beinginvoiceModelController.h */,
+				478962621689104300391BA5 /* beinginvoiceModelController.m */,
+				478962641689104300391BA5 /* MainStoryboard_iPhone.storyboard */,
+				478962671689104300391BA5 /* MainStoryboard_iPad.storyboard */,
+				4789624A1689104200391BA5 /* Supporting Files */,
+			);
+			path = "Being In Voice";
+			sourceTree = "<group>";
+		};
+		4789624A1689104200391BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4789624B1689104200391BA5 /* Being In Voice-Info.plist */,
+				4789624C1689104200391BA5 /* InfoPlist.strings */,
+				4789624F1689104200391BA5 /* main.m */,
+				478962511689104200391BA5 /* Being In Voice-Prefix.pch */,
+				478962551689104200391BA5 /* Default.png */,
+				478962571689104300391BA5 /* Default@2x.png */,
+				478962591689104300391BA5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478962761689104300391BA5 /* Being In VoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4789627C1689104300391BA5 /* Being_In_VoiceTests.h */,
+				4789627D1689104300391BA5 /* Being_In_VoiceTests.m */,
+				478962771689104300391BA5 /* Supporting Files */,
+			);
+			path = "Being In VoiceTests";
+			sourceTree = "<group>";
+		};
+		478962771689104300391BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				478962781689104300391BA5 /* Being In VoiceTests-Info.plist */,
+				478962791689104300391BA5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4789623E1689104200391BA5 /* Being In Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478962811689104300391BA5 /* Build configuration list for PBXNativeTarget "Being In Voice" */;
+			buildPhases = (
+				4789623B1689104200391BA5 /* Sources */,
+				4789623C1689104200391BA5 /* Frameworks */,
+				4789623D1689104200391BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Being In Voice";
+			productName = "Being In Voice";
+			productReference = 4789623F1689104200391BA5 /* Being In Voice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4789626E1689104300391BA5 /* Being In VoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478962841689104300391BA5 /* Build configuration list for PBXNativeTarget "Being In VoiceTests" */;
+			buildPhases = (
+				4789626A1689104300391BA5 /* Sources */,
+				4789626B1689104300391BA5 /* Frameworks */,
+				4789626C1689104300391BA5 /* Resources */,
+				4789626D1689104300391BA5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478962751689104300391BA5 /* PBXTargetDependency */,
+			);
+			name = "Being In VoiceTests";
+			productName = "Being In VoiceTests";
+			productReference = 4789626F1689104300391BA5 /* Being In VoiceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478962361689104200391BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = beinginvoice;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Flloyd Pauline Kennedy";
+			};
+			buildConfigurationList = 478962391689104200391BA5 /* Build configuration list for PBXProject "Being In Voice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 478962341689104200391BA5;
+			productRefGroup = 478962401689104200391BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4789623E1689104200391BA5 /* Being In Voice */,
+				4789626E1689104300391BA5 /* Being In VoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4789623D1689104200391BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4789624E1689104200391BA5 /* InfoPlist.strings in Resources */,
+				478962561689104200391BA5 /* Default.png in Resources */,
+				478962581689104300391BA5 /* Default@2x.png in Resources */,
+				4789625A1689104300391BA5 /* Default-568h@2x.png in Resources */,
+				478962661689104300391BA5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				478962691689104300391BA5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4789626C1689104300391BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4789627B1689104300391BA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4789626D1689104300391BA5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4789623B1689104200391BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478962501689104200391BA5 /* main.m in Sources */,
+				478962541689104200391BA5 /* beinginvoiceAppDelegate.m in Sources */,
+				4789625D1689104300391BA5 /* beinginvoiceRootViewController.m in Sources */,
+				478962601689104300391BA5 /* beinginvoiceDataViewController.m in Sources */,
+				478962631689104300391BA5 /* beinginvoiceModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4789626A1689104300391BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4789627E1689104300391BA5 /* Being_In_VoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478962751689104300391BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4789623E1689104200391BA5 /* Being In Voice */;
+			targetProxy = 478962741689104300391BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4789624C1689104200391BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4789624D1689104200391BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		478962641689104300391BA5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478962651689104300391BA5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		478962671689104300391BA5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478962681689104300391BA5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		478962791689104300391BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4789627A1689104300391BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4789627F1689104300391BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478962801689104300391BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478962821689104300391BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In Voice/Being In Voice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		478962831689104300391BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In Voice/Being In Voice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		478962851689104300391BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Being In Voice.app/Being In Voice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In VoiceTests/Being In VoiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		478962861689104300391BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Being In Voice.app/Being In Voice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Being In Voice/Being In Voice-Prefix.pch";
+				INFOPLIST_FILE = "Being In VoiceTests/Being In VoiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478962391689104200391BA5 /* Build configuration list for PBXProject "Being In Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4789627F1689104300391BA5 /* Debug */,
+				478962801689104300391BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478962811689104300391BA5 /* Build configuration list for PBXNativeTarget "Being In Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478962821689104300391BA5 /* Debug */,
+				478962831689104300391BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		478962841689104300391BA5 /* Build configuration list for PBXNativeTarget "Being In VoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478962851689104300391BA5 /* Debug */,
+				478962861689104300391BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478962361689104200391BA5 /* Project object */;
+}

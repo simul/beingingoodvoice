@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Beinginvoice View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="beinginvoiceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZZ-eb-DCC">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Hello">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeGreeting:" destination="2" eventType="touchUpInside" id="eRd-Di-KP5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZ8-JA-hiR">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fRg-wU-uKl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OW5-Bk-UXR">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="CC4-kc-Xsb"/>
+                                </connections>
+                            </textField>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYi-ii-shD">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="AqB-ic-tqD"/>
+                                    <constraint firstAttribute="height" constant="122" id="cYB-go-E1u"/>
+                                </constraints>
+                            </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BuT-Mc-7RU">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OW5-Bk-UXR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7s9-SH-6f2"/>
+                            <constraint firstItem="OW5-Bk-UXR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="9xU-kh-bD8"/>
+                            <constraint firstItem="BuT-Mc-7RU" firstAttribute="top" secondItem="3" secondAttribute="top" constant="177" id="DOT-nJ-Ru9"/>
+                            <constraint firstItem="tYi-ii-shD" firstAttribute="top" secondItem="3" secondAttribute="top" constant="253" id="MAn-rl-0Qa"/>
+                            <constraint firstItem="tYi-ii-shD" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="12" id="OxT-0P-GAL"/>
+                            <constraint firstItem="OW5-Bk-UXR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ZVm-Uq-hvp"/>
+                            <constraint firstAttribute="bottom" secondItem="pZZ-eb-DCC" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="f7w-MT-gna"/>
+                            <constraint firstItem="BuT-Mc-7RU" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="88" id="lPW-m6-R16"/>
+                            <constraint firstItem="XZ8-JA-hiR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="nHy-IV-e2B"/>
+                            <constraint firstItem="pZZ-eb-DCC" firstAttribute="centerX" secondItem="tYi-ii-shD" secondAttribute="centerX" type="default" id="ngz-NR-bSa"/>
+                            <constraint firstAttribute="trailing" secondItem="XZ8-JA-hiR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="q7y-we-eSZ"/>
+                            <constraint firstItem="XZ8-JA-hiR" firstAttribute="top" secondItem="OW5-Bk-UXR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yNA-Es-4jy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="XZ8-JA-hiR" id="9Y9-Dh-r6P"/>
+                        <outlet property="textField" destination="OW5-Bk-UXR" id="uLE-A7-Gf4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
