@@ -58,7 +58,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson2" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Breath" textLabel="2uP-Bt-bO6" style="IBUITableViewCellStyleDefault" id="eKw-vs-qZ0">
-                                        <rect key="frame" x="0.0" y="91" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="91" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="280" height="43"/>
@@ -106,11 +106,11 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="zam-h4-H6M" kind="push" id="fdl-yj-en7"/>
+                                            <segue destination="zam-h4-H6M" kind="push" identifier="Welcome" id="fdl-yj-en7"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Intermediate" textLabel="hcd-Mh-lD7" detailTextLabel="6nR-YM-uPu" style="IBUITableViewCellStyleSubtitle" id="0Wu-zo-QcV">
-                                        <rect key="frame" x="0.0" y="226" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="226" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="280" height="43"/>
@@ -218,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1846" y="-620"/>
+            <point key="canvasLocation" x="1670" y="-1502"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="n28-TO-ce7">
@@ -233,7 +233,7 @@
                             <tableViewSection footerTitle="" id="BvC-m4-g4D" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Body" textLabel="vKZ-r9-A8d" style="IBUITableViewCellStyleDefault" id="NSZ-Sw-HpC">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -258,7 +258,7 @@
                             <tableViewSection footerTitle="" id="Br8-kz-KJW" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Posture" textLabel="xZQ-aR-Qjp" style="IBUITableViewCellStyleDefault" id="Doz-7J-YVp">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -283,7 +283,7 @@
                             <tableViewSection footerTitle="" id="7dO-lk-Eiy" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MoveEasy" textLabel="g0q-vZ-ljE" style="IBUITableViewCellStyleDefault" id="pCM-sM-4jF">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -331,7 +331,7 @@
                             <tableViewSection footerTitle="" id="dKx-zY-saA" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Breath" textLabel="VdK-xq-maL" style="IBUITableViewCellStyleDefault" id="rTL-Qa-PCf">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -356,7 +356,7 @@
                             <tableViewSection footerTitle="" id="fSb-Yw-C5a" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Breath Exercises" textLabel="9kX-rA-C01" style="IBUITableViewCellStyleDefault" id="CY0-Ri-JoY">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -406,7 +406,7 @@
                             <tableViewSection footerTitle="" id="S8i-w0-msU" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="posture" textLabel="8Wx-1Y-XG9" style="IBUITableViewCellStyleDefault" id="N3S-cB-6br">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -431,7 +431,7 @@
                             <tableViewSection footerTitle="" id="CA2-nh-0T0" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="kFs-2l-LpB" style="IBUITableViewCellStyleDefault" id="e0N-Ca-K71">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -458,7 +458,7 @@
                             <tableViewSection footerTitle="" id="Tfr-KZ-Ssd" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="MY6-9J-zcC" style="IBUITableViewCellStyleDefault" id="6Wa-FC-XTn">
-                                        <rect key="frame" x="0.0" y="160" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="160" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -483,7 +483,7 @@
                             <tableViewSection footerTitle="" id="QKa-cE-BCt" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="YFW-Gx-GHh" style="IBUITableViewCellStyleDefault" id="4Gp-DV-IiP">
-                                        <rect key="frame" x="0.0" y="225" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="225" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -530,7 +530,7 @@
                             <tableViewSection footerTitle="" id="O5Z-sW-28u" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Vocal Function Exercises" textLabel="Zye-Cz-FBN" style="IBUITableViewCellStyleDefault" id="gaX-Ue-pFf">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -555,7 +555,7 @@
                             <tableViewSection footerTitle="" id="RUN-xd-Azm" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Resonance &amp; Color" textLabel="syl-iF-8Lz" style="IBUITableViewCellStyleDefault" id="Gju-mg-KBb">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -580,7 +580,7 @@
                             <tableViewSection footerTitle="" id="Gsl-Rx-zGo" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Articulation and Diction" textLabel="kwK-7b-LPU" style="IBUITableViewCellStyleDefault" id="fgu-IA-D1W">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -630,7 +630,7 @@
                             <tableViewSection footerTitle="" id="b9d-tD-GMX" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Sigh" textLabel="2kb-rK-VxJ" style="IBUITableViewCellStyleDefault" id="IV8-cP-O3O">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -655,7 +655,7 @@
                             <tableViewSection footerTitle="" id="lP9-jO-Ft9" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Sighing &quot;Ah&quot;" textLabel="IS2-EV-DTy" style="IBUITableViewCellStyleDefault" id="PbQ-r3-6bR">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -680,7 +680,7 @@
                             <tableViewSection footerTitle="" id="d11-RX-RLp" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Hum" textLabel="fqF-xo-UBD" style="IBUITableViewCellStyleDefault" id="rI8-iE-aFJ">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -705,7 +705,7 @@
                             <tableViewSection footerTitle="" id="QAA-N0-2Cg" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Ascending Trill" textLabel="EyB-sP-mno" style="IBUITableViewCellStyleDefault" id="Ti2-kn-YgX">
-                                        <rect key="frame" x="0.0" y="205" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="205" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -730,7 +730,7 @@
                             <tableViewSection footerTitle="" id="z0x-g6-gaB" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Descending Trill" textLabel="iff-Dk-DuS" style="IBUITableViewCellStyleDefault" id="uNX-xc-mNn">
-                                        <rect key="frame" x="0.0" y="270" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="270" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -755,7 +755,7 @@
                             <tableViewSection footerTitle="" id="Hnk-tX-y7i" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Voiced &quot;Ah&quot;" textLabel="zNW-Bm-Ntg" style="IBUITableViewCellStyleDefault" id="NNf-Sp-chb">
-                                        <rect key="frame" x="0.0" y="335" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="335" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -805,7 +805,7 @@
                             <tableViewSection footerTitle="" id="nVZ-u5-VXM" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="What is Voice?" textLabel="Z8h-Yp-17a" style="IBUITableViewCellStyleDefault" id="KJD-PT-GVP">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -830,7 +830,7 @@
                             <tableViewSection footerTitle="" id="oTB-PX-6dx" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Voice to Speech" textLabel="F3t-uZ-rR2" style="IBUITableViewCellStyleDefault" id="qqN-bK-HUY">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -855,7 +855,7 @@
                             <tableViewSection footerTitle="" id="dSR-iw-iSw" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="What is Speech" textLabel="ZJd-Wh-1E4" style="IBUITableViewCellStyleDefault" id="1Nw-Ai-9Yq">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -880,7 +880,7 @@
                             <tableViewSection footerTitle="" id="GqX-Hr-6ek" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Glossary" textLabel="ZvM-A0-aiR" style="IBUITableViewCellStyleDefault" id="xE2-HL-WP7">
-                                        <rect key="frame" x="0.0" y="205" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="205" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -941,7 +941,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghh-h8-LWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1558" y="-1936"/>
+            <point key="canvasLocation" x="1526" y="-2288"/>
         </scene>
         <!--Voice Master View Controller - Master-->
         <scene sceneID="gUh-FH-9Qq">
@@ -1102,7 +1102,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="0ch-hi-FXa" kind="push" identifier="WhatIsBeingInVoice" id="CLc-ii-mrI"/>
+                                            <segue destination="21" kind="push" identifier="Welcome" id="ydn-BF-sEw"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -1222,7 +1222,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovu-hC-mYk" sceneMemberID="firstResponder"/>
                 <navigationItem title="Welcome" id="9Js-C2-s1o" userLabel="Navigation Item - Welcome"/>
             </objects>
-            <point key="canvasLocation" x="-197" y="-2040"/>
+            <point key="canvasLocation" x="-369" y="-2136"/>
         </scene>
     </scenes>
     <resources>
@@ -1230,35 +1230,13 @@
         <image name="logo 360.jpg" width="360" height="131"/>
         <image name="play.png" width="23" height="21"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="UIAudioControl" superclassName="UIControl">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIAudioControl.h"/>
-            <relationships>
-                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="voiceDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="audioControl" candidateClass="UIAudioControl"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="voiceMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/voiceMasterViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Tzu-LV-3ZX"/>
-        <segue reference="tZm-8X-Pgm"/>
+        <segue reference="ydn-BF-sEw"/>
+        <segue reference="yaA-Hv-Kkx"/>
     </inferredMetricsTieBreakers>
 </document>
