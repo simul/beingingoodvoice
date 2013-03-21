@@ -55,7 +55,7 @@ CGFloat	pi=3.1415926536;
 	return angle;
 }
 
--(CGPoint)posForAngle:(CGFloat)angle:(CGFloat)radius
+-(CGPoint)posForAngle:(CGFloat)angle :(CGFloat)radius
 {
 	CGFloat mid_x=self.frame.size.width/2;
 	CGFloat mid_y=self.frame.size.height/2;
