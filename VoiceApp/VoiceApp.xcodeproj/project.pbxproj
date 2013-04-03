@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4761248416FC25B8009BF3DD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4761248316FC25B8009BF3DD /* Social.framework */; };
 		4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4773FF4416BE9AC300D3F1EC /* Contact.htm */; };
 		4786500116D368DB00244826 /* FastAscendingTrill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500016D368DB00244826 /* FastAscendingTrill.mp3 */; };
 		4786500316D59FA500244826 /* Articulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500216D59FA400244826 /* Articulation.mp3 */; };
@@ -114,6 +115,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4761248316FC25B8009BF3DD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4761248516FC25D2009BF3DD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4773FF4416BE9AC300D3F1EC /* Contact.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contact.htm; sourceTree = "<group>"; };
 		4786500016D368DB00244826 /* FastAscendingTrill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FastAscendingTrill.mp3; sourceTree = "<group>"; };
 		4786500216D59FA400244826 /* Articulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Articulation.mp3; sourceTree = "<group>"; };
@@ -234,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4761248416FC25B8009BF3DD /* Social.framework in Frameworks */,
 				47DF756B16994A740054B51C /* QuartzCore.framework in Frameworks */,
 				47DF7549169839990054B51C /* AudioToolbox.framework in Frameworks */,
 				47E04BD11698095D0067A08B /* AVFoundation.framework in Frameworks */,
@@ -311,6 +315,7 @@
 		47DFC6741692D5F7002856B8 = {
 			isa = PBXGroup;
 			children = (
+				4761248316FC25B8009BF3DD /* Social.framework */,
 				47DF7561169850290054B51C /* images */,
 				47E04BA9169803620067A08B /* test.htm */,
 				47E04BAD169806FA0067A08B /* audio */,
@@ -332,6 +337,7 @@
 		47DFC6821692D5F7002856B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4761248516FC25D2009BF3DD /* Social.framework */,
 				47E04BD01698095D0067A08B /* AVFoundation.framework */,
 				47DF7548169839990054B51C /* AudioToolbox.framework */,
 				47DFC6831692D5F7002856B8 /* UIKit.framework */,
@@ -542,7 +548,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = voice;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Flloyd Pauline Kennedy";
 			};
 			buildConfigurationList = 47DFC6791692D5F7002856B8 /* Build configuration list for PBXProject "VoiceApp" */;
