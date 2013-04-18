@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47513ADF171F94B200D3A7C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AD3171F94B200D3A7C8 /* Icon.png */; };
+		47513AE0171F94B200D3A7C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AD4171F94B200D3A7C8 /* Icon@2x.png */; };
+		47513AE9171F9E9200D3A7C8 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AD7171F94B200D3A7C8 /* splash.png */; };
+		47513AF0171F9F3700D3A7C8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6971692D5F7002856B8 /* Default@2x.png */; };
+		47513AFE171FA20D00D3A7C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AFD171FA20D00D3A7C8 /* Default-568h@2x.png */; };
 		4761248416FC25B8009BF3DD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4761248316FC25B8009BF3DD /* Social.framework */; };
 		4773FF4516BE9AC300D3F1EC /* Contact.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4773FF4416BE9AC300D3F1EC /* Contact.htm */; };
 		4786500116D368DB00244826 /* FastAscendingTrill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4786500016D368DB00244826 /* FastAscendingTrill.mp3 */; };
@@ -88,8 +93,6 @@
 		47DFC6901692D5F7002856B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC68F1692D5F7002856B8 /* main.m */; };
 		47DFC6941692D5F7002856B8 /* voiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6931692D5F7002856B8 /* voiceAppDelegate.m */; };
 		47DFC6961692D5F7002856B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6951692D5F7002856B8 /* Default.png */; };
-		47DFC6981692D5F7002856B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6971692D5F7002856B8 /* Default@2x.png */; };
-		47DFC69A1692D5F7002856B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC6991692D5F7002856B8 /* Default-568h@2x.png */; };
 		47DFC69D1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC69B1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard */; };
 		47DFC6A01692D5F7002856B8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DFC69E1692D5F7002856B8 /* MainStoryboard_iPad.storyboard */; };
 		47DFC6A31692D5F7002856B8 /* voiceMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DFC6A21692D5F7002856B8 /* voiceMasterViewController.m */; };
@@ -115,6 +118,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47513ACD171F94B200D3A7C8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		47513ACE171F94B200D3A7C8 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		47513ACF171F94B200D3A7C8 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		47513AD0171F94B200D3A7C8 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		47513AD1171F94B200D3A7C8 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		47513AD2171F94B200D3A7C8 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		47513AD3171F94B200D3A7C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		47513AD4171F94B200D3A7C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		47513AD5171F94B200D3A7C8 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		47513AD6171F94B200D3A7C8 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		47513AD7171F94B200D3A7C8 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		47513AD8171F94B200D3A7C8 /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss.png; sourceTree = "<group>"; };
+		47513AFD171FA20D00D3A7C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4761248316FC25B8009BF3DD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4761248516FC25D2009BF3DD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4773FF4416BE9AC300D3F1EC /* Contact.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contact.htm; sourceTree = "<group>"; };
@@ -191,7 +207,7 @@
 		47DF7567169910F80054B51C /* UIAudioControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAudioControl.h; sourceTree = "<group>"; };
 		47DF7568169910F90054B51C /* UIAudioControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAudioControl.m; sourceTree = "<group>"; };
 		47DF756A16994A730054B51C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		47DFC67F1692D5F7002856B8 /* VoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DFC67F1692D5F7002856B8 /* Being in Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Being in Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DFC6831692D5F7002856B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		47DFC6851692D5F7002856B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47DFC6871692D5F7002856B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -250,6 +266,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47513AC9171F94B200D3A7C8 /* appicons */ = {
+			isa = PBXGroup;
+			children = (
+				47513ACA171F94B200D3A7C8 /* App Icon [Rounded] */,
+				47513AD7171F94B200D3A7C8 /* splash.png */,
+				47513AD8171F94B200D3A7C8 /* ss.png */,
+			);
+			name = appicons;
+			path = VoiceApp/appicons;
+			sourceTree = "<group>";
+		};
+		47513ACA171F94B200D3A7C8 /* App Icon [Rounded] */ = {
+			isa = PBXGroup;
+			children = (
+				47513ACB171F94B200D3A7C8 /* App Icon [Rounded] */,
+			);
+			path = "App Icon [Rounded]";
+			sourceTree = "<group>";
+		};
+		47513ACB171F94B200D3A7C8 /* App Icon [Rounded] */ = {
+			isa = PBXGroup;
+			children = (
+				47513ACC171F94B200D3A7C8 /* App Icon [Rounded] */,
+			);
+			path = "App Icon [Rounded]";
+			sourceTree = "<group>";
+		};
+		47513ACC171F94B200D3A7C8 /* App Icon [Rounded] */ = {
+			isa = PBXGroup;
+			children = (
+				47513ACD171F94B200D3A7C8 /* Icon-72.png */,
+				47513ACE171F94B200D3A7C8 /* Icon-72@2x.png */,
+				47513ACF171F94B200D3A7C8 /* Icon-Small-50.png */,
+				47513AD0171F94B200D3A7C8 /* Icon-Small-50@2x.png */,
+				47513AD1171F94B200D3A7C8 /* Icon-Small.png */,
+				47513AD2171F94B200D3A7C8 /* Icon-Small@2x.png */,
+				47513AD3171F94B200D3A7C8 /* Icon.png */,
+				47513AD4171F94B200D3A7C8 /* Icon@2x.png */,
+				47513AD5171F94B200D3A7C8 /* iTunesArtwork.png */,
+				47513AD6171F94B200D3A7C8 /* iTunesArtwork@2x.png */,
+			);
+			path = "App Icon [Rounded]";
+			sourceTree = "<group>";
+		};
 		47D8976E16A297BE0012E99E /* About Voice */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +375,8 @@
 		47DFC6741692D5F7002856B8 = {
 			isa = PBXGroup;
 			children = (
+				47513AFD171FA20D00D3A7C8 /* Default-568h@2x.png */,
+				47513AC9171F94B200D3A7C8 /* appicons */,
 				4761248316FC25B8009BF3DD /* Social.framework */,
 				47DF7561169850290054B51C /* images */,
 				47E04BA9169803620067A08B /* test.htm */,
@@ -329,7 +391,7 @@
 		47DFC6801692D5F7002856B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47DFC67F1692D5F7002856B8 /* VoiceApp.app */,
+				47DFC67F1692D5F7002856B8 /* Being in Voice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -524,9 +586,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47DFC67E1692D5F7002856B8 /* VoiceApp */ = {
+		47DFC67E1692D5F7002856B8 /* Being in Voice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47DFC6A91692D5F7002856B8 /* Build configuration list for PBXNativeTarget "VoiceApp" */;
+			buildConfigurationList = 47DFC6A91692D5F7002856B8 /* Build configuration list for PBXNativeTarget "Being in Voice" */;
 			buildPhases = (
 				47DFC67B1692D5F7002856B8 /* Sources */,
 				47DFC67C1692D5F7002856B8 /* Frameworks */,
@@ -536,9 +598,9 @@
 			);
 			dependencies = (
 			);
-			name = VoiceApp;
+			name = "Being in Voice";
 			productName = VoiceApp;
-			productReference = 47DFC67F1692D5F7002856B8 /* VoiceApp.app */;
+			productReference = 47DFC67F1692D5F7002856B8 /* Being in Voice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -563,7 +625,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47DFC67E1692D5F7002856B8 /* VoiceApp */,
+				47DFC67E1692D5F7002856B8 /* Being in Voice */,
 			);
 		};
 /* End PBXProject section */
@@ -575,8 +637,6 @@
 			files = (
 				47DFC68E1692D5F7002856B8 /* InfoPlist.strings in Resources */,
 				47DFC6961692D5F7002856B8 /* Default.png in Resources */,
-				47DFC6981692D5F7002856B8 /* Default@2x.png in Resources */,
-				47DFC69A1692D5F7002856B8 /* Default-568h@2x.png in Resources */,
 				47DFC69D1692D5F7002856B8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				47DFC6A01692D5F7002856B8 /* MainStoryboard_iPad.storyboard in Resources */,
 				47E04BAA169803630067A08B /* test.htm in Resources */,
@@ -664,6 +724,11 @@
 				4786500516D59FAF00244826 /* Resonance.mp3 in Resources */,
 				4786500716D5D44700244826 /* FastDescendingTrill.mp3 in Resources */,
 				4786500916D5DAF200244826 /* StandEasy.mp3 in Resources */,
+				47513ADF171F94B200D3A7C8 /* Icon.png in Resources */,
+				47513AE0171F94B200D3A7C8 /* Icon@2x.png in Resources */,
+				47513AE9171F9E9200D3A7C8 /* splash.png in Resources */,
+				47513AF0171F9F3700D3A7C8 /* Default@2x.png in Resources */,
+				47513AFE171FA20D00D3A7C8 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,6 +839,7 @@
 				INFOPLIST_FILE = "VoiceApp/VoiceApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -786,6 +852,7 @@
 				INFOPLIST_FILE = "VoiceApp/VoiceApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -802,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47DFC6A91692D5F7002856B8 /* Build configuration list for PBXNativeTarget "VoiceApp" */ = {
+		47DFC6A91692D5F7002856B8 /* Build configuration list for PBXNativeTarget "Being in Voice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47DFC6AA1692D5F7002856B8 /* Debug */,
