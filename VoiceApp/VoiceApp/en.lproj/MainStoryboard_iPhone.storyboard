@@ -104,7 +104,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-497" y="-1727"/>
+            <point key="canvasLocation" x="-533" y="-1743"/>
         </scene>
         <!--Voice Detail View Controller - Detail-->
         <scene sceneID="24">
@@ -184,7 +184,7 @@
                             <tableViewSection footerTitle="" id="BvC-m4-g4D" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="Lesson1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Being in Body" textLabel="vKZ-r9-A8d" style="IBUITableViewCellStyleDefault" id="NSZ-Sw-HpC">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -209,7 +209,7 @@
                             <tableViewSection footerTitle="" id="Br8-kz-KJW" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Posture" textLabel="xZQ-aR-Qjp" style="IBUITableViewCellStyleDefault" id="Doz-7J-YVp">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="75" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -234,7 +234,7 @@
                             <tableViewSection footerTitle="" id="7dO-lk-Eiy" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MoveEasy" textLabel="g0q-vZ-ljE" style="IBUITableViewCellStyleDefault" id="pCM-sM-4jF">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="140" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
@@ -380,40 +380,18 @@
                                 </cells>
                             </tableViewSection>
                             <tableViewSection footerTitle="" id="CA2-nh-0T0" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="MY6-9J-zcC" style="IBUITableViewCellStyleDefault" id="6Wa-FC-XTn">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="45"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Individual Exercises" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MY6-9J-zcC">
-                                                    <rect key="frame" x="10" y="0.0" width="260" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <connections>
-                                            <segue destination="zX9-OW-kpW" kind="push" id="Aau-BS-47U"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </cells>
+                                <cells/>
                             </tableViewSection>
                             <tableViewSection footerTitle="" id="fUi-hS-DfB" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="kFs-2l-LpB" style="IBUITableViewCellStyleDefault" id="e0N-Ca-K71">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="95" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="280" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Flloyd teaches the MVW" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kFs-2l-LpB">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Sample Lesson with Flloyd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kFs-2l-LpB">
                                                     <rect key="frame" x="10" y="0.0" width="260" height="43"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -429,7 +407,29 @@
                                 </cells>
                             </tableViewSection>
                             <tableViewSection footerTitle="" id="Tfr-KZ-Ssd" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
-                                <cells/>
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="MY6-9J-zcC" style="IBUITableViewCellStyleDefault" id="6Wa-FC-XTn">
+                                        <rect key="frame" x="0.0" y="160" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Learn the Individual Exercises" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MY6-9J-zcC">
+                                                    <rect key="frame" x="10" y="0.0" width="260" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="zX9-OW-kpW" kind="push" id="Aau-BS-47U"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
                             </tableViewSection>
                             <tableViewSection footerTitle="" id="QKa-cE-BCt" userLabel="tableViewSection" colorLabel="IBBuiltInLabel-Orange">
                                 <cells>
@@ -1244,7 +1244,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ydn-BF-sEw"/>
+        <segue reference="gCR-bl-7sw"/>
         <segue reference="zwa-Ck-cRC"/>
     </inferredMetricsTieBreakers>
 </document>

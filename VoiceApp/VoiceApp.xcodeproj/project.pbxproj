@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472E2F0E1728EC1000435A6A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472E2F0D1728EC1000435A6A /* MessageUI.framework */; };
 		47513ADF171F94B200D3A7C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AD3171F94B200D3A7C8 /* Icon.png */; };
 		47513AE0171F94B200D3A7C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AD4171F94B200D3A7C8 /* Icon@2x.png */; };
 		47513AE9171F9E9200D3A7C8 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 47513AD7171F94B200D3A7C8 /* splash.png */; };
@@ -118,6 +119,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472E2F0D1728EC1000435A6A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		47513ACD171F94B200D3A7C8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		47513ACE171F94B200D3A7C8 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		47513ACF171F94B200D3A7C8 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472E2F0E1728EC1000435A6A /* MessageUI.framework in Frameworks */,
 				4761248416FC25B8009BF3DD /* Social.framework in Frameworks */,
 				47DF756B16994A740054B51C /* QuartzCore.framework in Frameworks */,
 				47DF7549169839990054B51C /* AudioToolbox.framework in Frameworks */,
@@ -399,6 +402,7 @@
 		47DFC6821692D5F7002856B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				472E2F0D1728EC1000435A6A /* MessageUI.framework */,
 				4761248516FC25D2009BF3DD /* Social.framework */,
 				47E04BD01698095D0067A08B /* AVFoundation.framework */,
 				47DF7548169839990054B51C /* AudioToolbox.framework */,
